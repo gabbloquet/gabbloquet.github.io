@@ -12,11 +12,22 @@
   $: quadruple = double * 2;
 </script>
 
-<style>
+<style type="text/scss">
+  @import "styles/colors";
+
+  .homepage {
+    background-color: lightgrey;
+    h1 {
+      color: $BLUE;
+    }
+  }
 </style>
 
-<h1>Bienvenue sur le site personnel de {name}</h1>
-<button on:click={incrementer}> Cliquez ici pour incrementer</button>
-<p>Etat de mon compteur : {compteur}</p>
-<p>Double de mon compteur : {double}</p>
-<p>Double de mon compteur : {quadruple}</p>
+<div class="homepage">
+  <h1>Bienvenue sur le site personnel de {name}</h1>
+  <button on:click={incrementer}> Cliquez ici pour incrementer</button>
+  <p>Etat de mon compteur : {compteur}</p>
+  <p>Double de mon compteur : {double}</p>
+  <p>Double de mon compteur : {quadruple}</p>
+</div>
+
