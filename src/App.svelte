@@ -1,5 +1,5 @@
 <script>
-	export let name;
+	import Homepage from "./Homepage.svelte";
 </script>
 
 <style>
@@ -26,6 +26,5 @@
 
 <main>
 	<h1>Bienvenue sur mon site Web</h1>
-	<h2>Je suis {name}!</h2>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Homepage/>
 </main>
