@@ -1,33 +1,35 @@
 <script>
-  let compteur = 0;
-  let double = 0;
-  let quadruple = 0;
-  export let name;
-
-  function incrementer() {
-    compteur++;
-  }
-
-  $: double = compteur * 2;
-  $: quadruple = double * 2;
+  const shoes = [
+    { brand: 'Nike', name: 'Air MAX 90', year: 2010 },
+    { brand: 'Nike', name: 'Air Force 1', year: 2015 },
+    { brand: 'Nike', name: 'Zoom Fly 3', year: 2019 },
+    { brand: 'Nike', name: 'Lebron 17 Low', year: 2020 },
+    { brand: 'Nike', name: 'Pegasus 37', year: 2019 },
+    { brand: 'Nike', name: 'Kiger 6', year: 2019},
+    { brand: 'Adidas', name: 'Stan smith', year: 2017},
+    { brand: 'Adidas', name: 'Superstar', year: 2019},
+  ];
 </script>
 
 <style type="text/scss">
-  @import "styles/colors";
-
-  .homepage {
-    background-color: lightgrey;
-    h1 {
-      color: $BLUE;
-    }
-  }
 </style>
 
 <div class="homepage">
-  <h1>Bienvenue sur le site personnel de {name}</h1>
-  <button on:click={incrementer}> Cliquez ici pour incrementer</button>
-  <p>Etat de mon compteur : {compteur}</p>
-  <p>Double de mon compteur : {double}</p>
-  <p>Double de mon compteur : {quadruple}</p>
+  <h1>Voici les chaussures que j'ai en stock dans mon magasin : </h1>
+  <ul>
+    {#each shoes as {brand, name}, compteur}
+      <li><b>Chaussure N°{compteur + 1 } : </b>{brand} :  {name}</li>
+    {/each}
+  </ul>
+  <h1>Voici les chaussures de chez Nike que je propose : </h1>
+  <ul>
+    {#each shoes as {brand, name}, compteur}
+      {#if brand === 'Nike'}
+        <li><b>{name}</b></li>
+      {:else if name === 'Superstar'}
+        <li><b>Chaussure {brand}</b> :  {name}</li>
+      {/if}
+    {/each}
+  </ul>
 </div>
 

@@ -25,6 +25,6 @@
 </style>
 
 <main>
-	<h1>Bienvenue sur mon site Web</h1>
+	<h1>Bienvenue sur le site web de Gabin Bloquet</h1>
 	<Homepage/>
 </main>
