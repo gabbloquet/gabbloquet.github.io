@@ -1,9 +1,10 @@
 <style lang="scss">
   @import "Hexagon";
-  @import "src/styles/font-awesome-4.7.0/scss/font-awesome";
 </style>
 
 <script>
+  import Icon from 'fa-svelte';
+  import { faUser } from '@fortawesome/free-solid-svg-icons/faUser'
   export let props;
 </script>
 
@@ -21,7 +22,7 @@
   <a href={'#'+ props.link} class="hex-content">
     <span class="hex-content-inner">
         <span class="icon">
-            <i class={'fa ' + props.icon}></i>
+            <Icon icon={ faUser }/>
         </span>
         <span class="title">{props.title}</span>
     </span>
