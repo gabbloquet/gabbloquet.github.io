@@ -4,7 +4,6 @@
 
 <script>
   import Icon from 'fa-svelte';
-  import { faUser } from '@fortawesome/free-solid-svg-icons/faUser'
   export let props;
 </script>
 
@@ -22,7 +21,7 @@
   <a href={'#'+ props.link} class="hex-content">
     <span class="hex-content-inner">
         <span class="icon">
-            <Icon icon={ faUser }/>
+            <Icon icon={ props.icon }/>
         </span>
         <span class="title">{props.title}</span>
     </span>
