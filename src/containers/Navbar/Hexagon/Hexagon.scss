@@ -38,7 +38,7 @@
   height: 5px; }
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #ff0037; }
+  background-color: cornflowerblue; }
 .hexagon-item:hover .hex-content svg {
   -webkit-transform: scale(0.97);
   -moz-transform: scale(0.97);
@@ -172,7 +172,7 @@
 }
 
 .hexagon-item:hover .icon i {
-  color:#ff0037;
+  color: cornflowerblue;
   transition:0.6s;
 
 }
