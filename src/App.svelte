@@ -1,7 +1,7 @@
 <script>
-	import Navbar from "./containers/Navbar/Navbar.svelte";
+	import Welcome from "./containers/Welcome/Welcome.svelte";
 </script>
 
 <main>
-	<Navbar/>
+	<Welcome/>
 </main>
