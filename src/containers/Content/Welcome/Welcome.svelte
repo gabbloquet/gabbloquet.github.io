@@ -10,6 +10,6 @@
     <p>Bref, bienvenue chez moi ! <span>🏡</span></p>
   </div>
   <div class="welcome-image">
-    <img src="http://ejournal.emokykla.lt/lit4/media/Les%20regions/nord-pas-de-calais.jpg"/>
+    <img alt="nord-pas-de-calais" src="http://ejournal.emokykla.lt/lit4/media/Les%20regions/nord-pas-de-calais.jpg"/>
   </div>
 </div>
