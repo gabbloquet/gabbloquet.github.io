@@ -1,0 +1,15 @@
+.description {
+
+  display: flex;
+  align-items: center;
+  height: 30em;
+
+  .left-side, .right-side {
+    width: 50%;
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}

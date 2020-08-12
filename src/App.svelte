@@ -1,7 +1,9 @@
 <script>
-	import Welcome from "./containers/Welcome/Welcome.svelte";
+	import TopPage from "./containers/TopPage/TopPage.svelte";
+	import Content from "./containers/Content/Content.svelte";
 </script>
 
 <main>
-	<Welcome/>
+	<TopPage/>
+	<Content />
 </main>

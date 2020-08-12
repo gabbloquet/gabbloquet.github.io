@@ -1,0 +1,29 @@
+.welcome {
+  display: flex;
+  align-items: center;
+  margin: 5em;
+
+  .welcome-text {
+    width: 60%;
+
+    h1 {
+      color: dimgrey;
+    }
+    p {
+      color: slategrey;
+
+      span{
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .welcome-image {
+    text-align: center;
+    width: 40%;
+
+    img {
+      height: 14em;
+    }
+  }
+}
