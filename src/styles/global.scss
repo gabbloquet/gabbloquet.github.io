@@ -1,5 +1,11 @@
 .white-card {
-  margin: 5em;
-  padding: 3em;
+  margin: 3em 5em;
+  padding: 2em;
   box-shadow: 0 2px 22px 0 darkgrey;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

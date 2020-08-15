@@ -3,6 +3,7 @@
 </style>
 
 <script>
+  import { scrollto } from "svelte-scrollto";
   import Icon from 'fa-svelte';
   export let props;
 </script>
@@ -18,7 +19,7 @@
     <div></div>
     <div></div>
   </div>
-  <a href={'#'+ props.link} class="hex-content">
+  <a use:scrollto={props.link} class="hex-content">
     <span class="hex-content-inner">
         <span class="icon">
             <Icon icon={ props.icon }/>
