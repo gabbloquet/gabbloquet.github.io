@@ -12,6 +12,7 @@
       padding: 1em;
       margin: 1em;
       border-radius: 10px;
+      //box-shadow: 0 2px 25px 0 #7510F7;
       &:hover {
         color: white;
         background-color: lightblue;
@@ -22,9 +23,10 @@
   .center-elements {
     flex-direction: row;
     text-align: center;
-    img {
-      height: 20em;
-      border-radius: 50%;
+    background-color: #7510F7;
+    border-radius: 10px;
+    p {
+      color: white;
     }
   }
 }

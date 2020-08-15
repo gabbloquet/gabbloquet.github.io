@@ -11,9 +11,8 @@
 <section class="white-card" id="description">
   <div class="description">
     <div class="center-elements">
-      <img alt="Gabin Bloquet" src="./assets/img/me.JPG"/>
-      <p class="center-content">Gabin Bloquet, {age} ans, actuellement développeur chez  <DecathlonLogo/>.</p>
-      <p>Mais aussi sportif, musicien & avide de connaissance.</p>
+      <p class="center-content">Gabin Bloquet, {age} ans, actuellement développeur chez  <DecathlonLogo/>. (En formation sur le rôle de Tech Lead)</p>
+      <p>Mais aussi sportif, musicien & avide de connaissances.</p>
     </div>
     <div class="line-with-space">
       <div class="tech">

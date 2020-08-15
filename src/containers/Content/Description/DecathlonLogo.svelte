@@ -1,5 +1,6 @@
 <style>
   img {
+      margin-left: 0.3em;
       height: 1.5em;
   }
 </style>
