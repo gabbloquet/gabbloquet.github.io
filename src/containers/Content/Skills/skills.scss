@@ -1,0 +1,37 @@
+.skills {
+
+  margin: 1em 5em;
+
+  .skills-title {
+    background-color: #7510F7;
+    padding: 1em;
+    color: white;
+    height: 3em;
+  }
+
+  .skills-content {
+    border: 1px solid #7510F7;
+    background-color: white;
+    margin: -3em 5em 2em 5em;
+    border-radius: 5px;
+    display: flex;
+
+    .front, .back, .others {
+      width: 33%;
+      text-align: center;
+
+      img {
+        margin-top: 1em;
+        border-radius: 5px;
+        height: 6em;
+      }
+
+      &:first-child {
+        border-right: 1px solid #7510F7;
+      }
+      &:last-child {
+        border-left: 1px solid #7510F7;
+      }
+    }
+  }
+}

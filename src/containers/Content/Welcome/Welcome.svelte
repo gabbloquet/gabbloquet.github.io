@@ -3,8 +3,8 @@
   @import "src/styles/global";
 </style>
 
-<div class="white-card">
-  <div class="welcome" id="welcome">
+<section class="white-card" id="welcome">
+  <div class="welcome" >
     <div class="welcome-text">
       <h1>Bienvenue sur mon site web <span>&#128075;&#127995;</span></h1>
       <p>J'aimerais au travers vous faire découvrir mon univers.</p>
@@ -16,4 +16,4 @@
       <img alt="nord-pas-de-calais" src="http://ejournal.emokykla.lt/lit4/media/Les%20regions/nord-pas-de-calais.jpg"/>
     </div>
   </div>
-</div>
+</section>

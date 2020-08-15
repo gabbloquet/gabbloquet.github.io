@@ -4,11 +4,11 @@
 </script>
 
 <style lang="scss">
-  @import "description";
   @import "src/styles/global";
+  @import "description";
 </style>
 
-<div class="white-card" id="description">
+<section class="white-card" id="description">
   <div class="description">
     <div class="center-elements">
       <img alt="Gabin Bloquet" src="./assets/img/me.JPG"/>
@@ -39,4 +39,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

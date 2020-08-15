@@ -1,6 +1,7 @@
 <script>
   import Description from "./Description/Description.svelte";
   import Welcome from "./Welcome/Welcome.svelte";
+  import Skills from "./Skills/Skills.svelte";
 </script>
 
 <style>
@@ -13,4 +14,5 @@
 <div class="content">
   <Welcome/>
   <Description/>
+  <Skills/>
 </div>
