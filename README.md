@@ -1,8 +1,12 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# gabbloquet website - Code base
 
----
+Welcome in my personnal website codebase. The website is available [here : gabbloquet.github.io](https://gabbloquet.github.io/).
 
-# svelte app
+I made the choice to use Svelte to develop it because it's a really simple static website.
+
+Don't hesitate to fork it if you want ;)
+
+# svelte app config
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
