@@ -9,7 +9,7 @@
 
 <div class="navbar">
   <div class="hexagon-menu">
-    <Hexagon props={{icon: faDoorOpen, link: 'welcome', title: 'Welcome'}}/>
+    <Hexagon props={{icon: faDoorOpen, link: 'welcome', title: 'Bienvenue'}}/>
     <Hexagon props={{icon: faUser, link: 'description', title: 'Description'}}/>
     <Hexagon props={{icon: faLaptop, link: 'skills', title: 'Compétences'}}/>
     <Hexagon props={{icon: faClipboard, link: 'experiences', title: 'Expériences'}}/>

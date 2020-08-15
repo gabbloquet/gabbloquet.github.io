@@ -8,6 +8,5 @@
 
 <div class="content">
   <Welcome/>
-  <hr/>
   <Description/>
 </div>
