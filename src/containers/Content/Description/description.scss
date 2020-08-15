@@ -1,12 +1,28 @@
 .description {
 
   display: flex;
-  align-items: center;
+  flex-direction: column;
 
-  .left-side, .right-side {
-    width: 50%;
+  .line-with-space {
+    display: flex;
+    justify-content: space-evenly;
+
+    .tech, .sport, .culture, .musique {
+      width: 40%;
+      padding: 1em;
+      margin: 1em;
+      box-shadow: 0 2px 25px 0 grey;
+      border-radius: 10px;
+      &:hover {
+        color: white;
+        background-color: lightblue;
+      }
+    }
+  }
+
+  .center-elements {
+    flex-direction: row;
     text-align: center;
-
     img {
       height: 20em;
       border-radius: 50%;

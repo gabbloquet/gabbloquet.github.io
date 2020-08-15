@@ -1,3 +1,14 @@
+h1, h2, h3 {
+  color: dimgrey;
+}
+p {
+  color: slategrey;
+
+  span {
+    font-size: 1.5em;
+  }
+}
+
 .white-card {
   margin: 3em 5em;
   padding: 2em;
