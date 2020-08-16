@@ -2,15 +2,19 @@
 $black: #34435E;
 $white: #ffffff;
 
-.experiences {
-  margin: 0;
-  padding: 0 4em;
-}
-
 .timeline {
-  min-width: 300px;
-  max-width: 500px;
+  width: 70%;
   margin: auto;
+  counter-reset: section 2021;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 0.7em;
+      height: 2em;
+    }
+  }
 }
 
 .element {
@@ -22,23 +26,30 @@ $white: #ffffff;
   border-width: 3px;
   margin: 0;
   padding: 40px;
-  counter-increment: section;
+  counter-increment: section -1;
   position: relative;
   color: $black;
 
+  p {
+    font-size: small;
+  }
+
   //numbers
   &:before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     content: counter(section);
     position: absolute;
     border-radius: 50%;
     padding: 10px;
-    height: 1.25em;
-    width: 1.25em;
     background-color: $black;
     text-align: center;
     line-height: 1.25em;
     color: $white;
     font-size: 1em;
+    width: 2em;
+    height: 2em;
   }
 }
 
@@ -59,6 +70,10 @@ $white: #ffffff;
   border-left: 3px solid;
   padding-right: 0;
 
+  h3 {
+    justify-content: flex-end;
+  }
+
   &:before {
     right: 100%;
     margin-right: -20px;
@@ -73,4 +88,9 @@ $white: #ffffff;
 .element:last-child {
   border-bottom-right-radius:0;
   border-bottom-left-radius:0;
+}
+
+.important-information {
+  line-height: 0.8em;
+  font-weight: bold;
 }
