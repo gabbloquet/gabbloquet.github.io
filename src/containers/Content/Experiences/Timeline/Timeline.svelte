@@ -5,13 +5,16 @@
 <div class="timeline">
   <div class="element">
     <h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png" alt="Decathlon"/> - Développeur Full stack dans l'équipe MyBusiness - Depuis mars 2020</h3>
-    <p>J'ai rejoint l'équipe MyBusiness en tant que Développeur Fullstack avec l'optique de monter en compétences sur le rôle de Tech Lead. Nous travaillons sur le développement du nouveau Front à destination des utilisateurs magasin. Un point d'entrée unique permettant d'offrir à l'utilisateur toutes les actions utiles à la bonne gestion de son magasin, de ses investissements, de ses commandes... L'objectif est de remplacer un outil vieillissant en étant les plus user-centric possible, en offrant un confort d'utilisation et d’accessibilité au top.
+    <p>J'ai rejoint l'équipe MyBusiness en tant que Développeur Fullstack avec l'optique de monter en compétences sur le rôle de Tech Lead. </p>
+    <p>Nous travaillons sur le développement du nouveau Front à destination des utilisateurs magasin. Un point d'entrée unique permettant d'offrir à l'utilisateur toutes les actions utiles à la bonne gestion de son magasin, de ses investissements, de ses commandes... L'objectif est de remplacer un outil vieillissant en étant les plus user-centric possible, en offrant un confort d'utilisation et d’accessibilité au top.
       Pour cela nous sommes inspirés de la philosophie AGILE, travaillons sur la qualité des développements et sur des technologies actuelles et ayant fait leurs preuves.</p>
 
     <p>Parallèlement je suis Leader de la communauté Front, en quelques mots je synergise, accompagne, organise différents Events, aide les personnes qui en font la demande, donne du sens et fait en sorte que les projets de la communauté se concrétisent (Tel que le Design system par exemple).</p>
+    <p> Je suis aussi membre du CLOUD PLATFORM ENGINEERING de Decathlon composé d'experts techniques réfléchissant et proposant sur ce que doit-être le futur de l'informatique chez Decathlon, élaborant de la documentation, des guidelines, des Tech-radars afin d'aider les équipes à faire les meilleurs choix techniques possibles.</p>
 
     <p class="important-information">Pratiques de développement : TDD, DDD (BDD par la suite)</p>
-    <p class="important-information">Langages de développement : ReactJS, JavaScript</p>
+    <p class="important-information">Langages de développement : JavaScript, TypeScript</p>
+    <p class="important-information">Frameworks : ReactJS, NodeJS/Express, Serverless</p>
     <p class="important-information">Autre outils : NPM, JUnit, Cypress, GIT, IntelliJ, GitHub with actions</p>
   </div>
   <div class="element">
@@ -21,7 +24,8 @@
     <p>Parallèlement je suis core contributor de la communauté Front & membre actif de celle dédiée à l'Agile, en quelques mots je participe aux Events, aide les personnes qui en font la demande et je monte en compétences en demandant de l'aide, expose mon point de vue et est force de proposition. J'ai ensuite glissé sur le rôle de co-leader puis leader durant cette période.</p>
 
     <p class="important-information">Pratiques de développement : TDD, BDD, DDD et Event sourcing</p>
-    <p class="important-information">Langages de développement : Java 8 - 11 (JEE), VueJS, NodeJS, JavaScript</p>
+    <p class="important-information">Langages de développement : Java 8 - 11 (JEE), JavaScript</p>
+    <p class="important-information">Frameworks : Spring, Spring Boot, VueJS, NodeJS</p>
     <p class="important-information">Autre outils : Spring, JUnit, Mockito, GIT, IntelliJ, Postman, Docker, JIRA, GitHub with actions</p>
   </div>
   <div class="element">

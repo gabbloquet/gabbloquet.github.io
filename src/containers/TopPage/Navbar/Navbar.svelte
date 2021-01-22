@@ -1,6 +1,7 @@
 <script>
   import Hexagon from "./Hexagon/Hexagon.svelte";
   import { faUser } from '@fortawesome/free-solid-svg-icons/faUser'
+  import { faNewspaper } from '@fortawesome/free-solid-svg-icons/faNewspaper'
   import { faDoorOpen } from '@fortawesome/free-solid-svg-icons/faDoorOpen'
   import { faLaptop } from '@fortawesome/free-solid-svg-icons/faLaptop'
   import { faClipboard } from '@fortawesome/free-solid-svg-icons/faClipboard'
@@ -10,6 +11,7 @@
 <div class="navbar">
   <div class="hexagon-menu">
     <Hexagon props={{icon: faDoorOpen, link: '#welcome', title: 'Bienvenue'}}/>
+    <Hexagon props={{icon: faNewspaper, link: '#news', title: 'Actualité'}}/>
     <Hexagon props={{icon: faUser, link: '#description', title: 'Description'}}/>
     <Hexagon props={{icon: faLaptop, link: '#skills', title: 'Compétences'}}/>
     <Hexagon props={{icon: faClipboard, link: '#experiences', title: 'Expériences'}}/>

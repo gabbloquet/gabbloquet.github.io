@@ -11,14 +11,14 @@
 <section class="white-card" id="description">
   <div class="description">
     <div class="center-elements">
-      <p class="center-content">Gabin Bloquet, {age} ans, actuellement développeur chez  <DecathlonLogo/>. (En formation sur le rôle de Tech Lead)</p>
+      <p class="center-content">Gabin Bloquet, {age} ans, actuellement Software Engineer chez  <DecathlonLogo/>.</p>
       <p>Mais aussi sportif, musicien & avide de connaissances.</p>
     </div>
     <div class="line-with-space">
       <div class="tech">
         <h2>La #Tech 💻</h2>
-        <p>Je définirai mon profil comme étant plutôt <b>"fullstack"</b>. En quelques mots du fait des parcours universitaires français plutôt accès back j'avais tout naturellement une appétence dans ce domaine. Ma première expérience m'a permise de parfaire mes compétences dans ce domaine. Mais m'a aussi ouvert les yeux sur l'importance de la prise en compte des besoins des utilisateurs. De réfléchir sur le quoi et le comment. <i>Comment puis-je, grace à l'outil informatique, améliorer le quotidien de mes utilisateurs, leur faire gagner du temps, leur faciliter la vie ?</i></p>
-        <p>C'est donc tout naturellement que je me suis rapproché du monde du <b>front</b>, car un <b>confort d'utilisation</b> passe par une <b>interface ergonomique, accessible, simple d'utilisation et de prise en main</b>.</p>
+        <p>Je définirai mon profil comme étant plutôt <b>"fullstack"</b>. En quelques mots mon ambition est de voir au delà d'une technologie ou d'un spectre de compétences mais de voir plus large. Etre en capacité de produire du code de qualité (Maintenable, extensible, facilement compréhensible) quelque soit le domaine. Ma première expérience m'a permise de parfaire mes compétences dans les domaines du front et du back. Mais m'a aussi ouvert les yeux sur l'importance de la prise en compte des besoins des utilisateurs. De réfléchir sur le quoi et le comment. <i>Comment puis-je, grace à l'outil informatique, améliorer le quotidien de mes utilisateurs, leur faire gagner du temps, leur faciliter la vie ?</i></p>
+        <p>C'est donc tout naturellement que je me suis rapproché du monde du <b>front</b>, car un <b>confort d'utilisation</b> passe par une <b>interface ergonomique, accessible, simple d'utilisation et de prise en main</b>. Je me définirais donc comme un profil proche des utilisateurs (User Centric).</p>
       </div>
       <div class="sport">
         <h2>Le #Sport 🏃‍🚴🎾🏓⚽🏀</h2>
