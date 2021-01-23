@@ -2,7 +2,7 @@
   @import "contact";
 </style>
 
-<div class="contact">
+<section class="contact" id="contact">
   <h1>Retrouvez moi sur les réseaux : </h1>
   <div class="networks">
     <a href="https://www.linkedin.com/in/gabin-bloquet-65071a145/" target="_blank">
@@ -18,4 +18,4 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" alt="GitHub">
     </a>
   </div>
-</div>
+</section>

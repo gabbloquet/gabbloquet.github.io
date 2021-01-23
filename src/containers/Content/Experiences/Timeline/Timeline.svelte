@@ -31,7 +31,7 @@
     <p class="important-information">Autre outils : Spring, JUnit, Mockito, GIT, IntelliJ, Postman, Docker, JIRA, GitHub with actions</p>
   </div>
   <div class="element">
-    <h3><img src="https://francoistison.fr/img/uploads/workexperience/pictime.png" alt="Pictime"/> - Analyste développeur dans l'équipe Nocibé</h3>
+    <h3><img src="https://francoistison.fr/img/uploads/workexperience/pictime.png" alt="Pictime"/> Analyste développeur dans l'équipe Nocibé</h3>
     <h4>Trois mois</h4>
     <p>J'ai réalisé mon stage (facultatif) de master 1 au sein de l'équipe chargée du développement du site Web de Nocibé. Nous étions une équipe de 10 personnes avec des profils variés.</p>
 
