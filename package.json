@@ -3,8 +3,8 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "predeploy": "npm run build && cp CNAME public/",
-    "deploy": "gh-pages -d public/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public"
