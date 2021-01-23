@@ -15,8 +15,18 @@ p {
   box-shadow: 0 2px 22px 0 darkgrey;
 }
 
+@media screen and (max-width: 800px) {
+  .white-card {
+    margin: 2em 0;
+    padding: 1em;
+  }
+}
+
 .center-content {
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
 }

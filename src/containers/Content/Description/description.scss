@@ -30,4 +30,18 @@
       color: white;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .header {
+
+    }
+    .line-with-space {
+      flex-direction: column;
+      .tech, .sport, .culture, .musique {
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+      }
+    }
+  }
 }

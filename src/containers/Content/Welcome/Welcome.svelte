@@ -6,7 +6,7 @@
 <section class="white-card" id="welcome">
   <div class="welcome" >
     <div class="welcome-text">
-      <h1>Bienvenue sur mon site web <span>&#128075;&#127995;</span></h1>
+      <h1>Bienvenue <span>&#128075;&#127995;</span></h1>
       <p>J'aimerais au travers de celui-ci vous faire découvrir mon univers.</p>
       <p>Qui je suis, ce que je fais, sais faire, aime faire et veux faire.</p>
       <p>Mais aussi ce qui me tient à <span>❤️</span>, quels sont mes projets <span>📝</span>, mes ambitions <span>📈</span>...</p>

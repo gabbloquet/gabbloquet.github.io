@@ -1,0 +1,37 @@
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background:
+          linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)),
+          url("https://img-16.ccm2.net/tZzRh9XOkpjdTWtpDCTs1lmHDRI=/500x/df8b52ded53f4649821c3b2813839d75/ccm-faq/photo-1486312338219-ce68d2c6f44d.jfif"),
+          no-repeat;
+  img {
+    height: 3em;
+  }
+  .networks {
+    & > * {
+      margin: 0 1em;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    h1 {
+      font-size: 1.2em;
+    }
+    .networks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      & > * {
+        margin: 0;
+      }
+    }
+    img {
+      height: 2em;
+    }
+  }
+}
+
+

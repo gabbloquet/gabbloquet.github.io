@@ -7,5 +7,8 @@
 </style>
 
 <div class="experiences" id="experiences">
-  <Timeline/>
+  <h1 class="experiences-title">Expériences 💻</h1>
+  <div class="experiences-content">
+    <Timeline/>
+  </div>
 </div>

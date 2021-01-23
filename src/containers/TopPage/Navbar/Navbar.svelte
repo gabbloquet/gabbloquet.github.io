@@ -8,6 +8,10 @@
   import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope'
 </script>
 
+<style lang="scss">
+  @import "navbar";
+</style>
+
 <div class="navbar">
   <div class="hexagon-menu">
     <Hexagon props={{icon: faDoorOpen, link: '#welcome', title: 'Bienvenue'}}/>

@@ -35,3 +35,25 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .skills {
+    margin: 1em 0 ;
+    .skills-content {
+      flex-direction: column;
+      margin: 0 1em;
+
+      .front, .back, .others {
+        width: 100%;
+        border: 1px solid #7510F7;
+      }
+
+      img {
+        width: 50%;
+      }
+      div {
+        margin: 0;
+      }
+    }
+  }
+}

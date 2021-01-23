@@ -10,9 +10,23 @@ $white: #ffffff;
   h3 {
     display: flex;
     align-items: center;
+
     img {
       margin-right: 0.7em;
       height: 2em;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .timeline {
+    width: 100%;
+
+    h3 {
+      flex-direction: column;
+    }
+    img {
+      margin-bottom: 1em;
     }
   }
 }
