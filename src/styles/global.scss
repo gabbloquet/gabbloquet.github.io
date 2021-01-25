@@ -1,12 +1,13 @@
 h1, h2, h3 {
-  color: dimgrey;
+  color: #383838;
 }
-p {
-  color: #939393;
 
-  span {
-    font-size: 1.5em;
-  }
+p, li {
+  color: #595959;
+}
+
+p > span {
+  font-size: 1.5em;
 }
 
 .white-card {
