@@ -4,7 +4,7 @@
 </script>
 
 <style>
-  .top-page {
+  header {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -18,7 +18,7 @@
   }
 </style>
 
-<div class="top-page">
+<header>
   <Intro/>
   <Navbar/>
-</div>
+</header>

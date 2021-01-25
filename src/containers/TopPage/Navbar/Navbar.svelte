@@ -12,7 +12,7 @@
   @import "navbar";
 </style>
 
-<div class="navbar">
+<section class="navbar">
   <div class="hexagon-menu">
     <Hexagon props={{icon: faDoorOpen, link: '#welcome', title: 'Bienvenue'}}/>
     <Hexagon props={{icon: faNewspaper, link: '#news', title: 'Actualité'}}/>
@@ -21,5 +21,5 @@
     <Hexagon props={{icon: faClipboard, link: '#experiences', title: 'Expériences'}}/>
     <Hexagon props={{icon: faEnvelope, link: '#networks', title: 'Contact'}}/>
   </div>
-</div>
+</section>
 
