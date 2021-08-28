@@ -40,7 +40,7 @@
         <p>Jenkins</p>
       </div>
     </header>
-    <footer>
+    <footer class="soft-skills">
       <img src="https://clubagileprovence.files.wordpress.com/2016/09/agile-mots.jpg?w=739" alt="autres compétences (agilité, créativité, ouverture...)"/>
       <section>
         <h2>Autres compétences</h2>
