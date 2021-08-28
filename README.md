@@ -1,10 +1,10 @@
-# gabbloquet website - Code base
+# My personal website
 
-Welcome in my personnal website codebase. The website is available [here : gabbloquet.github.io](https://gabbloquet.github.io/).
+Welcome in my personal website codebase. The website is available [here : gabbloquet.github.io](https://gabbloquet.github.io/).
 
-I made the choice to use Svelte to develop it because it's a really simple static website.
+I made the choice to use [Svelte](https://svelte.dev) to develop it because it's a really simple static website.
 
-Don't hesitate to fork it if you want ;)
+_Don't hesitate to fork it if you want ;)_
 
 # svelte app config
 
@@ -63,39 +63,6 @@ By default, sirv will only respond to requests that match files in `public`. Thi
 
 If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
 
-```js
-"start": "sirv public --single"
-```
-
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
 ```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
+npm run start
 ```
