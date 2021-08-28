@@ -77,13 +77,14 @@
         }
       }
       footer {
+        flex-direction: column;
+        text-align: center;
         border: 1px solid #7510F7;
+
         img {
           width: 50%;
           align-self: center;
         }
-        flex-direction: column;
-        text-align: center;
       }
     }
   }
