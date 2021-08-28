@@ -15,22 +15,40 @@
     margin: -3em 5em 2em 5em;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
 
-    .front, .back, .others {
-      width: 33%;
-      text-align: center;
+    header {
+
+      display: flex;
+      flex-direction: row;
+
+      .front, .back, .ops {
+        width: 33%;
+        text-align: center;
+
+        img {
+          margin-top: 1em;
+          border-radius: 5px;
+          height: 6em;
+        }
+
+        &:first-child {
+          border-right: 1px solid #7510F7;
+        }
+        &:last-child {
+          border-left: 1px solid #7510F7;
+        }
+      }
+    }
+    footer {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      border-top: 1px solid #7510F7;
 
       img {
-        margin-top: 1em;
-        border-radius: 5px;
-        height: 6em;
-      }
-
-      &:first-child {
-        border-right: 1px solid #7510F7;
-      }
-      &:last-child {
-        border-left: 1px solid #7510F7;
+        width: 33%;
       }
     }
   }
@@ -43,7 +61,7 @@
       flex-direction: column;
       margin: 0 1em;
 
-      .front, .back, .others {
+      .front, .back, .ops {
         width: 100%;
         border: 1px solid #7510F7;
       }
