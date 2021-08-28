@@ -40,7 +40,7 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
 
-## Building and running in production mode
+## Building, running in production mode and deploy
 
 To create an optimised version of the app:
 
@@ -49,6 +49,12 @@ npm run build
 ```
 
 You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+
+```bash
+npm run deploy
+```
+
+To deploy the application thanks to github pages.
 
 
 ## Single-page app mode
