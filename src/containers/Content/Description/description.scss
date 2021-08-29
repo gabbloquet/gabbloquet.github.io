@@ -33,13 +33,14 @@
 
   @media screen and (max-width: 800px) {
     .header {
-
+      margin-bottom: 1em;
     }
     .line-with-space {
       flex-direction: column;
       .tech, .sport, .culture, .musique {
         width: 100%;
         padding: 1em;
+        margin: 0;
         box-sizing: border-box;
       }
     }
