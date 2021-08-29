@@ -5,7 +5,7 @@
 
 <article class="skills" id="skills">
   <header>
-    <h1 class="skills-title">Compétences 🎯💻</h1>
+    <h1 class="skills-title">Les univers avec lesquels je suis plutôt à l'aise 🎯💻</h1>
   </header>
   <article class="skills-content">
     <header>
