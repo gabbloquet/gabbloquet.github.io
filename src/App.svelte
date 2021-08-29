@@ -3,7 +3,7 @@
 	import Content from "./containers/Content/Content.svelte";
 </script>
 
-<main>
+<article>
 	<TopPage/>
 	<Content />
-</main>
+</article>
