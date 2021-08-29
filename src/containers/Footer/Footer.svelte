@@ -1,5 +1,5 @@
 <style lang="scss">
-  @import "contact";
+  @import "footer";
 </style>
 
 <footer class="contact" id="contact">
