@@ -1,13 +1,13 @@
 <script>
-  import { Link } from "svelte-navigator"
+  import { link } from 'svelte-spa-router'
 </script>
 
-<style lang="scss">
-  @import "navigation";
-</style>
-
 <nav>
-  <Link to="blog">
-    <img src='/assets/img/blog.png' alt="blog" height="100px"/>
-  </Link>
+  <a href="/blog" use:link>
+    <img src="/assets/img/blog.png" alt="blog" height="100px" />
+  </a>
 </nav>
+
+<style lang="scss">
+  @import 'navigation';
+</style>

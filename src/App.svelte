@@ -1,15 +1,15 @@
 <script>
-	import { Router, Route } from "svelte-navigator";
-	import Home from "./views/Home.svelte";
-	import Blog from "./views/Blog.svelte";
+  import Router from 'svelte-spa-router'
+  import Home from './views/Home.svelte'
+  import Blog from './views/Blog/index.svelte'
+  import NotFound from './views/NotFound.svelte'
 
-	export let url = "";
+  const routes = {
+    '/': Home,
+    '/blog': Blog,
+    '/blog/:id': Blog,
+    '*': NotFound,
+  }
 </script>
 
-<Router url="{url}">
-	<div>
-		<Route path="blog/*articleId" component={Blog} />
-		<Route path="/home"><Home /></Route>
-		<Route path="/"><Home /></Route>
-	</div>
-</Router>
+<Router {routes} />

@@ -7,16 +7,23 @@
     "deploy": "gh-pages -d public",
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
+    "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "start": "sirv public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.2",
     "@rollup/plugin-node-resolve": "^13.0.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.4.0",
+    "eslint-plugin-svelte3": "^3.2.1",
     "fa-svelte": "^3.1.0",
     "gh-pages": "^3.1.0",
     "glob-parent": "^6.0.1",
     "lodash": "^4.17.21",
     "path-parse": "^1.0.7",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.0",
     "rollup": "^2.3.4",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^1.0.0",
@@ -32,6 +39,7 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "sirv-cli": "^0.4.4",
-    "svelte-navigator": "^3.1.5"
+    "svelte-markdown": "^0.1.14",
+    "svelte-spa-router": "^3.2.0"
   }
 }

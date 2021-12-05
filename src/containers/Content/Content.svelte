@@ -1,10 +1,18 @@
 <script>
-  import Welcome from "./Welcome/Welcome.svelte";
-  import News from "./News/News.svelte";
-  import Description from "./Description/Description.svelte";
-  import Skills from "./Skills/Skills.svelte";
-  import Experiences from "./Experiences/Experiences.svelte";
+  import Welcome from './Welcome/Welcome.svelte'
+  import News from './News/News.svelte'
+  import Description from './Description/Description.svelte'
+  import Skills from './Skills/Skills.svelte'
+  import Experiences from './Experiences/Experiences.svelte'
 </script>
+
+<main class="content">
+  <Welcome />
+  <News />
+  <Description />
+  <Skills />
+  <Experiences />
+</main>
 
 <style lang="scss">
   .content {
@@ -12,11 +20,3 @@
     flex-direction: column;
   }
 </style>
-
-<main class="content">
-  <Welcome/>
-  <News/>
-  <Description/>
-  <Skills/>
-  <Experiences/>
-</main>
