@@ -1,31 +1,18 @@
 # My personal website
 
-Welcome in my personal website codebase. The website is available [here : gabbloquet.github.io](https://gabbloquet.github.io/).
-
-I made the choice to use [Svelte](https://svelte.dev) to develop it because it's a really simple static website.
+Welcome in my personal website codebase. The website is available [here : gabbloquet.github.io](https://gabbloquet.github.io/).  
+Objective is to show my skills, background and objectives. 🎯    
+In addition, I use it to host my articles. 📝 
 
 _Don't hesitate to fork it if you want ;)_
 
-# svelte app config
-
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+## Get started
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
 
 Install the dependencies...
 
 ```bash
-cd svelte-app
 npm install
 ```
 
@@ -39,6 +26,11 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
+## Technologies
+
+I made the choice to use [Svelte](https://svelte.dev) to develop it because it's a really simple static website.
+
+This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
 ## Building, running in production mode and deploy
 
@@ -65,4 +57,13 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 
 ```bash
 npm run start
+```
+
+## Other information 
+
+To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+
+```bash
+npx degit sveltejs/template svelte-app
+cd svelte-app
 ```
