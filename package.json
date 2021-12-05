@@ -32,6 +32,6 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "sirv-cli": "^0.4.4",
-    "svelte-routing": "^1.6.0"
+    "svelte-navigator": "^3.1.5"
   }
 }

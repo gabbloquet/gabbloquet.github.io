@@ -1,5 +1,5 @@
 <script>
-  import { Link } from 'svelte-routing'
+  import { Link } from "svelte-navigator"
 </script>
 
 <style lang="scss">
@@ -8,6 +8,6 @@
 
 <nav>
   <Link to="blog">
-    <img src='/assets/blog.png' alt="blog" height="100px"/>
+    <img src='/assets/img/blog.png' alt="blog" height="100px"/>
   </Link>
 </nav>
