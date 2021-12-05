@@ -6,7 +6,7 @@
   import Experiences from "./Experiences/Experiences.svelte";
 </script>
 
-<style>
+<style lang="scss">
   .content {
     display: flex;
     flex-direction: column;
