@@ -26,6 +26,12 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
+## Add an article
+
+1. Write the article (Markdown format) :D
+2. Place it on a variable on [articles dir](./src/articles)
+3. Insert information about it in [articles array](./src/views/Blog/blog.service.js) with linked content (variable defined above). 
+
 ## Technologies
 
 I made the choice to use [Svelte](https://svelte.dev) to develop it because it's a really simple static website.
