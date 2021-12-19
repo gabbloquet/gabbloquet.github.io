@@ -36,5 +36,8 @@ $SPACING: 2em;
       height: 20em;
       object-fit: cover;
     }
+    footer {
+      margin-top: $SPACING * 2;
+    }
   }
 }

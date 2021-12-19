@@ -32,6 +32,11 @@
         <img src={articleToDisplay.image} alt={articleToDisplay.alt} />
       </header>
       <SvelteMarkdown source={articleToDisplay.content} />
+      <footer>
+        Pour que je m'améliore et vous propose un contenu toujours plus qualitatif, n'hésitez pas à me <a
+          href="mailto:gabbloquet@hotmail.fr">faire un feedback !</a
+        >
+      </footer>
     </article>
   {/if}
 </article>
