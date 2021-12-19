@@ -26,6 +26,10 @@
     </ol>
   </nav>
 
+  <a class="portfolio-link" href="/" use:link>
+    <img src="/assets/img/portfolio.png" alt="blog" height="60px" />
+  </a>
+
   {#if articleToDisplay}
     <article class="article">
       <header>

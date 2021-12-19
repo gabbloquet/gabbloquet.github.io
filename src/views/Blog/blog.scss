@@ -40,4 +40,10 @@ $SPACING: 2em;
       margin-top: $SPACING * 2;
     }
   }
+
+  .portfolio-link {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+  }
 }
