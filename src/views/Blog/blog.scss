@@ -1,3 +1,40 @@
-.blog {
+$GREY_DARK: #3D3D3D;
+$GREY_LIGHT: #EFEFEF;
+$BLUE_HOVER: rgba(59, 73, 223, 0.10);
+$SPACING: 2em;
 
+.blog {
+  h1{
+    margin-left: $SPACING;
+  }
+  nav > ol {
+
+    display: flex;
+
+    li {
+      padding: 0.5em;
+      margin: 0 $SPACING;
+      &:hover {
+        background-color: $BLUE_HOVER;
+      }
+      &::marker {
+        border: 1px $GREY_DARK solid;
+        border-right: 0;
+      }
+    }
+    a {
+      color: $GREY_DARK;
+      text-decoration: none;
+    }
+  }
+
+  .article {
+    padding: 2% 15%;
+    background-color: $GREY_LIGHT;
+    img {
+      width: 100%;
+      height: 20em;
+      object-fit: cover;
+    }
+  }
 }
