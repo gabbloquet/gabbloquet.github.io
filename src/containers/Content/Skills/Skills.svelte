@@ -1,8 +1,6 @@
 <article class="skills" id="skills">
   <header>
-    <h1 class="skills-title">
-      Les univers avec lesquels je suis plutôt à l'aise 🎯💻
-    </h1>
+    <h1 class="skills-title">Les univers avec lesquels je suis plutôt à l'aise 🎯💻</h1>
   </header>
   <article class="skills-content">
     <header>
@@ -17,10 +15,7 @@
         <h3>Frameworks</h3>
         <p>React.js, VueJS, Svelte</p>
         <h3>Autres outils / librairies</h3>
-        <p>
-          NPM, Jest, Cypress, Storybook, Testcafé, Webpack, ESlint, Prettier,
-          Selenium...
-        </p>
+        <p>NPM, Jest, Cypress, Storybook, Testcafé, Webpack, ESlint, Prettier, Selenium...</p>
       </div>
       <div class="back">
         <img
@@ -59,15 +54,9 @@
         <h3>Craftsmanship</h3>
         <p>BDD, DDD, TDD</p>
         <h3>Agilité</h3>
-        <p>
-          Connaissance de la philosophie, des valeurs et des principes, Scrum,
-          Kanban
-        </p>
+        <p>Connaissance de la philosophie, des valeurs et des principes, Scrum, Kanban</p>
         <h3>Soft skills</h3>
-        <p>
-          Formation, accompagnement au changement, leadership, esprit critique,
-          créativité
-        </p>
+        <p>Formation, accompagnement au changement, leadership, esprit critique, créativité</p>
       </section>
     </footer>
   </article>

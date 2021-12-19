@@ -1,14 +1,8 @@
 <footer class="contact" id="contact">
   <h1>Retrouvez moi sur les réseaux :</h1>
   <div class="networks">
-    <a
-      href="https://www.linkedin.com/in/gabin-bloquet-65071a145/"
-      target="_blank"
-    >
-      <img
-        src="https://www.cpe.fr/wp-content/uploads/2017/06/LinkedIn-Logo-500x500.png"
-        alt="LinkedIn"
-      />
+    <a href="https://www.linkedin.com/in/gabin-bloquet-65071a145/" target="_blank">
+      <img src="https://www.cpe.fr/wp-content/uploads/2017/06/LinkedIn-Logo-500x500.png" alt="LinkedIn" />
     </a>
     <a href="https://www.strava.com/athletes/19386045" target="_blank">
       <img

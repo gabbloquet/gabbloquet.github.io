@@ -5,8 +5,8 @@
 
   export let params = {}
 
-  $: index = params.id ? params.id- 1 : 0;
-  $: articleToDisplay = articles[index];
+  $: index = params.id ? params.id - 1 : 0
+  $: articleToDisplay = articles[index]
 </script>
 
 <svelte:head>
@@ -27,7 +27,7 @@
   </nav>
 
   {#if articleToDisplay}
-    <article class='article'>
+    <article class="article">
       <header>
         <img src={articleToDisplay.image} alt={articleToDisplay.alt} />
       </header>
