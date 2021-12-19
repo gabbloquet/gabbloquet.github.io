@@ -1,4 +1,5 @@
 import { mesPremieresLignes } from '../../articles/1'
+import { leCommencement } from '../../articles/2'
 
 export const articles = [
   {
@@ -10,8 +11,8 @@ export const articles = [
   },
   {
     id: 2,
-    name: '...',
-    content: '# En écriture',
+    name: 'Rendez vous dimanche prochain',
+    content: leCommencement,
     image: 'https://www.vousnousils.fr/wp-content/uploads/2017/07/writing-1209121_640.jpg',
     alt: 'Ecriture',
   },
