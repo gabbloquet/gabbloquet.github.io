@@ -13,7 +13,7 @@ Avant le mouvement agile ? Et bien avant le mouvement agile, on faisait des proj
 ![Waterfall](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Mod%C3%A8le_en_cascade_g%C3%A9n%C3%A9rique.png/558px-Mod%C3%A8le_en_cascade_g%C3%A9n%C3%A9rique.png)
 
 Après des semaines, voir des mois de discussions avec le client (MOE : MOA) pour essayer de comprendre son besoin, on se lançait dans la rédaction de cahier des charges, de documentation fonctionnelle pour enfin amorcer le développement de la solution.  
-Résultat des courses, le plus souvent, **on créait des produits qui ne répondaient pas vraiment au besoin et parfois obsolète**, avant même qu’ils ne sortent.   
+Résultat des courses, le plus souvent, **on créait des produits qui ne répondaient pas vraiment au besoin et parfois obsolètes**, avant même qu’ils ne sortent.   
 
 En effet, on pouvait rentrer dans un **effet tunnel** (parfois long de plusieurs années pour les plus gros projets), avec son lot de retard, de frustration et de tensions.  
 Il était vraiment **difficile de donner une échelle de temps** pour la livraison du produit et presque **impossible de respecter les délais / engagements**. 
