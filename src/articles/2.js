@@ -1,4 +1,12 @@
 export const leCommencement = `
+<style>
+  p > img {
+    width: 100%;
+    max-height: 20em;
+    object-fit: contain;
+  }
+</style>
+
 # Le commencement
 
 Quoi de mieux pour commencer, que de commencer par le commencement ? 
