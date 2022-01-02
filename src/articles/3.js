@@ -42,8 +42,10 @@ Mais cela a énormément de valeur, pour les utilisateurs bien sûr, mais aussi 
 Tous ces éléments rendent ce choix, obligatoire.  
 
 Nous allons aussi privilégier la rédaction de **user story**, au lieu de rédiger des cahiers des charges qui n'en finissent pas. Nous allons, user story par user story dessiner ce à quoi va ressembler le produit.  
-Elle va mettre en avant l'ajout de valeur du développement de la fonctionnalité pour l'utilisateur.  
-**En tant** que lecteur de cet article, **je souhaite** pouvoir accéder au [twitter de l'auteur](https://twitter.com/BloquetGabin), **afin de** m'abonner à son compte. 
+
+Aussi, nous allons mettre en place des **environnements de tests**, des pre-productions par exemple, sur lesquels les personnes de l'équipe, le PO, L'UX/UI et bien sur les utilisateurs pourront tester ce qui a été développé !   
+**Quoi de mieux que de pouvoir déployer en un clic et donner le lien à un utilisateur ?** Recueillir son feedback et itérer sur celui-ci ?  
+Feedback loop extrêmement courte, plus vite à la cible ! 
 
 Côté tech, il est aussi important **d'écrire un code qui soit parlant**, et qui donc ne nécessite que peu de documentation. Nous y reviendrons dans un prochain article.  
 
