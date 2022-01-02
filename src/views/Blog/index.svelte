@@ -1,7 +1,7 @@
 <script>
   import { link } from 'svelte-spa-router'
   import SvelteMarkdown from 'svelte-markdown'
-  import { articles } from './blog.service'
+  import { articles } from '../../articles'
 
   export let params = {}
 
