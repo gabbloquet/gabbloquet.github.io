@@ -4,9 +4,40 @@
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
         alt="Decathlon"
-      /> Software engineer dans l'équipe Pace EcoDesign
+      /> Senior Software Engineer dans l'équipe GreenBox
     </h2>
-    <h3>Depuis juin 2021</h3>
+    <h3>Depuis janvier 2022</h3>
+    <p>
+      Pour cette année 2022, ma mission est de poursuivre la réalisation du produit permettant à nos ingénieurs produit
+      de créer des produits éco-conçus. Je poursuis avec la casquette de Tech avec comme objectif de tendre vers
+      toujours plus de qualité et de satisfaction utilisateur.
+    </p>
+    <p>
+      Ensuite, en tant que Staff Engineer apprenti, mon rôle dans ma Business Unit sera d'accompagner les différentes
+      features à accélérer en mettant en pratique les capabilities misent en avant dans le livre #Accelerate. La CI/CD
+      au service des utilisateurs, du produit, du bien être des développeurs.
+    </p>
+
+    <p>
+      Enfin j'ai toujours un rôle dans la platform engineering et notamment sur le pilier lié au développement.
+      L'objectif est toujours le même, mettre en place un eco-système au sein de l'entreprise permettant aux
+      développeurs de pouvoir se concentrer sur ce qui compte pour eux et pour l'entreprise.
+    </p>
+
+    <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
+    <p class="important-information">Langages de développement : TypeScript, Java 17</p>
+    <p class="important-information">Frameworks : ReactJS, Express, Node, Spring boot</p>
+    <p class="important-information">Ops : GCP, Kubernetes, Helm, Flux, Jenkins, Docker, Dynatrace</p>
+    <p class="important-information">Autre outils : NPM, JUnit, Cypress, Jira, IntelliJ, GitHub...</p>
+  </div>
+  <div class="element">
+    <h2>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
+        alt="Decathlon"
+      /> Software engineer dans l'équipe GreenBox
+    </h2>
+    <h3>Juin 2021 - Décembre 2021</h3>
     <p>
       2021, nouveau challenge, j'ai rejoint la Business unit de la Création (outils permettant de créer les produits
       Decathlon) dans l'optique de trouver du challenge, en montant une équipe (avec la casquette de Tech Lead) pour

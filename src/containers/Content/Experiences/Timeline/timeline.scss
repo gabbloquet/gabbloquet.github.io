@@ -1,11 +1,11 @@
 //Colors
-$black: #34435E;
-$white: #ffffff;
+$BLACK: #34435E;
+$WHITE: #ffffff;
 
 .timeline {
   width: 70%;
   margin: auto;
-  counter-reset: section 2022;
+  counter-reset: section 2023;
 
   h2 {
     display: flex;
@@ -40,9 +40,8 @@ $white: #ffffff;
   border-width: 3px;
   margin: 0;
   padding: 40px;
-  counter-increment: section -1;
   position: relative;
-  color: $black;
+  color: $BLACK;
 
   p {
     font-size: small;
@@ -53,14 +52,15 @@ $white: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    counter-increment: section -1;
     content: counter(section);
     position: absolute;
     border-radius: 50%;
     padding: 10px;
-    background-color: $black;
+    background-color: $BLACK;
     text-align: center;
     line-height: 1.25em;
-    color: $white;
+    color: $WHITE;
     font-size: 1em;
     width: 2em;
     height: 2em;
