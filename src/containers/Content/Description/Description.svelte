@@ -7,7 +7,7 @@
   <div class="description">
     <div class="center-elements header">
       <p class="center-content">
-        Gabin Bloquet, {age} ans, actuellement Software Engineer chez <DecathlonLogo />
+        Gabin Bloquet, {age} ans, actuellement Senior Software Engineer chez <DecathlonLogo />
       </p>
       <p>Mais aussi sportif, musicien & avide de connaissances.</p>
     </div>
@@ -15,12 +15,14 @@
       <div class="tech">
         <h2>#Tech 💻</h2>
         <p>
-          Je définirai mon profil comme étant plutôt <b>"fullstack"</b>. En quelques mots mon ambition est de voir au
-          delà d'une technologie ou d'un spectre de compétences mais de voir plus large. Etre en capacité de produire du
-          code de qualité (Maintenable, extensible, facilement compréhensible) quelque soit le domaine (c'est pour cela
-          que j'aime l'approche <b>Software engineer</b>). Ma première expérience m'a permise de parfaire mes
-          compétences dans les domaines du front et du back. Mais m'a aussi ouvert les yeux sur l'importance de la prise
-          en compte des besoins des utilisateurs. De réfléchir sur le quoi et le comment.
+          La notion de <b>Software engineer</b> est selon moi celle qui représente de manière la plus juste mon impact
+          au sein de mes équipes. Largement inspiré du mouvement <b>Software Craftsmanship</b> :
+          <b>professionalisme, pragmatisme et fierté</b>. En quelques mots mon ambition est de voir au delà d'une
+          technologie ou d'un spectre de compétences mais de voir plus large. Etre en capacité de produire du code de
+          qualité (Maintenable, extensible, facilement compréhensible) quelque soit le domaine. Ma première expérience
+          m'a permise de parfaire mes compétences dans les domaines du front et du back, et depuis je poursuis cette
+          voie. Tout en gardant constamment à l'esprit le sens ce ce que nous faisons : répondre à des problématiques
+          métiers.
           <i
             >Comment puis-je, grace à l'outil informatique, améliorer le quotidien de mes utilisateurs, leur faire
             gagner du temps, leur faciliter la vie ?</i
