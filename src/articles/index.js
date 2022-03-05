@@ -3,6 +3,7 @@ import { leCommencement } from './2'
 import { zoomSurLagilite } from './3'
 import { enEcriture } from './99'
 import { imageWidthFix } from '../views/Blog/blog.service'
+import { lequipeAgile } from './4'
 
 export const articles = [
   {
@@ -29,6 +30,13 @@ export const articles = [
   },
   {
     id: 4,
+    name: "L'équipe AGILE",
+    content: imageWidthFix(lequipeAgile),
+    image: 'https://ed-amphora.fr/wp-content/uploads/2015/10/m--l--e.jpg',
+    alt: 'mélée de rugby',
+  },
+  {
+    id: 5,
     name: 'En écriture ... ',
     content: imageWidthFix(enEcriture),
     image: 'https://www.vousnousils.fr/wp-content/uploads/2017/07/writing-1209121_640.jpg',

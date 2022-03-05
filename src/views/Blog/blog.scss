@@ -7,24 +7,28 @@ $SPACING: 2em;
   h1{
     margin-left: $SPACING;
   }
-  nav > ol {
 
-    display: flex;
+  nav {
+    width: 90%;
+    & > ol {
 
-    li {
-      padding: 0.5em;
-      margin: 0 $SPACING;
-      &:hover {
-        background-color: $BLUE_HOVER;
+      display: flex;
+
+      li {
+        padding: 0.5em;
+        margin: 0 $SPACING;
+        &:hover {
+          background-color: $BLUE_HOVER;
+        }
+        &::marker {
+          border: 1px $GREY_DARK solid;
+          border-right: 0;
+        }
       }
-      &::marker {
-        border: 1px $GREY_DARK solid;
-        border-right: 0;
+      a {
+        color: $GREY_DARK;
+        text-decoration: none;
       }
-    }
-    a {
-      color: $GREY_DARK;
-      text-decoration: none;
     }
   }
 
