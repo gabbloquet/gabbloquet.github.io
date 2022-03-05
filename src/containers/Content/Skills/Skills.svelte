@@ -24,11 +24,11 @@
         />
         <h2>Back</h2>
         <h3>Langages</h3>
-        <p>Java, PHP, TypeScript, SQL</p>
+        <p>Java, TypeScript, SQL</p>
         <h3>Frameworks</h3>
-        <p>Spring, Symfony, NodeJS/Express, Nest</p>
+        <p>Spring, NodeJS/Express, Nest</p>
         <h3>Autres outils / concepts</h3>
-        <p>JGiven, Hibernate, API, REST, Serverless, Mockito</p>
+        <p>JGiven, Hibernate, API, REST, Kafka, Mockito, Flyway</p>
       </div>
       <div class="ops">
         <img
