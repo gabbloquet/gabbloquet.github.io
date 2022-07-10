@@ -1,5 +1,6 @@
 <script>
-  import DecathlonLogo from './DecathlonLogo.svelte'
+  import AdeoLogo from './AdeoLogo.svelte'
+  import ExotecLogo from './ExotecLogo.svelte'
   const age = new Date(new Date() - new Date('11/24/1995')).getFullYear() - 1970
 </script>
 
@@ -7,7 +8,8 @@
   <div class="description">
     <div class="center-elements header">
       <p class="center-content">
-        Gabin Bloquet, {age} ans, actuellement Senior Software Engineer chez <DecathlonLogo />
+        Gabin Bloquet, {age} ans, actuellement Developer Advocate chez <AdeoLogo /> & Senior Software Engineer chez <ExotecLogo
+        />
       </p>
       <p>Mais aussi sportif, musicien & avide de connaissances.</p>
     </div>
@@ -24,7 +26,7 @@
           voie. Tout en gardant constamment à l'esprit le sens ce ce que nous faisons : répondre à des problématiques
           métiers.
           <i
-            >Comment puis-je, grace à l'outil informatique, améliorer le quotidien de mes utilisateurs, leur faire
+            >Comment puis-je, grâce à l'outil informatique, améliorer le quotidien de mes utilisateurs, leur faire
             gagner du temps, leur faciliter la vie ?</i
           >
         </p>

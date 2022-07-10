@@ -31,7 +31,7 @@ $WHITE: #ffffff;
   }
 }
 
-.element {
+.year {
   font-size: 1em;
   line-height: 1.75em;
   border-top: 3px solid;
@@ -43,7 +43,7 @@ $WHITE: #ffffff;
   position: relative;
   color: $BLACK;
 
-  p {
+  p, li {
     font-size: small;
   }
 
@@ -65,10 +65,14 @@ $WHITE: #ffffff;
     width: 2em;
     height: 2em;
   }
+
+  .experience:nth-child(even) {
+    margin: 3em 0;
+  }
 }
 
 //odd number borders
-.element:nth-child(odd) {
+.year:nth-child(odd) {
   border-right: 3px solid;
   padding-left: 0;
 
@@ -79,7 +83,7 @@ $WHITE: #ffffff;
 }
 
 //even number borders
-.element:nth-child(even) {
+.year:nth-child(even) {
   text-align: end;
   border-left: 3px solid;
   padding-right: 0;
@@ -94,12 +98,12 @@ $WHITE: #ffffff;
   }
 }
 //handle first and last
-.element:first-child {
+.year:first-child {
   border-top: 0;
   border-top-right-radius:0;
   border-top-left-radius:0;
 }
-.element:last-child {
+.year:last-child {
   border-bottom-right-radius:0;
   border-bottom-left-radius:0;
 }

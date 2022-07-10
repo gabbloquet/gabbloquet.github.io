@@ -26,21 +26,13 @@
     <h1>Mon actualité <span>👨‍</span></h1>
     <ul>
       <li>
-        <b>Senior software engineer / Tech Lead </b>: Je travaille actuellement sur le produit permettant d'assister les
-        chefs de produit et ingénieurs produit dans l'éco-conception des produits.
+        <b>Developer Advocate </b>: Je travaille actuellement en tant que Developer Advocate chez Adeo. Notre mission au
+        sein est de faire d'Adeo une place incroyable pour les développeurs.
       </li>
       <li>
-        <b>Staff Engineer débutant</b> : J'accompagne les équipes de mon entité (Business unit) dans la mise en place de
-        la démarche Accelerate dans leurs produits, ainsi que dans la mise en place de l'eco-système permettant de livrer
-        une solution qualitative, pérenne.
-      </li>
-      <li>
-        <b>Membre de la Cloud platform Engineering </b>: Dans la démarche de tendre vers le #DigitalGiant, Decathlon
-        lance des initiatives afin de tendre vers une haute qualité opérationnelle. Un groupe d'une dizaine d'experts a
-        donc été formé pour construire la stratégie dans la branche développement, et j'ai la chance d'en faire partie.
-        Nous réfléchissons, testons et prenons des décisions sur les pratiques & technologies de demain chez Decathlon.
-        L'objectif est d'alléger la charge des équipes d'ingénieurs et de leur permettre de se concentrer sur le
-        développement de fonctionnalités apportant de la valeur ajouté à l'entreprise.
+        <b>Senior Software Engineer</b> : Parallèlement je travaille sur un audit de qualité chez Exotec. Ma mission est
+        de leur donner les billes et les accompagner sur la mise en place d'une démarche de qualité sur l'ensemble de leurs
+        solutions.
       </li>
     </ul>
   </div>
