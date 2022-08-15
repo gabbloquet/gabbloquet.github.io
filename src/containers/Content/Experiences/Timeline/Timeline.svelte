@@ -2,22 +2,28 @@
   <section class="year">
     <div class="experience">
       <h2>
-        <img src="https://www.lafrenchfab.fr/storage/2019/04/logo_exotec-01.png" alt="Exotec" /> Senior Software Engineer
+        <img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" /> Senior
+        Software Engineer
       </h2>
       <h3>Juillet 2022 - Aujourd'hui</h3>
-      <p>Sur une seconde partie de ma semaine, j'accompagne Exotec sur une démarche de qualité.</p>
       <p>
-        Ma première mission étant de faire un audit sur leurs pratiques, leur organisation, leur manière de concevoir et
-        délivrer du logiciel informatique. Parallèlement, j'amorce une démarche de qualité sur un des produits qui
-        puisse potentiellement servir d'exemple. Suite à cet audit je ferai part aux différents acteurs des leviers sur
-        lesquels ils peuvent agir et les accompagnerai (par l'exemple).
+        Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin. Cette mission est
+        elle aussi un mi-temps.
+      </p>
+      <p>
+        Les configurateurs permettent aux conseillers de vente et à nos clients web de configurer leur porte d'entrée,
+        leur porte de garage, leur volet roulant... sur mesure à travers de nombreux choix qui leurs sont proposés. J'ai
+        rejoint l'équipe travaillant sur le configurateur des volets roulants : <a
+          href="https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions"
+          >https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions</a
+        >
       </p>
 
       <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
-      <p class="important-information">Langages de développement : TypeScript, Php</p>
-      <p class="important-information">Frameworks : VueJS, Laravel</p>
-      <p class="important-information">Ops : Gitlab CI</p>
-      <p class="important-information">Autre outils : NPM, JUnit, Cypress, Laradock, Gitlab...</p>
+      <p class="important-information">Langages de développement : Java, TypeScript, HTML/CSS</p>
+      <p class="important-information">Frameworks : Angular, Spring</p>
+      <p class="important-information">Ops : Github Actions</p>
+      <p class="important-information">Autre outils : NPM, JUnit, Cucumber, Cypress, Github, IntelliJ...</p>
     </div>
 
     <div class="experience">
@@ -47,6 +53,36 @@
         </li>
         <li>Organiser des événements tech comme notre Adeo Tech Summit, des BBLs...</li>
       </ul>
+
+      <p class="important-information">Langages de développement : Javascript, TypeScript, HTML/CSS</p>
+      <p class="important-information">Frameworks : VueJS</p>
+      <p class="important-information">Ops : Github Actions</p>
+      <p class="important-information">Autre outils : NPM, JUnit, Cypress, Github, IntelliJ...</p>
+    </div>
+
+    <div class="experience">
+      <h2>
+        <img src="https://www.lafrenchfab.fr/storage/2019/04/logo_exotec-01.png" alt="Exotec" /> Senior Software Engineer
+      </h2>
+      <h3>Juillet 2022 - Mission d'audit de deux semaines</h3>
+      <p>
+        Ma mission chez Exotec fut de réaliser un audit sur la qualité des solutions développées en interne chez Exotec.
+      </p>
+      <p>
+        Ma mission a donc été de découvrir les solutions, me plonger dans l'eco-système, faire un état des lieux et
+        dresser un premier bilan.
+      </p>
+      <p>
+        J'ai pu faire cela en intégrant une équipe et en interrogeant les différents acteurs de l'éco-système. Ensuite
+        j'ai écris un plan d'action, une roadmap dans l'objectif de monter le niveau de qualité des différentes
+        solutions ITs.
+      </p>
+
+      <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
+      <p class="important-information">Langages de développement : TypeScript, Php</p>
+      <p class="important-information">Frameworks : VueJS, Laravel</p>
+      <p class="important-information">Ops : Gitlab CI</p>
+      <p class="important-information">Autre outils : NPM, JUnit, Cypress, Laradock, Gitlab...</p>
     </div>
 
     <div class="experience">
@@ -74,7 +110,7 @@
         développeurs de pouvoir se concentrer sur ce qui compte pour eux et pour l'entreprise.
       </p>
 
-      <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
+      <p class="important-information">Pratiques de développement : TDD & DDD</p>
       <p class="important-information">Langages de développement : TypeScript, Java 17</p>
       <p class="important-information">Frameworks : ReactJS, Express, Node, Spring boot</p>
       <p class="important-information">Ops : GCP, Kubernetes, Helm, Flux, Jenkins, Docker, Dynatrace</p>
@@ -114,8 +150,8 @@
       Tech-radars afin d'aider les équipes à faire les meilleurs choix techniques possibles.
     </p>
 
-    <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
-    <p class="important-information">Langages de développement : TypeScript, Java</p>
+    <p class="important-information">Pratiques de développement : TDD & DDD</p>
+    <p class="important-information">Langages de développement : TypeScript, Java 17</p>
     <p class="important-information">Frameworks : ReactJS, Express, Node, Spring boot</p>
     <p class="important-information">Ops : GCP, Kubernetes, Helm, Flux, Jenkins, Docker</p>
     <p class="important-information">Autre outils : NPM, JUnit, Cypress, Jira, IntelliJ, GitHub...</p>
@@ -153,7 +189,7 @@
       guidelines, des Tech-radars afin d'aider les équipes à faire les meilleurs choix techniques possibles.
     </p>
 
-    <p class="important-information">Pratiques de développement : TDD, DDD</p>
+    <p class="important-information">Pratiques de développement : TDD & DDD</p>
     <p class="important-information">Langages de développement : JavaScript, TypeScript</p>
     <p class="important-information">Frameworks : ReactJS, NodeJS/Express</p>
     <p class="important-information">Autre outils : NPM, Jest, Cypress, GIT, IntelliJ, Jenkins...</p>
