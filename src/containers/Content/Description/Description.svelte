@@ -17,13 +17,14 @@
         <h2>#Tech 💻</h2>
         <p>
           La notion de <b>Software engineer</b> est selon moi celle qui représente de manière la plus juste mon impact
-          au sein de mes équipes. Largement inspiré du mouvement <b>Software Craftsmanship</b> :
+          au sein des équipes avec lesquelles je collabore. Largement inspiré du mouvement <b>Software Craftsmanship</b>
+          :
           <b>professionalisme, pragmatisme et fierté</b>. En quelques mots mon ambition est de voir au delà d'une
-          technologie ou d'un spectre de compétences mais de voir plus large. Etre en capacité de produire du code de
-          qualité (Maintenable, extensible, facilement compréhensible) quelque soit le domaine. Ma première expérience
-          m'a permise de parfaire mes compétences dans les domaines du front et du back, et depuis je poursuis cette
-          voie. Tout en gardant constamment à l'esprit le sens ce ce que nous faisons : répondre à des problématiques
-          métiers.
+          technologie ou d'un spectre de compétences. Etre en capacité de produire du code de qualité (Maintenable,
+          extensible, facilement compréhensible) quelque soit le domaine. Ma première expérience m'a permise de parfaire
+          mes compétences dans les domaines du front et du back, et depuis je poursuis cette voie en poussant même vers
+          l'ops, l'infrastructure... Tout en gardant constamment à l'esprit le sens ce ce que nous faisons : répondre à
+          des problématiques métiers.
           <i
             >Comment puis-je, grâce à l'outil informatique, améliorer le quotidien de mes utilisateurs, leur faire
             gagner du temps, leur faciliter la vie ?</i
@@ -32,9 +33,8 @@
         <p>
           C'est donc tout naturellement que je me suis rapproché du monde du <b>front</b>, car un
           <b>confort d'utilisation</b>
-          passe par une
-          <b>interface ergonomique, accessible, simple d'utilisation et de prise en main</b>. Je me définirais donc
-          comme un profil proche des utilisateurs (User Centric).
+          passe par une <b>interface ergonomique, accessible, simple d'utilisation et de prise en main</b>. Je me
+          définirais donc comme un profil proche des utilisateurs (User Centric).
         </p>
       </div>
       <div class="sport">
@@ -43,12 +43,11 @@
           J'aime beaucoup le sport, j'en pratique presque quotidiennement. J'ai commencé le sport par le <b>tennis</b>,
           je me suis ensuite essayé à des sports collectifs comme le <b>football et le basketball</b>. De manière
           autodidacte je me suis lancé dans la course à pied et le cyclisme. Avec un ami à la fac j'ai aussi pratiqué le
-          <b>tennis de table</b> avec les compétitions universitaires. Ayant bien progressé grace à lui j'ai fait une saison
-          en club (passant de 500 à 750 pts pour les connaisseurs).
+          <b>tennis de table</b> avec les compétitions universitaires puis en club.
         </p>
         <p>
           Aujourd'hui les sports que je pratique le plus sont la <b>course à pied et le cyclisme</b>, avec des sessions
-          de sports de raquette de temps en temps, de football...
+          de sports de raquette ou de football de temps en temps...
         </p>
       </div>
     </div>
@@ -56,21 +55,20 @@
       <div class="musique">
         <h2>#Musique 🎶🎸</h2>
         <p>
-          La musique elle aussi est une grande passion, j'ai fait <b>10 années en école de musique</b>
-          pour la comprendre. Je joue de la
-          <b>guitare, classique et électrique</b>. De la même manière que le sport, la musique et selon moi un moyen
-          d'expression et d'évasion. Aujourd'hui, j'essaie d'en faire toutes les semaines.
+          La musique elle aussi est une grande passion, j'ai fait <b>10 années en école de musique</b> pour la
+          comprendre. Je joue de la <b>guitare, classique et électrique</b>. De la même manière que le sport, la musique
+          est selon moi un moyen d'expression et d'évasion. Aujourd'hui, j'essaie d'en faire de manière hebdomadaire.
         </p>
       </div>
       <div class="culture">
         <h2>#Culture 📚</h2>
         <p>
-          J'aime <b>apprendre et comprendre</b>. Comprendre le monde dans lequel je vis, en essayant de tirer l'essence
-          de différentes composantes et d'en trouver les corrélations, des points de convergeance.
+          J'aime <b>apprendre et comprendre</b>. Comprendre le monde dans lequel je vis, de me forger une opinion sur
+          tout type de sujets. J'aime les longues après-midi de discussion avec mes amis à refaire le monde.
         </p>
         <p>
-          Je m'interesse donc à <b>l'histoire, à l'économie, à la politique, à la science, à la théologie</b>... Et ce
-          que j'aime par dessus tout est l'échange et la confrontation des idées.
+          Je m'interesse à <b>l'histoire, à l'économie, à la politique, à la science, à la théologie</b>... Et ce que
+          j'aime par dessus tout est l'échange et la confrontation des idées.
         </p>
       </div>
     </div>
