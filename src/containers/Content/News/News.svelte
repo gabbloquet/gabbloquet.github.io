@@ -30,9 +30,9 @@
         sein est de faire d'Adeo une place incroyable pour les développeurs.
       </li>
       <li>
-        <b>Senior Software Engineer</b> : Parallèlement je travaille sur un audit de qualité chez Exotec. Ma mission est
-        de leur donner les billes et les accompagner sur la mise en place d'une démarche de qualité sur l'ensemble de leurs
-        solutions.
+        <b>Senior Software Engineer</b> : Parallèlement, je travaille dans le domaine des configurateurs pour Leroy Merlin.
+        Cette mission est accès sur les pratiques de la mouvance Software Craftsmanship. Je travaille actuellement sur le
+        configurateur de Volet roulant.
       </li>
     </ul>
   </div>
