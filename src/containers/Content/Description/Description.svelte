@@ -8,8 +8,7 @@
   <div class="description">
     <div class="center-elements header">
       <p class="center-content">
-        Gabin Bloquet, {age} ans, actuellement Developer Advocate chez <AdeoLogo /> & Senior Software Engineer chez <ExotecLogo
-        />
+        Gabin Bloquet, {age} ans, actuellement Developer Advocate & Senior Software Engineer chez <AdeoLogo />
       </p>
       <p>Mais aussi sportif, musicien & avide de connaissances.</p>
     </div>
