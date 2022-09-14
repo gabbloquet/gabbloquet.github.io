@@ -6,12 +6,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public",
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "start": "rollup -c -w",
+    "serve": "sirv public",
     "test": "jest src",
     "test:watch": "npm run test -- --watch",
     "fix": "npx eslint --fix \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
     "format": "npx prettier --write \"{,!(node_modules|public)/**/}*.{js,svelte}\"",
-    "start": "sirv public",
     "prepare": "husky install"
   },
   "devDependencies": {
