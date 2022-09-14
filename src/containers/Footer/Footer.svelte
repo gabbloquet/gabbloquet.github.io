@@ -20,6 +20,14 @@
       />
     </a>
   </div>
+  <p>
+    <b>Cependant :</b> Je ne repondrez aux propositions que si elles collent avec mon emploi du temps et sont en
+    adéquation avec mes centres d'intérêts (Cf.
+    <a
+      href="https://www.google.fr/books/edition/Deep_work_retrouver_la_concentration_dan/hU43DwAAQBAJ?hl=fr&gbpv=1&dq=deep+work&printsec=frontcover"
+      target="_blank">Deep Work</a
+    >).
+  </p>
 </footer>
 
 <style lang="scss">
