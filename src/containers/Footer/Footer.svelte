@@ -11,10 +11,7 @@
       />
     </a>
     <a href="https://twitter.com/BloquetGabin" target="_blank">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png"
-        alt="Twitter"
-      />
+      <img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt="Twitter" />
     </a>
     <a href="https://github.com/gabbloquet" target="_blank">
       <img
