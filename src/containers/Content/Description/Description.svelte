@@ -1,6 +1,5 @@
 <script>
   import AdeoLogo from './AdeoLogo.svelte'
-  import ExotecLogo from './ExotecLogo.svelte'
   const age = new Date(new Date() - new Date('11/24/1995')).getFullYear() - 1970
 </script>
 

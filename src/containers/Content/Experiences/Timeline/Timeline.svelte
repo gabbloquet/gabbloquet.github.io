@@ -6,17 +6,14 @@
         Software Engineer
       </h2>
       <h3>Juillet 2022 - Aujourd'hui</h3>
-      <p>
-        Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin. Cette mission est
-        elle aussi un mi-temps.
-      </p>
+      <p>Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin.</p>
       <p>
         Les configurateurs permettent aux conseillers de vente et à nos clients web de configurer leur porte d'entrée,
         leur porte de garage, leur volet roulant... sur mesure à travers de nombreux choix qui leurs sont proposés. J'ai
         rejoint l'équipe travaillant sur le configurateur des volets roulants : <a
           href="https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions"
           >https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions</a
-        >
+        > puis de la porte d'entrée sur mesure.
       </p>
 
       <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
@@ -31,14 +28,14 @@
         <img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" /> Developer
         Advocate
       </h2>
-      <h3>Juillet 2022 - Aujourd'hui</h3>
+      <h3>Juillet 2022 - Octobre 2022</h3>
       <p>
-        En cette mi-année 2022, j'ai fait le choix de me lancer en freelance et commence cette aventure avec une mission
-        mi-temps chez Adeo.
+        J'ai amorcé mon aventure en tant que Freelance en faisant le choix de tenter une mission de développpeur
+        Advocate à mi-temps chez Adeo.
       </p>
       <p>
-        Au sein de l'équipe Developer Experience encadrée par Julien Jakubowski, notre mission est de faire d'Adeo une
-        place incroyable pour les développeurs. Notre objectif est de :
+        Au sein de l'équipe Developer Experience encadrée par Julien Jakubowski, notre mission fut de faire d'Adeo une
+        place incroyable pour les développeurs. Nos objectifs étant :
       </p>
 
       <ul>
