@@ -43,10 +43,6 @@ $WHITE: #ffffff;
   position: relative;
   color: $BLACK;
 
-  p, li {
-    font-size: small;
-  }
-
   //numbers
   &:before {
     display: flex;
