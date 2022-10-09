@@ -4,4 +4,5 @@
 #npm run check
 #npm run fix
 npm run format
+npm run deploy
 git add -u
