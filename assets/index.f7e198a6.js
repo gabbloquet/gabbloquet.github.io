@@ -11,7 +11,7 @@
       <p class="svelte-1pf3qas">Mais aussi ce qui me tient \xE0 <span class="svelte-1pf3qas">\u2764\uFE0F</span>, quels sont mes projets
         <span class="svelte-1pf3qas">\u{1F4DD}</span>, mes ambitions <span class="svelte-1pf3qas">\u{1F4C8}</span>...</p> 
       <p class="svelte-1pf3qas">Bref, bienvenue chez moi ! <span class="svelte-1pf3qas">\u{1F3E1}</span></p></div> 
-    <div class="welcome-image svelte-1pf3qas"><img alt="Arras" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/0_Arras%2C_place_des_H%C3%A9ros_-_Le_beffroi_et_l%27h%C3%B4tel_de_ville_%281%29.JPG/1599px-0_Arras%2C_place_des_H%C3%A9ros_-_Le_beffroi_et_l%27h%C3%B4tel_de_ville_%281%29.JPG" class="svelte-1pf3qas"/></div></div>`,m(e,"class","white-card svelte-1pf3qas"),m(e,"id","welcome")},m(t,s){w(t,e,s)},p:q,i:q,o:q,d(t){t&&v(e)}}}class Jn extends P{constructor(e){super(),E(this,e,null,Rn,N,{})}}function Bn(r){let e;return{c(){e=_("section"),e.innerHTML=`<div class="news svelte-s9zvbh"><h1 class="svelte-s9zvbh">Moi en quelques lignes <span>\u270D\u{1F3FB}</span></h1> 
+    <div class="welcome-image svelte-1pf3qas"><img alt="Place des h\xE9ros \xE0 Arras" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/0_Arras%2C_place_des_H%C3%A9ros_-_Le_beffroi_et_l%27h%C3%B4tel_de_ville_%281%29.JPG/1599px-0_Arras%2C_place_des_H%C3%A9ros_-_Le_beffroi_et_l%27h%C3%B4tel_de_ville_%281%29.JPG" class="svelte-1pf3qas"/></div></div>`,m(e,"class","white-card svelte-1pf3qas"),m(e,"id","welcome")},m(t,s){w(t,e,s)},p:q,i:q,o:q,d(t){t&&v(e)}}}class Jn extends P{constructor(e){super(),E(this,e,null,Rn,N,{})}}function Bn(r){let e;return{c(){e=_("section"),e.innerHTML=`<div class="news svelte-s9zvbh"><h1 class="svelte-s9zvbh">Moi en quelques lignes <span>\u270D\u{1F3FB}</span></h1> 
     <p class="svelte-s9zvbh">Je suis profond\xE9ment passionn\xE9 par la qualit\xE9, la co-cr\xE9ation du produit avec ses utilisateurs, l&#39;architecture,
       les d\xE9bats techniques, l&#39;approche fonctionnelle, le &quot;Separation of concerns&quot;, la r\xE9utilisabilit\xE9... (Tout ce qui
       touche \xE0 la qualit\xE9 du code, sa compr\xE9hension, sa lisibilit\xE9, sa capacit\xE9 \xE0 pouvoir le faire \xE9voluer facilement).
@@ -70,7 +70,7 @@
         <p class="svelte-w5e0br">React.js, VueJS, Svelte</p> 
         <h3 class="svelte-w5e0br">Autres outils / librairies</h3> 
         <p class="svelte-w5e0br">Jest, React-testing-library, Cypress, Storybook, Webpack, ESlint/Prettier, RxJS, Redux...</p></div> 
-      <div class="back svelte-w5e0br"><img src="https://docs.microsoft.com/fr-fr/dotnet/architecture/cloud-native/media/backend-for-frontend-pattern.png" alt="backend developement (Secure, scalable...)" class="svelte-w5e0br"/> 
+      <div class="back svelte-w5e0br"><img src="https://docs.microsoft.com/fr-fr/dotnet/architecture/cloud-native/media/backend-for-frontend-pattern.png" alt="Backend for front developement (Secure, scalable...)" loading="lazy" class="svelte-w5e0br"/> 
         <h2 class="svelte-w5e0br">Back</h2> 
         <h3 class="svelte-w5e0br">Langages</h3> 
         <p class="svelte-w5e0br">Java, TypeScript, SQL</p> 
@@ -93,8 +93,7 @@
         <h3 class="svelte-w5e0br">Agilit\xE9</h3> 
         <p class="svelte-w5e0br">Connaissance de la philosophie, des valeurs et des principes, Scrum, Kanban</p> 
         <h3 class="svelte-w5e0br">Soft skills</h3> 
-        <p class="svelte-w5e0br">Formation, accompagnement au changement, leadership, esprit critique, cr\xE9ativit\xE9</p></section></footer></article>`,m(e,"class","skills svelte-w5e0br"),m(e,"id","skills")},m(t,s){w(t,e,s)},p:q,i:q,o:q,d(t){t&&v(e)}}}class Yn extends P{constructor(e){super(),E(this,e,null,Xn,N,{})}}function Zn(r){let e;return{c(){e=_("div"),e.innerHTML=`<section class="year svelte-mwnr18"><div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" class="svelte-mwnr18"/> Senior
-        Software Engineer</h2> 
+        <p class="svelte-w5e0br">Formation, accompagnement au changement, leadership, esprit critique, cr\xE9ativit\xE9</p></section></footer></article>`,m(e,"class","skills svelte-w5e0br"),m(e,"id","skills")},m(t,s){w(t,e,s)},p:q,i:q,o:q,d(t){t&&v(e)}}}class Yn extends P{constructor(e){super(),E(this,e,null,Xn,N,{})}}function Zn(r){let e;return{c(){e=_("div"),e.innerHTML=`<section class="year svelte-mwnr18"><div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" loading="lazy" alt="Logo de l&#39;etreprise Adeo" class="svelte-mwnr18"/> Senior Software Engineer</h2> 
       <h3>Juillet 2022 - Aujourd&#39;hui</h3> 
       <p>Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin.</p> 
       <p>Les configurateurs permettent aux conseillers de vente et \xE0 nos clients web de configurer leur porte d&#39;entr\xE9e,
@@ -107,8 +106,7 @@
       <p class="important-information svelte-mwnr18">Ops : Github Actions</p> 
       <p class="important-information svelte-mwnr18">Autre outils : NPM, JUnit, Cucumber, Cypress, Github, IntelliJ...</p></div> 
 
-    <div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" class="svelte-mwnr18"/> Developer
-        Advocate</h2> 
+    <div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Logo de l&#39;entreprise Adeo" loading="lazy" class="svelte-mwnr18"/> Developer Advocate</h2> 
       <h3>Juillet 2022 - Octobre 2022</h3> 
       <p>J&#39;ai amorc\xE9 mon aventure en tant que Freelance en faisant le choix de tenter une mission de d\xE9velopppeur
         Advocate \xE0 mi-temps chez Adeo.</p> 
@@ -226,8 +224,7 @@
     <p class="important-information svelte-mwnr18">Frameworks : Spring, Spring Boot, VueJS, NodeJS</p> 
     <p class="important-information svelte-mwnr18">Autre outils : Spring, JUnit, Mockito, GIT, IntelliJ, Postman, Docker, JIRA, GitHub with actions</p></section> 
 
-  <section class="year svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://francoistison.fr/img/uploads/workexperience/pictime.png" alt="Pictime" class="svelte-mwnr18"/> Analyste d\xE9veloppeur dans
-      l&#39;\xE9quipe Nocib\xE9</h2> 
+  <section class="year svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://francoistison.fr/img/uploads/workexperience/pictime.png" alt="Logo de l&#39;entreprise Pictime" loading="lazy" class="svelte-mwnr18"/> Analyste d\xE9veloppeur dans l&#39;\xE9quipe Nocib\xE9</h2> 
     <h3>Trois mois</h3> 
     <p>J&#39;ai r\xE9alis\xE9 mon stage (facultatif) de master 1 au sein de l&#39;\xE9quipe charg\xE9e du d\xE9veloppement du site Web de
       Nocib\xE9. Nous \xE9tions une \xE9quipe de 10 personnes avec des profils vari\xE9s.</p> 
