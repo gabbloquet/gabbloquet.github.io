@@ -20,7 +20,8 @@
       <div class="back">
         <img
           src="https://docs.microsoft.com/fr-fr/dotnet/architecture/cloud-native/media/backend-for-frontend-pattern.png"
-          alt="backend developement (Secure, scalable...)"
+          alt="Backend for front developement (Secure, scalable...)"
+          loading="lazy"
         />
         <h2>Back</h2>
         <h3>Langages</h3>

@@ -2,8 +2,11 @@
   <section class="year">
     <div class="experience">
       <h2>
-        <img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" /> Senior
-        Software Engineer
+        <img
+          src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg"
+          loading="lazy"
+          alt="Logo de l'etreprise Adeo"
+        /> Senior Software Engineer
       </h2>
       <h3>Juillet 2022 - Aujourd'hui</h3>
       <p>Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin.</p>
@@ -25,8 +28,11 @@
 
     <div class="experience">
       <h2>
-        <img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" /> Developer
-        Advocate
+        <img
+          src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg"
+          alt="Logo de l'entreprise Adeo"
+          loading="lazy"
+        /> Developer Advocate
       </h2>
       <h3>Juillet 2022 - Octobre 2022</h3>
       <p>
@@ -225,8 +231,11 @@
 
   <section class="year">
     <h2>
-      <img src="https://francoistison.fr/img/uploads/workexperience/pictime.png" alt="Pictime" /> Analyste développeur dans
-      l'équipe Nocibé
+      <img
+        src="https://francoistison.fr/img/uploads/workexperience/pictime.png"
+        alt="Logo de l'entreprise Pictime"
+        loading="lazy"
+      /> Analyste développeur dans l'équipe Nocibé
     </h2>
     <h3>Trois mois</h3>
     <p>

@@ -12,7 +12,8 @@
     </div>
     <div class="welcome-image">
       <img
-        alt="Arras"
+        alt="Place des héros à Arras"
+        loading="lazy"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/0_Arras%2C_place_des_H%C3%A9ros_-_Le_beffroi_et_l%27h%C3%B4tel_de_ville_%281%29.JPG/1599px-0_Arras%2C_place_des_H%C3%A9ros_-_Le_beffroi_et_l%27h%C3%B4tel_de_ville_%281%29.JPG"
       />
     </div>
