@@ -10,21 +10,14 @@ _Don't hesitate to fork it if you want ;)_
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-Install the dependencies...
+Install the dependencies & start
 
 ```bash
 npm install
+npm start
 ```
 
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+Navigate to [localhost:5173](http://localhost:5173). [Vite 3 documentation](https://vitejs.dev/blog/announcing-vite3.html#dev-improvements)
 
 ## Add an article
 
@@ -103,3 +96,8 @@ If you have state that's important to retain within a component, consider creati
 import { writable } from 'svelte/store'
 export default writable(0)
 ```
+
+### Performance
+
+![image](https://user-images.githubusercontent.com/25029077/194807422-646ddb9f-89f0-44c8-8f91-167bc156335a.png)
+
