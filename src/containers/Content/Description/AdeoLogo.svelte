@@ -1,4 +1,4 @@
-<img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Adeo" />
+<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png" alt="Adeo" />
 
 <style>
   img {
