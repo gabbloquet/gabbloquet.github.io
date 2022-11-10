@@ -3,7 +3,7 @@
     <div class="experience">
       <h2>
         <img
-          src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg"
+          src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png"
           loading="lazy"
           alt="Logo de l'etreprise Adeo"
         /> Senior Software Engineer
@@ -29,7 +29,7 @@
     <div class="experience">
       <h2>
         <img
-          src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg"
+          src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png"
           alt="Logo de l'entreprise Adeo"
           loading="lazy"
         /> Developer Advocate
