@@ -93,7 +93,7 @@
         <h3 class="svelte-w5e0br">Agilit\xE9</h3> 
         <p class="svelte-w5e0br">Connaissance de la philosophie, des valeurs et des principes, Scrum, Kanban</p> 
         <h3 class="svelte-w5e0br">Soft skills</h3> 
-        <p class="svelte-w5e0br">Formation, accompagnement au changement, leadership, esprit critique, cr\xE9ativit\xE9</p></section></footer></article>`,m(e,"class","skills svelte-w5e0br"),m(e,"id","skills")},m(t,s){w(t,e,s)},p:q,i:q,o:q,d(t){t&&v(e)}}}class Yn extends P{constructor(e){super(),E(this,e,null,Xn,N,{})}}function Zn(r){let e;return{c(){e=_("div"),e.innerHTML=`<section class="year svelte-mwnr18"><div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" loading="lazy" alt="Logo de l&#39;etreprise Adeo" class="svelte-mwnr18"/> Senior Software Engineer</h2> 
+        <p class="svelte-w5e0br">Formation, accompagnement au changement, leadership, esprit critique, cr\xE9ativit\xE9</p></section></footer></article>`,m(e,"class","skills svelte-w5e0br"),m(e,"id","skills")},m(t,s){w(t,e,s)},p:q,i:q,o:q,d(t){t&&v(e)}}}class Yn extends P{constructor(e){super(),E(this,e,null,Xn,N,{})}}function Zn(r){let e;return{c(){e=_("div"),e.innerHTML=`<section class="year svelte-mwnr18"><div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png" loading="lazy" alt="Logo de l&#39;etreprise Adeo" class="svelte-mwnr18"/> Senior Software Engineer</h2> 
       <h3>Juillet 2022 - Aujourd&#39;hui</h3> 
       <p>Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin.</p> 
       <p>Les configurateurs permettent aux conseillers de vente et \xE0 nos clients web de configurer leur porte d&#39;entr\xE9e,
@@ -106,7 +106,7 @@
       <p class="important-information svelte-mwnr18">Ops : Github Actions</p> 
       <p class="important-information svelte-mwnr18">Autre outils : NPM, JUnit, Cucumber, Cypress, Github, IntelliJ...</p></div> 
 
-    <div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://storage.googleapis.com/adeo-com-prd-dtep.appspot.com/1/2020/10/logo_adeo.jpg" alt="Logo de l&#39;entreprise Adeo" loading="lazy" class="svelte-mwnr18"/> Developer Advocate</h2> 
+    <div class="experience svelte-mwnr18"><h2 class="svelte-mwnr18"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png" alt="Logo de l&#39;entreprise Adeo" loading="lazy" class="svelte-mwnr18"/> Developer Advocate</h2> 
       <h3>Juillet 2022 - Octobre 2022</h3> 
       <p>J&#39;ai amorc\xE9 mon aventure en tant que Freelance en faisant le choix de tenter une mission de d\xE9velopppeur
         Advocate \xE0 mi-temps chez Adeo.</p> 
