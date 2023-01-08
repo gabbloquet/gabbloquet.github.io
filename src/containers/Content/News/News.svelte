@@ -24,17 +24,12 @@
     </p>
 
     <h1>Mon actualité <span>👨‍</span></h1>
-    <ul>
-      <li>
-        <b>Developer Advocate </b>: Je travaille actuellement en tant que Developer Advocate chez Adeo. Notre mission au
-        sein est de faire d'Adeo une place incroyable pour les développeurs.
-      </li>
-      <li>
-        <b>Senior Software Engineer</b> : Parallèlement, je travaille dans le domaine des configurateurs pour Leroy Merlin.
-        Cette mission est accès sur les pratiques de la mouvance Software Craftsmanship. Je travaille actuellement sur le
-        configurateur de Volet roulant.
-      </li>
-    </ul>
+    <p>
+      Actuellement <b>Senior Software Engineer</b> pour Leroy Merlin chez Adeo. Je travaille dans le domaine des configurateurs
+      avec la casquette de Tech Lead. Je travaille actuellement sur le configurateur de la porte d'entrée sur mesure. Ce
+      domaine est inspiré par la philosophie Software Craftsmanship, et nombre des pratiques mise en avant par le mouvement
+      sont en place dans les équipes.
+    </p>
   </div>
 </section>
 
