@@ -35,5 +35,4 @@
 
 <style lang="scss">
   @import 'news';
-  @import 'src/styles/global';
 </style>

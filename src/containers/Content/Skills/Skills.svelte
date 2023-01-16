@@ -64,6 +64,5 @@
 </article>
 
 <style lang="scss">
-  @import 'src/styles/global';
   @import 'skills';
 </style>

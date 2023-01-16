@@ -75,6 +75,5 @@
 </section>
 
 <style lang="scss">
-  @import 'src/styles/global';
   @import 'description';
 </style>

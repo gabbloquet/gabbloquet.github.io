@@ -22,5 +22,4 @@
 
 <style lang="scss">
   @import 'welcome';
-  @import 'src/styles/global';
 </style>
