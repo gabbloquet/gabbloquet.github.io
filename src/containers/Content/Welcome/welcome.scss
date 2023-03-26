@@ -1,0 +1,26 @@
+.welcome {
+  display: flex;
+  align-items: center;
+
+  .welcome-text {
+    width: 60%;
+  }
+
+  .welcome-image {
+    text-align: center;
+    width: 40%;
+
+    img {
+      height: 14em;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .welcome-text {
+      width: 100%;
+    }
+    .welcome-image {
+      display: none;
+    }
+  }
+}
