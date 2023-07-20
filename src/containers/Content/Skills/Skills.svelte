@@ -13,7 +13,7 @@
         <h3>Langages</h3>
         <p>HTML, CSS, JavaScript, Typescript, SASS/SCSS</p>
         <h3>Frameworks</h3>
-        <p>React.js, VueJS, Svelte</p>
+        <p>React.js, VueJS, Svelte, Angular</p>
         <h3>Autres outils / librairies</h3>
         <p>Jest, React-testing-library, Cypress, Storybook, Webpack, ESlint/Prettier, RxJS, Redux...</p>
       </div>
@@ -40,9 +40,9 @@
         <h3>Cloud provider</h3>
         <p>Google cloud platform</p>
         <h3>CI/CD</h3>
-        <p>Jenkins, Kubernetes, Flux & Helm</p>
+        <p>GitHub actions, Jenkins, Kubernetes, Flux & Helm</p>
         <h3>Monitoring</h3>
-        <p>Dynatrace</p>
+        <p>Dynatrace, Datadog</p>
       </div>
     </header>
     <footer class="soft-skills">
@@ -54,6 +54,8 @@
         <h2>Autres compétences</h2>
         <h3>Pratiques de développement</h3>
         <p>BDD, DDD, TDD</p>
+        <h3>Architecture</h3>
+        <p>Clean Architecture, Hexagonal, Event-sourcing...</p>
         <h3>Agilité</h3>
         <p>Connaissance de la philosophie, des valeurs et des principes, Scrum, Kanban</p>
         <h3>Soft skills</h3>

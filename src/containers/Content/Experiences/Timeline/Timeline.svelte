@@ -232,7 +232,8 @@
   <section class="year">
     <h2>
       <img
-        src="https://francoistison.fr/img/uploads/workexperience/pictime.png"
+        class="pictime-logo"
+        src="https://sylius.com/wp-content/uploads/2022/08/logo-pictime-noir.png"
         alt="Logo de l'entreprise Pictime"
         loading="lazy"
       /> Analyste développeur dans l'équipe Nocibé
