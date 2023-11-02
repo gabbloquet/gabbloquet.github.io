@@ -1,8 +1,8 @@
 <script>
   import AdeoLogo from './AdeoLogo.svelte'
 
-  const today = new Date();
-  const birthday = new Date('11/24/1995');
+  const today = new Date()
+  const birthday = new Date('11/24/1995')
   const age = new Date(today - birthday).getFullYear() - 1970
 </script>
 

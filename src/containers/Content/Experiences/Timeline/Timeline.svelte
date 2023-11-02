@@ -11,8 +11,7 @@
       <p>Senior Software engineer dans la mouvance crafts sur le domaine de la location.</p>
       <p>
         Le Rental Management System (RMS) est système de gestion de location. Chez Decathlon, nous créons un logiciel
-        permettant de efficacement la location de nos produits sportifs (Vélo enfant et adulte, kit de
-        musculation...).
+        permettant de efficacement la location de nos produits sportifs (Vélo enfant et adulte, kit de musculation...).
       </p>
       <p>
         L'objectif est assez ambitieux, faire émerger le métier de la location et proposer une solution qui répond au
@@ -43,9 +42,9 @@
         Les configurateurs permettent aux conseillers de vente et à nos clients web de configurer leur porte d'entrée,
         leur porte de garage, leur volet roulant... sur mesure à travers de nombreux choix qui leurs sont proposés. J'ai
         rejoint l'équipe travaillant sur le configurateur des volets roulants : <a
-        href="https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions"
-      >https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions</a
-      > puis de la porte d'entrée sur mesure.
+          href="https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions"
+          >https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions</a
+        > puis de la porte d'entrée sur mesure.
       </p>
 
       <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
@@ -74,19 +73,15 @@
       </p>
 
       <span>
-        Faire en sorte que l’expérience que nos produits fournissent à nos développeurs soit exceptionnelle, soit
-        source de fierté pour nos développeurs
+        Faire en sorte que l’expérience que nos produits fournissent à nos développeurs soit exceptionnelle, soit source
+        de fierté pour nos développeurs
       </span>
-      <span>
-        Promouvoir les pratiques open source et inner source à travers notre groupe
-      </span>
+      <span> Promouvoir les pratiques open source et inner source à travers notre groupe </span>
       <span>
         Partager la connaissance de nos développeurs en les aidant dans leurs communications (rédiger des articles sur
         notre blog tech, participer en tant que speaker à des conférences etc.)
       </span>
-      <span>
-        Organiser des événements tech comme notre Adeo Tech Summit, des BBLs...
-      </span>
+      <span> Organiser des événements tech comme notre Adeo Tech Summit, des BBLs... </span>
 
       <p class="important-information">Langages de développement : Javascript, TypeScript, HTML/CSS</p>
       <p class="important-information">Frameworks : VueJS</p>
