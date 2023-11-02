@@ -3,20 +3,49 @@
     <div class="experience">
       <h2>
         <img
-          src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png"
-          loading="lazy"
-          alt="Logo de l'etreprise Adeo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
+          alt="Decathlon"
         /> Senior Software Engineer
       </h2>
-      <h3>Juillet 2022 - Aujourd'hui</h3>
+      <h3>Octobre 2023 - Aujourd'hui</h3>
+      <p>Senior Software engineer dans la mouvance crafts sur le domaine de la location.</p>
+      <p>
+        Le Rental Management System (RMS) est système de gestion de location. Chez Decathlon, nous créons un logiciel
+        permettant de efficacement la location de nos produits sportifs (Vélo enfant et adulte, kit de
+        musculation...).
+      </p>
+      <p>
+        L'objectif est assez ambitieux, faire émerger le métier de la location et proposer une solution qui répond au
+        mieux au besoin en respectant un haut standard de qualité (en mettant en place les pratiques du software
+        craftsmanship).
+      </p>
+
+      <p class="important-information">Pratiques de développement : TDD & DDD</p>
+      <p class="important-information">Langages de développement : Java</p>
+      <p class="important-information">Frameworks : Spring</p>
+      <p class="important-information">Ops : Github Actions</p>
+      <p class="important-information">Autre : Architecture hexagonale, Tests de propriété, VAVR...</p>
+    </div>
+  </section>
+
+  <section class="year">
+    <div class="experience">
+      <h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5a/Logo_Adeo.svg/1200px-Logo_Adeo.svg.png"
+          loading="lazy"
+          alt="Logo de l'entreprise Adeo"
+        /> Senior Software Engineer
+      </h2>
+      <h3>Juillet 2022 - Octobre 2023</h3>
       <p>Software engineer dans la mouvance crafts sur le domaine des configurateurs pour Leroy Merlin.</p>
       <p>
         Les configurateurs permettent aux conseillers de vente et à nos clients web de configurer leur porte d'entrée,
         leur porte de garage, leur volet roulant... sur mesure à travers de nombreux choix qui leurs sont proposés. J'ai
         rejoint l'équipe travaillant sur le configurateur des volets roulants : <a
-          href="https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions"
-          >https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions</a
-        > puis de la porte d'entrée sur mesure.
+        href="https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions"
+      >https://www.leroymerlin.fr/volet-roulant/feasibility/dimensions</a
+      > puis de la porte d'entrée sur mesure.
       </p>
 
       <p class="important-information">Pratiques de développement : TDD, DDD, BDD</p>
@@ -44,18 +73,20 @@
         place incroyable pour les développeurs. Nos objectifs étant :
       </p>
 
-      <ul>
-        <li>
-          Faire en sorte que l’expérience que nos produits fournissent à nos développeurs soit exceptionnelle, soit
-          source de fierté pour nos développeurs
-        </li>
-        <li>Promouvoir les pratiques open source et inner source à travers notre groupe</li>
-        <li>
-          Partager la connaissance de nos développeurs en les aidant dans leurs communications (rédiger des articles sur
-          notre blog tech, participer en tant que speaker à des conférences etc.)
-        </li>
-        <li>Organiser des événements tech comme notre Adeo Tech Summit, des BBLs...</li>
-      </ul>
+      <span>
+        Faire en sorte que l’expérience que nos produits fournissent à nos développeurs soit exceptionnelle, soit
+        source de fierté pour nos développeurs
+      </span>
+      <span>
+        Promouvoir les pratiques open source et inner source à travers notre groupe
+      </span>
+      <span>
+        Partager la connaissance de nos développeurs en les aidant dans leurs communications (rédiger des articles sur
+        notre blog tech, participer en tant que speaker à des conférences etc.)
+      </span>
+      <span>
+        Organiser des événements tech comme notre Adeo Tech Summit, des BBLs...
+      </span>
 
       <p class="important-information">Langages de développement : Javascript, TypeScript, HTML/CSS</p>
       <p class="important-information">Frameworks : VueJS</p>
@@ -65,7 +96,7 @@
 
     <div class="experience">
       <h2>
-        <img src="https://www.lafrenchfab.fr/storage/2019/04/logo_exotec-01.png" alt="Exotec" /> Senior Software Engineer
+        <img src="https://www.lafrenchfab.fr/storage/2019/04/logo_exotec-01.png" alt="Exotec" /> Coach Craft
       </h2>
       <h3>Juillet 2022 - Mission d'audit de deux semaines</h3>
       <p>
