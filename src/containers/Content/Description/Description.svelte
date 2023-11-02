@@ -1,6 +1,9 @@
 <script>
   import AdeoLogo from './AdeoLogo.svelte'
-  const age = new Date(new Date() - new Date('11/24/1995')).getFullYear() - 1970
+
+  const today = new Date();
+  const birthday = new Date('11/24/1995');
+  const age = new Date(today - birthday).getFullYear() - 1970
 </script>
 
 <section class="white-card" id="description">
