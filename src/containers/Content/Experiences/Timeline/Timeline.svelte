@@ -2,21 +2,20 @@
   <section class="year">
     <div class="experience">
       <h2>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
-          alt="Decathlon"
-        /> Senior Software Engineer
+        <img src="https://logos-marques.com/wp-content/uploads/2020/09/Decathlon-Logo.png" alt="Decathlon" /> Senior Software
+        Engineer
       </h2>
       <h3>Octobre 2023 - Aujourd'hui</h3>
-      <p>Senior Software engineer dans la mouvance crafts sur le domaine de la location.</p>
+      <p>Retour chez Decathlon sur le domaine de la location puis celui du pré-payment.</p>
       <p>
-        Le Rental Management System (RMS) est système de gestion de location. Chez Decathlon, nous créons un logiciel
-        permettant de efficacement la location de nos produits sportifs (Vélo enfant et adulte, kit de musculation...).
+        J'ai travaillé dans un premier temps sur le Rental Management System (RMS) est système de gestion de location
+        puis sur l'exposition des offres de location. L'objectif étant de faire émerger le métier de la location et
+        proposer une solution qui répond au mieux au besoin en respectant un haut standard de qualité (en mettant en
+        place les pratiques du software craftsmanship).
       </p>
       <p>
-        L'objectif est assez ambitieux, faire émerger le métier de la location et proposer une solution qui répond au
-        mieux au besoin en respectant un haut standard de qualité (en mettant en place les pratiques du software
-        craftsmanship).
+        Ensuite, j'ai rejoint le domaine du pré-payment pour les accompagner sur les bonnes pratiques, la qualité, la
+        monter en compétences des collaborateurs, l'achitecture...
       </p>
 
       <p class="important-information">Pratiques de développement : TDD & DDD</p>
@@ -91,7 +90,10 @@
 
     <div class="experience">
       <h2>
-        <img src="https://www.lafrenchfab.fr/storage/2019/04/logo_exotec-01.png" alt="Exotec" /> Coach Craft
+        <img
+          src="https://media.licdn.com/dms/image/C4E0BAQHiKBfk51Xzag/company-logo_200_200/0/1671206505261/exotec_logo?e=1725494400&v=beta&t=2LXRS_AWd1bPK1DZCWVzVdxo9zhFVzYe-yS47AiHwrw"
+          alt="Exotec"
+        /> Coach Craft
       </h2>
       <h3>Juillet 2022 - Mission d'audit de deux semaines</h3>
       <p>
@@ -116,10 +118,8 @@
 
     <div class="experience">
       <h2>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
-          alt="Decathlon"
-        /> Senior Software Engineer dans l'équipe GreenBox
+        <img src="https://logos-marques.com/wp-content/uploads/2020/09/Decathlon-Logo.png" alt="Decathlon" /> Senior Software
+        Engineer dans l'équipe GreenBox
       </h2>
       <h3>Janvier 2022 - Juin 2022</h3>
       <p>
@@ -149,10 +149,8 @@
 
   <section class="year">
     <h2>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
-        alt="Decathlon"
-      /> Software engineer dans l'équipe GreenBox
+      <img src="https://logos-marques.com/wp-content/uploads/2020/09/Decathlon-Logo.png" alt="Decathlon" /> Software engineer
+      dans l'équipe GreenBox
     </h2>
     <h3>Juin 2021 - Décembre 2021</h3>
     <p>
@@ -188,10 +186,8 @@
 
   <section class="year">
     <h2>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
-        alt="Decathlon"
-      /> Software engineer dans l'équipe MyBusiness
+      <img src="https://logos-marques.com/wp-content/uploads/2020/09/Decathlon-Logo.png" alt="Decathlon" /> Software engineer
+      dans l'équipe MyBusiness
     </h2>
     <h3>Une année et 3 mois</h3>
     <p>
@@ -226,10 +222,8 @@
 
   <section class="year">
     <h2>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Decathlon_Logo.png/1200px-Decathlon_Logo.png"
-        alt="Decathlon"
-      /> Junior software engineer dans l'équipe SignEasy
+      <img src="https://logos-marques.com/wp-content/uploads/2020/09/Decathlon-Logo.png" alt="Decathlon" />
+      Junior software engineer dans l'équipe SignEasy
     </h2>
     <h3>Une année</h3>
     <p>

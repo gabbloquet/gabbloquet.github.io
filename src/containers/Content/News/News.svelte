@@ -25,10 +25,9 @@
 
     <h1>Mon actualité <span>👨‍</span></h1>
     <p>
-      Actuellement <b>Senior Software Engineer</b> pour Leroy Merlin chez Adeo. Je travaille dans le domaine des configurateurs
-      avec la casquette de Tech Lead. Je travaille actuellement sur le configurateur de la porte d'entrée sur mesure. Ce
-      domaine est inspiré par la philosophie Software Craftsmanship, et nombre des pratiques mise en avant par le mouvement
-      sont en place dans les équipes.
+      Actuellement <b>Senior Software Engineer</b> chez Decathlon. Je travaille dans le domaine du pré-payment avec un posture
+      d'accompagnement sur les bonnes pratiques, la qualité... L'objectif étant de monter de niveau d'exigence et de qualité
+      des solutions du domaine en accompagnant les collaborateurs.
     </p>
   </div>
 </section>
