@@ -26,9 +26,7 @@
     </ol>
   </nav>
 
-  <a class="portfolio-link" href="/" use:link>
-    <img src="/assets/img/portfolio.png" alt="My portfolio" height="60px" />
-  </a>
+  <a class="back-to-portfolio" href="/" use:link>Retour sur mon portfolio</a>
 
   {#if articleToDisplay}
     <article class="article">
