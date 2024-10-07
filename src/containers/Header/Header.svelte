@@ -1,13 +1,11 @@
 <script>
   import Intro from './Intro/Intro.svelte'
-  import Navbar from './Navbar/Navbar.svelte'
-  import Navigation from './Navigation/Navigation.svelte'
+  import Image from './Image/Image.svelte'
 </script>
 
 <header>
-  <Navigation />
   <Intro />
-  <Navbar />
+  <Image />
 </header>
 
 <style lang="scss">

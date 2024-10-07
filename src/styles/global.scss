@@ -1,12 +1,19 @@
 #app {
   margin: 0;
+
+  --orange: #e9a55c;
+  --brown: #90807c;
+  --dark_blue: #122840;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #383838;
 }
 
-p, li {
+p,
+li {
   color: #595959;
 }
 
@@ -15,7 +22,7 @@ p > span {
 }
 
 .white-card {
-  margin: 3em 5em;
+  margin: 0 5em 3em 5em;
   padding: 2em;
   box-shadow: 0 2px 22px 0 darkgrey;
 }

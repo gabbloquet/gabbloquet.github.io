@@ -1,6 +1,4 @@
 <script>
-  import AdeoLogo from './AdeoLogo.svelte'
-
   const today = new Date()
   const birthday = new Date('11/24/1995')
   const age = new Date(today - birthday).getFullYear() - 1970
@@ -8,12 +6,6 @@
 
 <section class="white-card" id="description">
   <div class="description">
-    <div class="center-elements header">
-      <p class="center-content">
-        Gabin Bloquet, {age} ans, actuellement Senior Software Engineer chez <AdeoLogo />
-      </p>
-      <p>Mais aussi sportif, musicien & avide de connaissances.</p>
-    </div>
     <div class="line-with-space">
       <div class="tech">
         <h2>#Tech 💻</h2>

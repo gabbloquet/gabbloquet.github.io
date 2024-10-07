@@ -3,7 +3,7 @@
   padding: 0 4em;
 
   .experiences-title {
-    background-color: #7510F7;
+    background-color: var(--orange);
     padding: 1em;
     color: white;
     height: 3em;
@@ -13,9 +13,11 @@
 @media screen and (max-width: 800px) {
   .experiences {
     padding: 0;
+
     .experiences-title {
       height: 2em;
     }
+
     .experiences-content {
       padding: 0 2em;
     }

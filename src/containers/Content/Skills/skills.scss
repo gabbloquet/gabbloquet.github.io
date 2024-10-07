@@ -1,16 +1,15 @@
 .skills {
-
   margin: 1em 5em;
 
   .skills-title {
-    background-color: #7510F7;
+    background-color: var(--brown);
     padding: 1em;
     color: white;
     height: 3em;
   }
 
   .skills-content {
-    border: 1px solid #7510F7;
+    border: 1px solid var(--brown);
     background-color: white;
     margin: -3em 5em 2em 5em;
     border-radius: 5px;
@@ -18,11 +17,12 @@
     flex-direction: column;
 
     header {
-
       display: flex;
       flex-direction: row;
 
-      .front, .back, .ops {
+      .front,
+      .back,
+      .ops {
         width: 33%;
         text-align: center;
 
@@ -33,19 +33,20 @@
         }
 
         &:first-child {
-          border-right: 1px solid #7510F7;
+          border-right: 1px solid var(--brown);
         }
+
         &:last-child {
-          border-left: 1px solid #7510F7;
+          border-left: 1px solid var(--brown);
         }
       }
     }
-    footer {
 
+    footer {
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      border-top: 1px solid #7510F7;
+      border-top: 1px solid var(--brown);
 
       img {
         width: 33%;
@@ -57,29 +58,33 @@
 @media screen and (max-width: 800px) {
   .skills {
     margin: 1em 0;
-    .skills-content {
 
+    .skills-content {
       margin: -2em 2em 2em 2em;
 
       header {
         flex-direction: column;
 
-        .front, .back, .ops {
+        .front,
+        .back,
+        .ops {
           width: 100%;
-          border: 1px solid #7510F7;
+          border: 1px solid var(--brown);
         }
 
         img {
           width: 50%;
         }
+
         div {
           margin: 0;
         }
       }
+
       footer {
         flex-direction: column;
         text-align: center;
-        border: 1px solid #7510F7;
+        border: 1px solid var(--brown);
 
         img {
           width: 50%;
