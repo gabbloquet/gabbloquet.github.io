@@ -62,3 +62,20 @@ nav {
     }
   }
 }
+
+@media (width < 800px) {
+  .intro {
+    flex-direction: column;
+  }
+  .informations {
+    .name {
+      .main-title {
+        font-size: 2em !important;
+      }
+
+      .typing {
+        margin: 0 0 0 4em !important;
+      }
+    }
+  }
+}
