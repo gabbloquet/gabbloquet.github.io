@@ -15,10 +15,8 @@
 
       .main-title {
         font-size: 3em;
-        font-family:
-          Snell Roundhand,
-          cursive;
         color: var(--brown);
+        font-weight: 500;
         margin: 0;
       }
 
@@ -29,8 +27,7 @@
     }
 
     .little-description {
-      font-family: Tahoma, Geneva, sans-serif;
-      color: var(--brown);
+      color: var(--dark_blue);
     }
   }
 
@@ -74,7 +71,7 @@ nav {
       }
 
       .typing {
-        margin: 0 0 0 4em !important;
+        margin: 0 0 0 2em !important;
       }
     }
   }

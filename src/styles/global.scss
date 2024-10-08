@@ -9,12 +9,21 @@
 h1,
 h2,
 h3 {
-  color: #383838;
+  color: var(--dark_blue);
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 p,
-li {
-  color: #595959;
+li,
+a {
+  color: var(--dark_blue);
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 p > span {
