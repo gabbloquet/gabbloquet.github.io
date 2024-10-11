@@ -42,7 +42,7 @@
   margin: 0;
   padding: 40px;
   position: relative;
-  color: var(--dark_blue);
+  color: var(--brown);
 
   //numbers
   &:before {
@@ -54,7 +54,7 @@
     position: absolute;
     border-radius: 50%;
     padding: 10px;
-    background-color: var(--dark_blue);
+    background-color: var(--brown);
     text-align: center;
     line-height: 1.25em;
     color: white;
@@ -75,6 +75,7 @@
 
   &:before {
     left: 100%;
+    background-color: var(--orange);
     margin-left: -20px;
   }
 }
