@@ -22,13 +22,14 @@
       <h2 class="typing"></h2>
     </div>
     <p class="little-description">
-      Développeur passionné et coach craft, je suis dédié à la création de solutions performantes, pensées pour
-      optimiser l'expérience utilisateur.
+      <b>Coach craft et développeur passionné</b>, j'accompagne les équipes tech dans l'adoption de pratiques de
+      développement durable (craftsmanship) à travers des <b>formations et coachings</b> centrés sur les pratiques de ce
+      mouvement (TDD, Clean code, architecture hexagonale...) et plus.
     </p>
     <p class="little-description">
-      Mon approche vise à aider les équipes à maximiser leur capacité à délivrer de la valeur durablement : réduire les
-      bugs, se concentrer sur l'essentiel, et développer des produits robustes. J'accompagne mes clients dans l'adoption
-      d'une véritable agilité technique, en améliorant la qualité et l'efficacité de leurs processus de développement.
+      Mon approche aide les équipes à <b>livrer de la valeur durablement</b> en se concentrant sur la réduction des
+      bugs, la création de produits robustes et l'optimisation des processus. J'accompagne mes clients dans l'adoption
+      d'une agilité technique qui garantit <b>qualité et efficacité à long terme</b>.
     </p>
   </div>
 </section>
