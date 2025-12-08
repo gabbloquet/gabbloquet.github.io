@@ -18,7 +18,7 @@ const Hero = () => {
                         <div
                             className="w-60 h-60 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
                             <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
-                                <img src="https://gabbloquet.github.io/assets/img/me.png" alt="Photo de Gabin Bloquet"
+                                <img src="/assets/img/gabin.png" alt="Photo de Gabin Bloquet"
                                      className="w-full h-full object-cover"/>
                             </div>
                         </div>
