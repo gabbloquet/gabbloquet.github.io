@@ -2,7 +2,7 @@ import {Mail, MapPin, Phone} from 'lucide-react';
 
 const Contact = () => {
     return (
-        <section id="contact" className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <section id="contact" className="py-20 bg-linear-to-br from-blue-50 via-white to-purple-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -22,7 +22,7 @@ const Contact = () => {
                         <div className="space-y-6 mb-8">
                             <div className="flex items-center space-x-4">
                                 <div
-                                    className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white">
+                                    className="w-12 h-12 bg-linear-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white">
                                     <Mail size={20}/>
                                 </div>
                                 <div>
@@ -36,7 +36,7 @@ const Contact = () => {
 
                             <div className="flex items-center space-x-4">
                                 <div
-                                    className="w-12 h-12 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white">
+                                    className="w-12 h-12 bg-linear-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white">
                                     <Phone size={20}/>
                                 </div>
                                 <div>
@@ -50,7 +50,7 @@ const Contact = () => {
 
                             <div className="flex items-center space-x-4">
                                 <div
-                                    className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white">
+                                    className="w-12 h-12 bg-linear-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center text-white">
                                     <MapPin size={20}/>
                                 </div>
                                 <div>

@@ -107,7 +107,7 @@ const About = () => {
                                 className={`${passion.bgColor} rounded-2xl p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:-translate-y-1`}
                             >
                                 <div className="flex items-start gap-4">
-                                    <div className={`p-3 rounded-xl bg-gradient-to-br ${passion.color} text-white shrink-0`}>
+                                    <div className={`p-3 rounded-xl bg-linear-to-br ${passion.color} text-white shrink-0`}>
                                         <Icon size={24}/>
                                     </div>
                                     <div className="flex-1">

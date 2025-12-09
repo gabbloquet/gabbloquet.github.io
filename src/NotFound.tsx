@@ -3,7 +3,7 @@ import { Home, ArrowLeft, Search } from 'lucide-react';
 
 const NotFound = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center px-4">
+        <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-purple-50 flex items-center justify-center px-4">
             <div className="text-center max-w-2xl mx-auto">
                 <div className="mb-8">
                     <div className="text-8xl md:text-9xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">

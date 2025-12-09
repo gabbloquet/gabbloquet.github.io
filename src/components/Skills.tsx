@@ -130,7 +130,7 @@ const Skills = () => {
     const activeSkills = skillCategories.find(cat => cat.id === activeCategory);
 
     return (
-        <section id="competences" className="py-20 bg-gradient-to-br from-gray-50 via-white to-blue-50">
+        <section id="competences" className="py-20 bg-linear-to-br from-gray-50 via-white to-blue-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -169,7 +169,7 @@ const Skills = () => {
                         <div className="space-y-8">
                             <div className="text-center mb-8">
                                 <div
-                                    className={`w-16 h-16 mx-auto mb-4 bg-gradient-to-br ${activeSkills.color} rounded-full flex items-center justify-center text-white`}>
+                                    className={`w-16 h-16 mx-auto mb-4 bg-linear-to-br ${activeSkills.color} rounded-full flex items-center justify-center text-white`}>
                                     <activeSkills.icon size={32}/>
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-900">{activeSkills.title}</h3>
@@ -183,7 +183,7 @@ const Skills = () => {
                                         style={{animationDelay: `${index * 100}ms`}}
                                     >
                                         <div
-                                            className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-100 hover:shadow-lg hover:border-gray-200 transition-all duration-300 h-full">
+                                            className="bg-linear-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-100 hover:shadow-lg hover:border-gray-200 transition-all duration-300 h-full">
                                             <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center space-x-2">
                                                 <div
                                                     className={`w-3 h-3 rounded-full bg-gradient-to-r ${activeSkills.color}`}></div>

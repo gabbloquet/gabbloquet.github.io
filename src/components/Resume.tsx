@@ -248,7 +248,7 @@ const Resume = () => {
           {/* Experience */}
           <div>
             <div className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white">
+              <div className="w-10 h-10 bg-linear-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white">
                 <Briefcase size={20} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">Expérience Professionnelle</h3>
@@ -257,7 +257,7 @@ const Resume = () => {
             <div className="space-y-8">
               {experiences.map((exp, index) => (
                 <div key={index} className="relative pl-8 border-l-2 border-gray-200 last:border-l-0">
-                  <div className="absolute -left-2 top-0 w-4 h-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full"></div>
+                  <div className="absolute -left-2 top-0 w-4 h-4 bg-linear-to-br from-blue-500 to-purple-600 rounded-full"></div>
                   <div className="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow">
                     <h4 className="text-xl font-semibold text-gray-900 mb-1">{exp.title}</h4>
                     <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-gray-600 mb-3">
@@ -292,7 +292,7 @@ const Resume = () => {
           <div>
             {/* Education */}
             <div className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white">
+              <div className="w-10 h-10 bg-linear-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white">
                 <GraduationCap size={20} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">Formation</h3>
@@ -322,7 +322,7 @@ const Resume = () => {
 
             {/* Certifications */}
             <div className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center text-white">
+              <div className="w-10 h-10 bg-linear-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center text-white">
                 <Award size={20} />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">Mes lectures</h3>

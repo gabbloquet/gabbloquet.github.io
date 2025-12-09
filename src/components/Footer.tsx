@@ -48,7 +48,7 @@ const Footer = () => {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-500 hover:to-purple-600 transition-all duration-300 hover:scale-110"
+                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-linear-to-br hover:from-blue-500 hover:to-purple-600 transition-all duration-300 hover:scale-110"
                   aria-label={link.label}
                 >
                   <link.icon size={20} />
