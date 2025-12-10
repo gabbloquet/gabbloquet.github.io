@@ -10,7 +10,7 @@ const Resume = () => {
       company: "LEGIPILOT",
       location: "Remote",
       period: "Juin 2025 - Aujourd'hui",
-      description: "CTO externe pour cette plateforme d'assistance juridique intelligente destinée aux RH et dirigeants de TPE/PME. J'ai développé entièrement le MVP puis structuré l'équipe technique.",
+      description: "CTO as a Service pour cette plateforme d'assistance juridique intelligente destinée aux RH et dirigeants de TPE/PME. J'ai développé entièrement le MVP puis structuré l'équipe technique.",
       achievements: [
         "Développement du MVP : Conception et implémentation de la plateforme, de l'architecture au déploiement.",
         "Management d'équipe : Encadrement et montée en compétences des développeurs, organisation du travail et rituels agiles.",
