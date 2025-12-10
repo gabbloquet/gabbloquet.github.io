@@ -117,6 +117,8 @@ const Navigation = () => {
               <button
                   onClick={() => setIsOpen(!isOpen)}
                   className="p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100 transition-colors"
+                  aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
+                  aria-expanded={isOpen}
               >
                 {isOpen ? <X size={24} /> : <Menu size={24} />}
               </button>

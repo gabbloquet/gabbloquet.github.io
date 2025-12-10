@@ -19,7 +19,8 @@ const Hero = () => {
                             className="w-60 h-60 mx-auto mb-6 rounded-full bg-linear-to-br from-blue-400 to-purple-600 p-1">
                             <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
                                 <img src="/assets/img/gabin.png" alt="Photo de Gabin Bloquet"
-                                     className="w-full h-full object-cover"/>
+                                     className="w-full h-full object-cover"
+                                     fetchPriority="high"/>
                             </div>
                         </div>
                     </div>
@@ -104,6 +105,7 @@ const Hero = () => {
                     <button
                         onClick={scrollToAbout}
                         className="animate-bounce text-gray-400 hover:text-blue-600 transition-colors"
+                        aria-label="Défiler vers la section À propos"
                     >
                         <ArrowDown size={32}/>
                     </button>
