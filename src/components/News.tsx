@@ -61,7 +61,7 @@ const News = () => {
                         <div className="bg-linear-to-br from-gray-50 to-violet-50 rounded-2xl p-6 border border-gray-100">
                             <div className="flex items-center gap-4 mb-4">
                                 <img
-                                    src="https://justiana.fr/wp-content/uploads/2025/01/justiana_avec_baseline.svg"
+                                    src="/assets/img/logos/justiana.svg"
                                     alt="Justiana"
                                     className="h-10 object-contain"
                                 />
@@ -91,7 +91,7 @@ const News = () => {
                         <div className="bg-linear-to-br from-gray-50 to-blue-50 rounded-2xl p-6 border border-gray-100">
                             <div className="flex items-center gap-4 mb-4">
                                 <img
-                                    src="https://static.wixstatic.com/media/9afb61_15801a1006a44f1c82943a19d482c5f0~mv2.png/v1/crop/x_227,y_264,w_1466,h_337/fill/w_400,h_92,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1.png"
+                                    src="/assets/img/logos/legipilot.png"
                                     alt="Legipilot"
                                     className="h-8 object-contain"
                                 />

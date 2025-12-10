@@ -7,4 +7,17 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Vendor chunks - rarely change, cached longer
+          'react-vendor': ['react', 'react-dom'],
+          'router': ['react-router'],
+          // Markdown rendering - only needed for blog
+          'markdown': ['react-markdown', 'remark-gfm'],
+        },
+      },
+    },
+  },
 });
