@@ -61,9 +61,9 @@ const News = () => {
                         <div className="bg-linear-to-br from-gray-50 to-violet-50 rounded-2xl p-6 border border-gray-100">
                             <div className="flex items-center gap-4 mb-4">
                                 <img
-                                    src="/assets/img/logos/justiana.svg"
+                                    src="/assets/img/logos/justiana.png"
                                     alt="Justiana"
-                                    className="h-10 object-contain"
+                                    className="h-6 object-contain"
                                 />
                                 <div>
                                     <p className="font-bold text-gray-900">Cofondateur & CTPO</p>
