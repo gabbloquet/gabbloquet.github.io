@@ -5,10 +5,31 @@ type Testimonial = {
     quote: string;
     author: string;
     role: string;
+    meta: string;
 } | null;
 
-// Remplacer un null par { quote, author, role } pour publier un témoignage.
-const testimonials: Testimonial[] = [null, null, null];
+// Extraits verbatim des recommandations LinkedIn. Un null affiche un
+// emplacement réservé.
+const testimonials: Testimonial[] = [
+    {
+        quote: 'Cela fait six mois que Gabin nous accompagne comme CTO à temps partagé. Il a fait un boulot solide et structurant sur la conception et la mise en place de notre SaaS, en posant des fondations techniques robustes et performantes. Ses choix technologiques sont toujours réfléchis, pragmatiques et orientés long terme. Je le recommande sans hésiter.',
+        author: 'Marin de Surirey',
+        role: 'Co-fondateur & CEO, Legipilot',
+        meta: '// via linkedin · client'
+    },
+    {
+        quote: 'Il possède une forte expertise technique qui fait de lui un repère pour toute l\'équipe (produit, design, tech). Il sait prendre en main des sujets complexes, challenger le business mais aussi faire en sorte que l\'architecture d\'un produit soit adaptée à son utilisation. Sur l\'aspect humain, il fédère et rassemble par l\'exemple.',
+        author: 'Antoine Deloy',
+        role: 'Senior Software Engineer · Tech Lead',
+        meta: '// via linkedin'
+    },
+    {
+        quote: 'Il m\'a permis de découvrir de nombreux principes et rituels d\'équipe essentiels pour faire avancer rapidement les projets en co-créant au mieux entre tech et design. Il fait preuve d\'une grande capacité d\'adaptation, apportant des propositions pertinentes même pour les projets les plus ambitieux.',
+        author: 'Amélie Bracq',
+        role: 'Lead Product Designer',
+        meta: '// via linkedin'
+    }
+];
 
 const Testimonials = () => (
     <section id="temoignages" className="py-24 border-t border-hairline scroll-mt-16">
@@ -23,14 +44,15 @@ const Testimonials = () => (
                     testimonial ? (
                         <figure
                             key={index}
-                            className="border border-hairline rounded-md bg-white p-8"
+                            className="border border-hairline rounded-md bg-white p-8 flex flex-col"
                         >
-                            <blockquote className="text-ink leading-relaxed mb-6">
+                            <p className="font-mono text-xs text-muted mb-4">{testimonial.meta}</p>
+                            <blockquote className="text-ink leading-relaxed mb-6 flex-1">
                                 « {testimonial.quote} »
                             </blockquote>
                             <figcaption>
                                 <p className="font-medium text-ink">{testimonial.author}</p>
-                                <p className="font-mono text-xs text-muted mt-1">{testimonial.role}</p>
+                                <p className="text-sm text-muted mt-1">{testimonial.role}</p>
                             </figcaption>
                         </figure>
                     ) : (
