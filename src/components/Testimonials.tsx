@@ -1,5 +1,5 @@
 import SectionHeader from './SectionHeader';
-import {CONTACT_MAILTO} from '../constants';
+import {LINKEDIN_URL} from '../constants';
 
 type Testimonial = {
     quote: string;
@@ -67,9 +67,14 @@ const Testimonials = () => (
             </div>
 
             <p className="text-sm text-muted mt-8">
-                Références disponibles sur demande —{' '}
-                <a href={CONTACT_MAILTO} className="text-accent hover:text-accent-dark transition-colors">
-                    écrivez-moi
+                Toutes mes recommandations sont{' '}
+                <a
+                    href={`${LINKEDIN_URL}/details/recommendations/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent hover:text-accent-dark transition-colors"
+                >
+                    sur LinkedIn
                 </a>
                 .
             </p>
