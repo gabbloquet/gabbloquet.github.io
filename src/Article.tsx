@@ -10,12 +10,11 @@ import {
     Copy,
     Eye,
     Heart,
-    Linkedin,
     MessageCircle,
     Share2,
-    Twitter,
     User
 } from 'lucide-react';
+import {LinkedinIcon, TwitterIcon} from './components/icons';
 import {ArticleService} from './articleService.js';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -84,22 +83,22 @@ const Article = () => {
         });
     };
 
-    const getCategoryColor = (category) => {
-        const colors = {
-            developpement: 'from-blue-500 to-cyan-500',
-            agilite: 'from-green-500 to-emerald-500',
-            general: 'from-purple-500 to-violet-500'
+    const getCategoryLabel = (category) => {
+        const labels = {
+            agilite: 'Agilité',
+            developpement: 'Développement',
+            general: 'Général'
         };
-        return colors[category] || 'from-gray-500 to-gray-600';
+        return labels[category] || 'Général';
     };
 
     if (isLoading) {
         return (
-            <div className="min-h-screen bg-white flex items-center justify-center">
+            <div className="min-h-screen bg-paper flex items-center justify-center">
                 <div className="text-center">
                     <div
-                        className="w-16 h-16 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin mx-auto mb-4"></div>
-                    <p className="text-gray-600">Chargement de l'article...</p>
+                        className="w-12 h-12 border-4 border-hairline border-t-accent rounded-full animate-spin mx-auto mb-4"></div>
+                    <p className="text-muted">Chargement de l'article...</p>
                 </div>
             </div>
         );
@@ -107,14 +106,14 @@ const Article = () => {
 
     if (!article) {
         return (
-            <div className="min-h-screen bg-white flex items-center justify-center">
+            <div className="min-h-screen bg-paper flex items-center justify-center">
                 <div className="text-center max-w-md mx-auto px-4">
-                    <BookOpen size={64} className="mx-auto text-gray-300 mb-4"/>
-                    <h1 className="text-2xl font-bold text-gray-900 mb-2">Article introuvable</h1>
-                    <p className="text-gray-600 mb-6">Cet article n'existe pas ou a été supprimé.</p>
+                    <BookOpen size={48} className="mx-auto text-hairline mb-4"/>
+                    <h1 className="font-display text-2xl font-semibold text-ink mb-2">Article introuvable</h1>
+                    <p className="text-muted mb-6">Cet article n'existe pas ou a été supprimé.</p>
                     <Link
                         to="/blog"
-                        className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-paper font-medium rounded-md hover:bg-accent-dark transition-colors"
                     >
                         <ArrowLeft size={18}/>
                         <span>Retour au blog</span>
@@ -125,139 +124,133 @@ const Article = () => {
     }
 
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-paper text-ink font-sans">
             {/* Reading Progress Bar */}
-            <div className="fixed top-0 left-0 w-full h-1 bg-gray-200 z-50">
+            <div className="fixed top-0 left-0 w-full h-0.5 bg-hairline z-50">
                 <div
-                    className="h-full bg-gradient-to-r from-blue-600 to-purple-600 transition-all duration-150"
+                    className="h-full bg-accent transition-all duration-150"
                     style={{width: `${readingProgress}%`}}
                 />
             </div>
 
             {/* Header */}
-            <header className="bg-white border-b border-gray-100 sticky top-0 z-40 backdrop-blur-md bg-white/80">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <header className="bg-paper/90 border-b border-hairline sticky top-0 z-40 backdrop-blur-md">
+                <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                     <div className="flex items-center justify-between">
                         <Link
                             to="/blog"
-                            className="inline-flex items-center space-x-2 text-gray-600 hover:text-blue-600 transition-colors group"
+                            className="inline-flex items-center gap-2 text-muted hover:text-accent transition-colors"
                         >
-                            <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform"/>
+                            <ArrowLeft size={18}/>
                             <span className="font-medium">Retour au blog</span>
                         </Link>
 
-                        <div className="flex items-center space-x-4">
-                            {/* Share buttons */}
-                            <div className="flex items-center space-x-2">
-                                <button
-                                    onClick={() => shareArticle('twitter')}
-                                    className="p-2 text-gray-400 hover:text-blue-500 transition-colors"
-                                    title="Partager sur Twitter"
-                                >
-                                    <Twitter size={18}/>
-                                </button>
-                                <button
-                                    onClick={() => shareArticle('linkedin')}
-                                    className="p-2 text-gray-400 hover:text-blue-600 transition-colors"
-                                    title="Partager sur LinkedIn"
-                                >
-                                    <Linkedin size={18}/>
-                                </button>
-                                <button
-                                    onClick={() => shareArticle('copy')}
-                                    className="p-2 text-gray-400 hover:text-gray-600 transition-colors"
-                                    title="Copier le lien"
-                                >
-                                    {copiedLink ? <Check size={18} className="text-green-500"/> : <Copy size={18}/>}
-                                </button>
-                            </div>
+                        <div className="flex items-center gap-2">
+                            <button
+                                onClick={() => shareArticle('twitter')}
+                                className="p-2 text-muted hover:text-accent transition-colors"
+                                title="Partager sur Twitter"
+                            >
+                                <TwitterIcon size={18}/>
+                            </button>
+                            <button
+                                onClick={() => shareArticle('linkedin')}
+                                className="p-2 text-muted hover:text-accent transition-colors"
+                                title="Partager sur LinkedIn"
+                            >
+                                <LinkedinIcon size={18}/>
+                            </button>
+                            <button
+                                onClick={() => shareArticle('copy')}
+                                className="p-2 text-muted hover:text-accent transition-colors"
+                                title="Copier le lien"
+                            >
+                                {copiedLink ? <Check size={18} className="text-accent"/> : <Copy size={18}/>}
+                            </button>
                         </div>
                     </div>
                 </div>
             </header>
 
             {/* Article Content */}
-            <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 {/* Article Header */}
                 <header className="mb-12">
                     <div className="mb-6">
-            <span
-                className={`inline-block px-4 py-2 text-sm font-medium text-white rounded-full bg-gradient-to-r ${getCategoryColor(article.category)}`}>
-              {article.category === 'agilite' ? 'Agilité' :
-                  article.category === 'developpement' ? 'Développement' :
-                      'Général'}
-            </span>
+                        <span className="inline-block font-mono text-xs px-2.5 py-1 border border-hairline rounded-sm text-muted">
+                            {getCategoryLabel(article.category)}
+                        </span>
                     </div>
 
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-ink mb-6 leading-tight">
                         {article.title}
                     </h1>
 
-                    <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+                    <p className="text-lg text-muted mb-8 leading-relaxed">
                         {article.excerpt}
                     </p>
 
-                    <div className="flex flex-wrap items-center gap-6 text-gray-500 mb-8">
-                        <div className="flex items-center space-x-2">
-                            <User size={16}/>
-                            <span className="text-sm">Gabin Bloquet</span>
+                    <div className="flex flex-wrap items-center gap-5 font-mono text-xs text-muted mb-8">
+                        <div className="flex items-center gap-1.5">
+                            <User size={14}/>
+                            <span>Gabin Bloquet</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <Calendar size={16}/>
-                            <span className="text-sm">{formatDate(article.publishDate)}</span>
+                        <div className="flex items-center gap-1.5">
+                            <Calendar size={14}/>
+                            <span>{formatDate(article.publishDate)}</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <Clock size={16}/>
-                            <span className="text-sm">{article.readTime} de lecture</span>
+                        <div className="flex items-center gap-1.5">
+                            <Clock size={14}/>
+                            <span>{article.readTime} de lecture</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <Eye size={16}/>
-                            <span className="text-sm">{article.views} vues</span>
+                        <div className="flex items-center gap-1.5">
+                            <Eye size={14}/>
+                            <span>{article.views} vues</span>
                         </div>
-                        <div className="flex items-center space-x-2">
-                            <Heart size={16}/>
-                            <span className="text-sm">{article.likes} likes</span>
+                        <div className="flex items-center gap-1.5">
+                            <Heart size={14}/>
+                            <span>{article.likes} likes</span>
                         </div>
                     </div>
 
                     <div className="flex flex-wrap gap-2 mb-8">
                         {article.tags.map((tag) => (
-                            <span key={tag} className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full">
-                #{tag}
-              </span>
+                            <span key={tag} className="font-mono text-xs px-2 py-1 border border-hairline rounded-sm text-muted">
+                                #{tag}
+                            </span>
                         ))}
                     </div>
 
                     <img
                         src={article.image}
                         alt={article.alt || article.title}
-                        className="w-full h-64 md:h-80 object-cover rounded-xl shadow-lg"
+                        className="w-full h-64 md:h-80 object-cover rounded-md border border-hairline"
                     />
                 </header>
 
                 {/* Article Body */}
-                <div className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-h1:text-3xl prose-h1:font-bold prose-h1:mt-10 prose-h1:mb-6 prose-h2:text-2xl prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:font-semibold prose-h3:mt-6 prose-h3:mb-3 prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4 prose-a:text-blue-600 prose-a:hover:text-blue-800 prose-strong:text-gray-900 prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-600 prose-ul:list-disc prose-ul:ml-6 prose-li:mb-1 prose-img:rounded-xl prose-img:shadow-lg prose-img:my-6">
+                <div className="prose prose-lg max-w-none prose-headings:font-display prose-headings:text-ink prose-headings:tracking-tight prose-h1:text-3xl prose-h1:mt-10 prose-h1:mb-6 prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3 prose-p:text-ink/80 prose-p:leading-relaxed prose-p:mb-4 prose-a:text-accent prose-a:hover:text-accent-dark prose-strong:text-ink prose-blockquote:border-l-2 prose-blockquote:border-accent prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-muted prose-ul:list-disc prose-ul:ml-6 prose-li:mb-1 prose-code:font-mono prose-img:rounded-md prose-img:border prose-img:border-hairline prose-img:my-6">
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                         {article.content}
                     </ReactMarkdown>
                 </div>
 
                 {/* Article Footer */}
-                <footer className="mt-16 pt-8 border-t border-gray-200">
+                <footer className="mt-16 pt-8 border-t border-hairline">
                     <div className="flex items-center justify-between mb-8">
-                        <div className="flex items-center space-x-4">
+                        <div className="flex items-center gap-2">
                             <button
-                                className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-red-500 transition-colors">
+                                className="flex items-center gap-2 px-4 py-2 text-muted hover:text-accent transition-colors">
                                 <Heart size={18}/>
                                 <span>{article.likes}</span>
                             </button>
                             <button
-                                className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-blue-500 transition-colors">
+                                className="flex items-center gap-2 px-4 py-2 text-muted hover:text-accent transition-colors">
                                 <MessageCircle size={18}/>
                                 <span>Commenter</span>
                             </button>
                             <button
-                                className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-green-500 transition-colors">
+                                className="flex items-center gap-2 px-4 py-2 text-muted hover:text-accent transition-colors">
                                 <Share2 size={18}/>
                                 <span>Partager</span>
                             </button>
@@ -265,30 +258,31 @@ const Article = () => {
                     </div>
 
                     {/* Author Bio */}
-                    <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 border border-blue-100">
-                        <div className="flex items-start space-x-4">
+                    <div className="bg-white border border-hairline rounded-md p-6">
+                        <div className="flex items-start gap-4">
                             <div
-                                className="w-16 h-16 bg-linear-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                                className="w-14 h-14 bg-ink rounded-md flex items-center justify-center text-paper font-display font-semibold text-lg shrink-0">
                                 GB
                             </div>
                             <div className="flex-1">
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">Gabin Bloquet</h3>
-                                <p className="text-gray-600 mb-4 leading-relaxed">
-                                    Développeur Full Stack passionné par l'innovation technologique et l'agilité.
-                                    Je partage mes découvertes et retours d'expérience sur le développement web moderne.
+                                <h3 className="font-display text-lg font-semibold text-ink mb-2">Gabin Bloquet</h3>
+                                <p className="text-muted mb-4 leading-relaxed">
+                                    CTO & Architecte — produits SaaS augmentés par l'IA.
+                                    Je partage mes retours d'expérience sur l'architecture,
+                                    le craft et l'IA en production.
                                 </p>
-                                <div className="flex space-x-4">
+                                <div className="flex gap-5">
                                     <Link
                                         to="/"
-                                        className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                                        className="text-accent hover:text-accent-dark font-medium transition-colors"
                                     >
-                                        Voir mon portfolio
+                                        Voir mon profil
                                     </Link>
                                     <Link
                                         to="/#contact"
-                                        className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
+                                        className="text-accent hover:text-accent-dark font-medium transition-colors"
                                     >
-                                        Me contacter
+                                        Réserver un échange
                                     </Link>
                                 </div>
                             </div>
@@ -301,7 +295,8 @@ const Article = () => {
             {showScrollTop && (
                 <button
                     onClick={scrollToTop}
-                    className="fixed bottom-8 right-8 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300 z-40"
+                    className="fixed bottom-8 right-8 w-11 h-11 bg-ink text-paper rounded-md hover:bg-accent transition-colors z-40"
+                    aria-label="Revenir en haut"
                 >
                     <ChevronUp size={20} className="mx-auto"/>
                 </button>

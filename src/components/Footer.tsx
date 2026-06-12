@@ -1,54 +1,51 @@
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import {Mail} from 'lucide-react';
+import {Link} from 'react-router';
+import {GithubIcon, LinkedinIcon} from './icons';
+import {EMAIL, GITHUB_URL, LINKEDIN_URL, LOCATION, PHONE_DISPLAY, PHONE_HREF} from '../constants';
+
+const socialLinks = [
+  {icon: GithubIcon, url: GITHUB_URL, label: 'GitHub'},
+  {icon: LinkedinIcon, url: LINKEDIN_URL, label: 'LinkedIn'},
+  {icon: Mail, url: `mailto:${EMAIL}`, label: 'Email'}
+];
+
+const navLinks = [
+  {id: 'services', label: 'Services'},
+  {id: 'projets', label: 'Études de cas'},
+  {id: 'competences', label: 'Compétences'},
+  {id: 'cv', label: 'Parcours'},
+  {id: 'contact', label: 'Contact'}
+];
 
 const Footer = () => {
-  const socialLinks = [
-    {
-      icon: Github,
-      url: 'https://github.com/gabbloquet',
-      label: 'GitHub'
-    },
-    {
-      icon: Linkedin,
-      url: 'https://www.linkedin.com/in/gabin-bloquet',
-      label: 'LinkedIn'
-    },
-    {
-      icon: Mail,
-      url: 'mailto:gabin.bloquet.pro@gmail.com',
-      label: 'Email'
-    }
-  ];
-
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    document.getElementById(sectionId)?.scrollIntoView({behavior: 'smooth'});
   };
 
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-4 gap-8">
+    <footer className="bg-ink text-paper">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+        <div className="grid md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
-              Gabin Bloquet
-            </h3>
-            <p className="text-gray-300 mb-4 leading-relaxed">
-              CTO & entrepreneur tech. Je construis des produits et accompagne les équipes vers l'excellence.
+            <h3 className="font-display text-xl font-semibold mb-4">Gabin Bloquet</h3>
+            <p className="text-paper/70 mb-2 leading-relaxed">
+              CTO & Architecte — produits SaaS augmentés par l'IA.
             </p>
-            <p className="text-gray-400 text-sm italic mb-6">
+            <p className="font-mono text-xs text-paper/50 mb-4">
+              // je build des systèmes qui tiennent en production, pas des démos.
+            </p>
+            <p className="text-paper/50 text-sm italic mb-6">
               Quand je ne code pas, je cours, je roule, je marche ou je gratte ma guitare.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex gap-4">
               {socialLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-linear-to-br hover:from-blue-500 hover:to-purple-600 transition-all duration-300 hover:scale-110"
+                  className="text-paper/60 hover:text-paper transition-colors"
                   aria-label={link.label}
                 >
                   <link.icon size={20} />
@@ -59,56 +56,50 @@ const Footer = () => {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Navigation</h4>
+            <h4 className="font-mono text-xs text-paper/50 mb-4">navigation</h4>
             <ul className="space-y-2">
-              {[
-                { id: 'accueil', label: 'Accueil' },
-                { id: 'apropos', label: 'À propos' },
-                { id: 'projets', label: 'Projets' },
-                { id: 'cv', label: 'CV' },
-                { id: 'contact', label: 'Contact' }
-              ].map((item) => (
+              {navLinks.map((item) => (
                 <li key={item.id}>
                   <button
                     onClick={() => scrollToSection(item.id)}
-                    className="text-gray-300 hover:text-white transition-colors cursor-pointer"
+                    className="text-paper/70 hover:text-paper transition-colors cursor-pointer"
                   >
                     {item.label}
                   </button>
                 </li>
               ))}
+              <li>
+                <Link to="/blog" className="text-paper/70 hover:text-paper transition-colors">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold text-white mb-4">Contact</h4>
-            <div className="space-y-2 text-gray-300">
-              <p>Lille, France</p>
-              <a 
-                href="mailto:gabin.bloquet.pro@gmail.com" 
-                className="hover:text-white transition-colors block"
+            <h4 className="font-mono text-xs text-paper/50 mb-4">contact</h4>
+            <div className="space-y-2 text-paper/70">
+              <p>{LOCATION}</p>
+              <a
+                href={`mailto:${EMAIL}`}
+                className="hover:text-paper transition-colors block break-all"
               >
-                gabin.bloquet.pro@gmail.com
+                {EMAIL}
               </a>
-              <a 
-                href="tel:+33123456789" 
-                className="hover:text-white transition-colors block"
-              >
-                +33 7 62 69 93 16
+              <a href={PHONE_HREF} className="hover:text-paper transition-colors block">
+                {PHONE_DISPLAY}
               </a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2025 Gabin Bloquet. Tous droits réservés.
+        <div className="border-t border-paper/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-paper/50 text-sm">
+            © 2026 Gabin Bloquet. Tous droits réservés.
           </p>
-          <p className="text-gray-400 text-sm flex items-center space-x-1">
-            <span>Fait avec</span>
-            <Heart size={16} className="text-red-500 fill-current" />
-            <span>et un peu de café ☕</span>
+          <p className="font-mono text-xs text-paper/50">
+            fait avec soin — et un peu de café ☕
           </p>
         </div>
       </div>

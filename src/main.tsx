@@ -12,7 +12,7 @@ const NotFound = lazy(() => import('./NotFound.tsx'));
 // Minimal loading fallback
 const PageLoader = () => (
     <div className="min-h-screen flex items-center justify-center">
-        <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+        <div className="w-8 h-8 border-4 border-accent border-t-transparent rounded-full animate-spin"></div>
     </div>
 );
 

@@ -1,4 +1,4 @@
-import { Download, Calendar, MapPin, Award, Briefcase, GraduationCap } from 'lucide-react';
+import {Award, Briefcase, Calendar, Download, GraduationCap, MapPin} from 'lucide-react';
 
 const Resume = () => {
   const handlePrint = () => {
@@ -22,7 +22,7 @@ const Resume = () => {
     {
       title: "Cofondateur & CTPO",
       company: "JUSTIANA",
-      location: "Lille",
+      location: "Remote",
       period: "Novembre 2024 - Aujourd'hui",
       description: "Je suis en charge de la stratégie produit, de l'expérience utilisateur et du développement technologique de notre solution SaaS dédiée aux élus de CSE. Mes missions principales sont :",
       achievements: [
@@ -199,7 +199,7 @@ const Resume = () => {
     }
   ];
 
-  const certifications = [
+  const readings = [
     "Lean startup 🚧",
     "Responsabilité absolue: La méthode des Navy SEALs pour réussir 🚧",
     "Comment se faire des amis",
@@ -226,58 +226,56 @@ const Resume = () => {
   ];
 
   return (
-    <section id="cv" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Mon Parcours
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Un parcours riche en expériences variées et en apprentissage constant
-          </p>
+    <section id="cv" className="py-24 border-t border-hairline scroll-mt-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
+          <div className="mb-0">
+            <p className="font-mono text-sm text-accent mb-3">// parcours</p>
+            <h2 className="font-display text-3xl md:text-4xl font-semibold tracking-tight text-ink">
+              Parcours
+            </h2>
+          </div>
           <button
             onClick={handlePrint}
-            className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 print:hidden"
+            className="inline-flex items-center gap-2 px-5 py-2.5 border border-hairline text-ink font-medium rounded-md hover:border-accent hover:text-accent transition-colors print:hidden self-start md:self-auto"
           >
-            <Download size={20} />
+            <Download size={18} />
             <span>Télécharger mon CV</span>
           </button>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Experience */}
           <div>
-            <div className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 bg-linear-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white">
-                <Briefcase size={20} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Expérience Professionnelle</h3>
-            </div>
+            <h3 className="font-display text-2xl font-semibold text-ink flex items-center gap-3 mb-8">
+              <Briefcase size={22} className="text-accent" />
+              Expérience professionnelle
+            </h3>
 
             <div className="space-y-8">
               {experiences.map((exp, index) => (
-                <div key={index} className="relative pl-8 border-l-2 border-gray-200 last:border-l-0">
-                  <div className="absolute -left-2 top-0 w-4 h-4 bg-linear-to-br from-blue-500 to-purple-600 rounded-full"></div>
-                  <div className="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow">
-                    <h4 className="text-xl font-semibold text-gray-900 mb-1">{exp.title}</h4>
-                    <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-gray-600 mb-3">
-                      <span className="font-medium">{exp.company}</span>
-                      <div className="flex items-center space-x-4 text-sm">
-                        <span className="flex items-center space-x-1">
-                          <MapPin size={14} />
+                <div key={index} className="relative pl-8 border-l border-hairline last:border-l-0">
+                  <div className="absolute -left-[5px] top-2 w-2.5 h-2.5 bg-accent rounded-full"></div>
+                  <div className="border border-hairline rounded-md bg-white p-6">
+                    <h4 className="font-display text-lg font-semibold text-ink mb-1">{exp.title}</h4>
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 mb-3">
+                      <span className="font-medium text-ink">{exp.company}</span>
+                      <div className="flex items-center gap-4 font-mono text-xs text-muted">
+                        <span className="flex items-center gap-1">
+                          <MapPin size={12} />
                           <span>{exp.location}</span>
                         </span>
-                        <span className="flex items-center space-x-1">
-                          <Calendar size={14} />
+                        <span className="flex items-center gap-1">
+                          <Calendar size={12} />
                           <span>{exp.period}</span>
                         </span>
                       </div>
                     </div>
-                    <p className="text-gray-700 mb-3">{exp.description}</p>
-                    <ul className="space-y-1">
+                    <p className="text-muted mb-3 leading-relaxed">{exp.description}</p>
+                    <ul className="space-y-1.5">
                       {exp.achievements.map((achievement, i) => (
-                        <li key={i} className="text-sm text-gray-600 flex items-start space-x-2">
-                          <span className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 flex-shrink-0"></span>
+                        <li key={i} className="text-sm text-muted flex items-start gap-2">
+                          <span className="w-1 h-1 bg-accent rounded-full mt-2 shrink-0"></span>
                           <span>{achievement}</span>
                         </li>
                       ))}
@@ -288,53 +286,47 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* Education & Certifications */}
+          {/* Education & Lectures */}
           <div>
-            {/* Education */}
-            <div className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 bg-linear-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white">
-                <GraduationCap size={20} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Formation</h3>
-            </div>
+            <h3 className="font-display text-2xl font-semibold text-ink flex items-center gap-3 mb-8">
+              <GraduationCap size={22} className="text-accent" />
+              Formation
+            </h3>
 
-            <div className="space-y-6 mb-12">
+            <div className="space-y-6 mb-14">
               {education.map((edu, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-1">{edu.degree}</h4>
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 text-gray-600 mb-3">
-                    <span className="font-medium">{edu.school}</span>
-                    <div className="flex items-center space-x-4 text-sm">
-                      <span className="flex items-center space-x-1">
-                        <MapPin size={14} />
+                <div key={index} className="border border-hairline rounded-md bg-white p-6">
+                  <h4 className="font-display text-lg font-semibold text-ink mb-1">{edu.degree}</h4>
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4 mb-3">
+                    <span className="font-medium text-ink">{edu.school}</span>
+                    <div className="flex items-center gap-4 font-mono text-xs text-muted">
+                      <span className="flex items-center gap-1">
+                        <MapPin size={12} />
                         <span>{edu.location}</span>
                       </span>
-                      <span className="flex items-center space-x-1">
-                        <Calendar size={14} />
+                      <span className="flex items-center gap-1">
+                        <Calendar size={12} />
                         <span>{edu.period}</span>
                       </span>
                     </div>
                   </div>
-                  <p className="text-gray-700">{edu.description}</p>
+                  <p className="text-muted leading-relaxed">{edu.description}</p>
                 </div>
               ))}
             </div>
 
-            {/* Certifications */}
-            <div className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 bg-linear-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center text-white">
-                <Award size={20} />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Mes lectures</h3>
-            </div>
+            <h3 className="font-display text-2xl font-semibold text-ink flex items-center gap-3 mb-8">
+              <Award size={22} className="text-accent" />
+              Mes lectures
+            </h3>
 
-            <div className="grid gap-4">
-              {certifications.map((cert, index) => (
-                <div key={index} className="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4 border border-orange-100">
-                  <span className="text-gray-800 font-medium">{cert}</span>
-                </div>
+            <ul>
+              {readings.map((reading, index) => (
+                <li key={index} className="border-t border-hairline py-3 text-sm text-muted last:border-b">
+                  {reading}
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
       </div>
