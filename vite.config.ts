@@ -10,12 +10,14 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
+        // Rolldown (Vite 8) n'accepte manualChunks que sous forme de fonction
+        manualChunks(id) {
+          if (!id.includes('node_modules')) return;
           // Vendor chunks - rarely change, cached longer
-          'react-vendor': ['react', 'react-dom'],
-          'router': ['react-router'],
+          if (/node_modules\/(react|react-dom|scheduler)\//.test(id)) return 'react-vendor';
+          if (id.includes('node_modules/react-router')) return 'router';
           // Markdown rendering - only needed for blog
-          'markdown': ['react-markdown', 'remark-gfm'],
+          if (/node_modules\/(react-markdown|remark-|mdast-|micromark|unified|unist-|vfile|hast-)/.test(id)) return 'markdown';
         },
       },
     },

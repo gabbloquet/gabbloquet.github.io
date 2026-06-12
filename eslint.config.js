@@ -24,5 +24,12 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
     },
+  },
+  {
+    // Fichier d'entrée : jamais hot-refreshé en tant que module de composants
+    files: ['src/main.tsx'],
+    rules: {
+      'react-refresh/only-export-components': 'off',
+    },
   }
 );
