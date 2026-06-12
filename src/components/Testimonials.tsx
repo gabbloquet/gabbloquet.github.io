@@ -28,6 +28,18 @@ const testimonials: Testimonial[] = [
         author: 'Amélie Bracq',
         role: 'Lead Product Designer',
         meta: '// via linkedin'
+    },
+    {
+        quote: 'Il a de bonnes connaissances en software craftsmanship (TDD, BDD et DDD), en architecture (Architecture Onion, Event Sourcing), en agilité et il se fera un plaisir de vous les partager. Ses exigences en termes de qualité et son esprit critique le poussent à se remettre en question et à se challenger.',
+        author: 'Audran Landuyt',
+        role: 'Développeur Full Stack',
+        meta: '// via linkedin'
+    },
+    {
+        quote: 'Je vous le recommande fortement pour ses compétences aussi bien sur la partie front que back, son pragmatisme, son exigence en termes de qualité, sa capacité à aider les autres à monter en compétences… Il est très impliqué dans les sujets qui touchent à l\'architecture. Bref, foncez !',
+        author: 'Maxime Pavot',
+        role: 'Développeur Full Stack',
+        meta: '// via linkedin'
     }
 ];
 
