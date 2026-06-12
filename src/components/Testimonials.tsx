@@ -1,3 +1,5 @@
+import {useEffect, useState} from 'react';
+import {ChevronLeft, ChevronRight} from 'lucide-react';
 import SectionHeader from './SectionHeader';
 import {LINKEDIN_URL} from '../constants';
 
@@ -6,10 +8,9 @@ type Testimonial = {
     author: string;
     role: string;
     meta: string;
-} | null;
+};
 
-// Extraits verbatim des recommandations LinkedIn. Un null affiche un
-// emplacement réservé.
+// Extraits verbatim des recommandations LinkedIn.
 const testimonials: Testimonial[] = [
     {
         quote: 'Cela fait six mois que Gabin nous accompagne comme CTO à temps partagé. Il a fait un boulot solide et structurant sur la conception et la mise en place de notre SaaS, en posant des fondations techniques robustes et performantes. Ses choix technologiques sont toujours réfléchis, pragmatiques et orientés long terme. Je le recommande sans hésiter.',
@@ -43,55 +44,102 @@ const testimonials: Testimonial[] = [
     }
 ];
 
-const Testimonials = () => (
-    <section id="temoignages" className="py-24 border-t border-hairline scroll-mt-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <SectionHeader
-                eyebrow="// références"
-                title="Ils ont travaillé avec moi"
-            />
+const VISIBLE = 3;
+const ROTATION_MS = 7000;
 
-            <div className="grid md:grid-cols-3 gap-6">
-                {testimonials.map((testimonial, index) =>
-                    testimonial ? (
-                        <figure
-                            key={index}
-                            className="border border-hairline rounded-md bg-white p-8 flex flex-col"
-                        >
-                            <p className="font-mono text-xs text-muted mb-4">{testimonial.meta}</p>
-                            <blockquote className="text-ink leading-relaxed mb-6 flex-1">
-                                « {testimonial.quote} »
-                            </blockquote>
-                            <figcaption>
-                                <p className="font-medium text-ink">{testimonial.author}</p>
-                                <p className="text-sm text-muted mt-1">{testimonial.role}</p>
-                            </figcaption>
-                        </figure>
-                    ) : (
-                        <div
-                            key={index}
-                            className="border border-dashed border-hairline rounded-md p-8"
-                        >
-                            <p className="font-mono text-xs text-muted">// témoignage — à venir</p>
-                        </div>
-                    )
-                )}
-            </div>
+const Testimonials = () => {
+    const [start, setStart] = useState(0);
+    const [paused, setPaused] = useState(false);
+    const count = testimonials.length;
 
-            <p className="text-sm text-muted mt-8">
-                Toutes mes recommandations sont{' '}
-                <a
-                    href={`${LINKEDIN_URL}/details/recommendations/`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent hover:text-accent-dark transition-colors"
+    useEffect(() => {
+        if (paused || count <= VISIBLE) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        const id = window.setInterval(() => {
+            setStart((s) => (s + 1) % count);
+        }, ROTATION_MS);
+        return () => window.clearInterval(id);
+    }, [paused, count]);
+
+    const previous = () => setStart((s) => (s - 1 + count) % count);
+    const next = () => setStart((s) => (s + 1) % count);
+
+    const visible = Array.from(
+        {length: Math.min(VISIBLE, count)},
+        (_, i) => testimonials[(start + i) % count]
+    );
+
+    return (
+        <section id="temoignages" className="py-24 border-t border-hairline scroll-mt-16">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <SectionHeader
+                    eyebrow="// références"
+                    title="Ils ont travaillé avec moi"
+                />
+
+                <div
+                    onMouseEnter={() => setPaused(true)}
+                    onMouseLeave={() => setPaused(false)}
+                    onFocusCapture={() => setPaused(true)}
+                    onBlurCapture={() => setPaused(false)}
                 >
-                    sur LinkedIn
-                </a>
-                .
-            </p>
-        </div>
-    </section>
-);
+                    <div className="grid md:grid-cols-3 gap-6 items-stretch">
+                        {visible.map((testimonial) => (
+                            <figure
+                                key={testimonial.author}
+                                className="border border-hairline rounded-md bg-white p-8 flex flex-col fade-swap md:min-h-96"
+                            >
+                                <p className="font-mono text-xs text-muted mb-4">{testimonial.meta}</p>
+                                <blockquote className="text-ink leading-relaxed mb-6 flex-1">
+                                    « {testimonial.quote} »
+                                </blockquote>
+                                <figcaption>
+                                    <p className="font-medium text-ink">{testimonial.author}</p>
+                                    <p className="text-sm text-muted mt-1">{testimonial.role}</p>
+                                </figcaption>
+                            </figure>
+                        ))}
+                    </div>
+
+                    {count > VISIBLE && (
+                        <div className="flex items-center gap-3 mt-8">
+                            <button
+                                onClick={previous}
+                                aria-label="Témoignages précédents"
+                                className="p-2 border border-hairline rounded-md text-muted hover:text-accent hover:border-accent transition-colors"
+                            >
+                                <ChevronLeft size={16}/>
+                            </button>
+                            <button
+                                onClick={next}
+                                aria-label="Témoignages suivants"
+                                className="p-2 border border-hairline rounded-md text-muted hover:text-accent hover:border-accent transition-colors"
+                            >
+                                <ChevronRight size={16}/>
+                            </button>
+                            <p className="font-mono text-xs text-muted ml-2" aria-hidden="true">
+                                {String(start + 1).padStart(2, '0')} / {String(count).padStart(2, '0')}
+                            </p>
+                        </div>
+                    )}
+                </div>
+
+                <p className="text-sm text-muted mt-8">
+                    Toutes mes recommandations sont{' '}
+                    <a
+                        href={`${LINKEDIN_URL}/details/recommendations/`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:text-accent-dark transition-colors"
+                    >
+                        sur LinkedIn
+                    </a>
+                    .
+                </p>
+            </div>
+        </section>
+    );
+};
 
 export default Testimonials;
