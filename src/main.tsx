@@ -7,6 +7,7 @@ import './index.css';
 const Home = lazy(() => import('./Home.tsx'));
 const Blog = lazy(() => import('./Blog.tsx'));
 const Article = lazy(() => import('./Article.tsx'));
+const Cdm2026 = lazy(() => import('./Cdm2026.tsx'));
 const NotFound = lazy(() => import('./NotFound.tsx'));
 
 // Minimal loading fallback
@@ -24,6 +25,7 @@ createRoot(document.getElementById('root')!).render(
                     <Route path="/" element={<Home/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/blog/:id" element={<Article />} />
+                    <Route path="/cdm-2026" element={<Cdm2026/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </Suspense>
