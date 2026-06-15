@@ -5,17 +5,17 @@ import SectionHeader from './SectionHeader';
 const forces = [
     {
         title: 'Architecture logicielle',
-        detail: 'DDD, architecture hexagonale, CQRS — 10 ans de systèmes Java/Spring conçus pour durer en production.',
+        detail: 'DDD, architecture hexagonale, CQRS : 10 ans de systèmes Java/Spring conçus pour durer en production.',
         stack: ['Java 8 → 25', 'Spring', 'DDD', 'CQRS']
     },
     {
         title: 'Orchestration IA',
-        detail: 'RAG, multi-modèle, agents, function calling — de l\'expérimentation à la prod, avec des coûts d\'inférence maîtrisés.',
+        detail: 'RAG, multi-modèle, agents, function calling : de l\'expérimentation à la prod, avec des coûts d\'inférence maîtrisés.',
         stack: ['RAG', 'Agents', 'Spring AI', 'Claude', 'Mistral']
     },
     {
         title: 'Mise en production',
-        detail: 'Kubernetes, CI/CD, observabilité — des systèmes qui se déploient sans drame et tiennent la charge.',
+        detail: 'Kubernetes, CI/CD, observabilité : des systèmes qui se déploient sans drame et tiennent la charge.',
         stack: ['Kubernetes', 'GCP', 'Scaleway', 'GitHub Actions', 'Grafana']
     },
     {
@@ -25,31 +25,31 @@ const forces = [
     },
     {
         title: 'Craft & transmission',
-        detail: 'TDD, BDD, Event Storming — et le coaching d\'équipe pour que la qualité reste après mon départ.',
+        detail: 'TDD, BDD, Event Storming, et le coaching d\'équipe pour que la qualité reste après mon départ.',
         stack: ['TDD', 'BDD', 'Event Storming', 'Coaching']
     }
 ];
 
 const inventory = [
     {
-        title: 'Frontend',
-        items: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'SASS/SCSS', 'React.js', 'Next.js', 'Vue.js', 'Svelte', 'Angular', 'Jest', 'Vitest', 'React Testing Library', 'Playwright', 'Cypress', 'Storybook', 'Vite', 'Webpack', 'ESLint/Prettier', 'Zustand', 'Redux', 'RxJS']
+        title: 'Architecture logicielle',
+        items: ['Java (8 → 25)', 'Spring', 'DDD', 'Architecture hexagonale', 'Clean Architecture', 'CQRS', 'Event Sourcing', 'Microservices', 'Monolithe modulaire', 'PostgreSQL', 'MongoDB', 'Hibernate', 'Flyway', 'Kafka', 'SQL', 'API REST', 'Node.js/Express', 'NestJS', 'NestJS/CQRS']
     },
     {
-        title: 'Backend',
-        items: ['Java (8 → 25)', 'TypeScript', 'SQL', 'Spring', 'Node.js/Express', 'NestJS', 'NestJS/CQRS', 'PostgreSQL', 'MongoDB', 'JGiven', 'Hibernate', 'Kafka', 'Mockito', 'Flyway', 'API REST']
+        title: 'Orchestration IA',
+        items: ['RAG', 'Multi-Agent Systems', 'Function Calling', 'Vectorisation', 'Prompt Engineering', 'Spring AI', 'ChatGPT 4+', 'Claude 3.5+', 'Gemini 2.0+', 'Mistral', 'Vertex AI', 'Assembly AI', 'Claude Code', 'Windsurf', 'IntelliJ Junie', 'Bolt', 'Lovable', 'v0']
     },
     {
-        title: 'DevOps',
-        items: ['Google Cloud Platform', 'Scaleway', 'OVH', 'Docker', 'Docker Compose', 'Kubernetes', 'Flux & Helm', 'GitHub Actions', 'Jenkins', 'Grafana', 'Prometheus', 'Dynatrace', 'Datadog']
+        title: 'Mise en production',
+        items: ['Kubernetes', 'Docker', 'Docker Compose', 'Flux & Helm', 'GitHub Actions', 'Jenkins', 'Google Cloud Platform', 'Scaleway', 'OVH', 'Grafana', 'Prometheus', 'Dynatrace', 'Datadog']
     },
     {
-        title: 'IA',
-        items: ['ChatGPT 4+', 'Claude 3.5+', 'Gemini 2.0+', 'Mistral', 'Vertex AI', 'Assembly AI', 'Spring AI', 'Claude Code', 'Windsurf', 'IntelliJ Junie', 'Bolt', 'Lovable', 'v0', 'Prompt Engineering', 'RAG', 'Vectorisation', 'Function Calling', 'Multi-Agent Systems']
+        title: 'Produit SaaS full-stack',
+        items: ['React.js', 'Next.js', 'Vue.js', 'Svelte', 'Angular', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'SASS/SCSS', 'Vite', 'Webpack', 'ESLint/Prettier', 'Zustand', 'Redux', 'RxJS', 'Storybook']
     },
     {
-        title: 'Craft',
-        items: ['TDD', 'BDD', 'DDD', 'Example Mapping', 'Event Storming', 'Pair/Mob Programming', 'Clean Architecture', 'Hexagonal', 'Microservices', 'Monolithe modulaire', 'Event Sourcing', 'CQRS', 'Tech Lead', 'Coaching', 'Formation', 'Recrutement', 'Code Review', 'ADRs']
+        title: 'Craft & transmission',
+        items: ['TDD', 'BDD', 'Example Mapping', 'Event Storming', 'Pair/Mob Programming', 'Jest', 'Vitest', 'React Testing Library', 'Playwright', 'Cypress', 'JGiven', 'Mockito', 'Code Review', 'ADRs', 'Tech Lead', 'Coaching', 'Formation', 'Recrutement']
     }
 ];
 

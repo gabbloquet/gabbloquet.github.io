@@ -26,25 +26,10 @@ const caseStudies: CaseStudy[] = [
         action:
             'Cofondé et construit le produit de bout en bout : architecture, UX, développement, et un système d\'assistance juridique en RAG multi-modèle souverain, déployé et exploité sur Kubernetes.',
         result:
-            'Une plateforme en production réelle, robuste et scalable, dont les coûts d\'inférence restent maîtrisés.',
+            'Une plateforme en production réelle : 40 clients CSE actifs, 1000 utilisateurs, 200 mises en production en 1 an, coûts d\'inférence maîtrisés via le routage multi-modèle.',
         stack: ['SaaS', 'RAG multi-modèle souverain', 'Kubernetes', 'Full-stack', 'UX/UI'],
         link: 'https://app.justiana.fr/',
         linkLabel: 'app.justiana.fr'
-    },
-    {
-        company: 'Decathlon',
-        tagline: 'Rental Management System — la location chez Decathlon',
-        role: 'Senior Software Engineer',
-        period: '2023 — 2024',
-        problem:
-            'Un système de gestion de location à reconcevoir pour soutenir l\'offre de location de Decathlon, avec des exigences fortes de robustesse et d\'évolutivité.',
-        action:
-            'Reconception de l\'architecture — hexagonale, DDD et CQS — avec un TDD systématique, et accompagnement de l\'équipe sur la qualité et les bonnes pratiques.',
-        result:
-            'Un système robuste et évolutif en production sur rental.decathlon.com, et des standards de développement ancrés dans l\'équipe.',
-        stack: ['Java 21', 'DDD', 'Architecture hexagonale', 'CQS', 'TDD'],
-        link: 'https://rental.decathlon.com/fr/fr',
-        linkLabel: 'rental.decathlon.com'
     },
     {
         company: 'Legipilot',
@@ -54,12 +39,27 @@ const caseStudies: CaseStudy[] = [
         problem:
             'Les RH et dirigeants de TPE/PME n\'ont ni juriste interne ni temps à y consacrer : l\'accès au droit doit devenir simple, fiable et rapide.',
         action:
-            'Développé entièrement le MVP — de l\'architecture au déploiement — puis structuré l\'équipe technique : standards de qualité, code reviews, roadmap.',
+            'Développé entièrement le MVP, de l\'architecture au déploiement, puis structuré l\'équipe technique : standards de qualité, code reviews, roadmap.',
         result:
-            'Un MVP en production et une équipe technique structurée pour le faire évoluer.',
-        stack: ['SaaS', 'IA', 'Legal Tech'],
+            'MVP livré en production en 1 mois, puis équipe technique structurée (3 personnes) pour le faire évoluer.',
+        stack: ['Next.js', 'Java', 'Chat IA', 'IA multi-usages', 'Scaleway', 'Kubernetes', 'Legal Tech'],
         link: 'https://app.legipilot.com/',
         linkLabel: 'app.legipilot.com'
+    },
+    {
+        company: 'Decathlon',
+        tagline: 'Rental Management System — la location chez Decathlon',
+        role: 'Senior Software Engineer',
+        period: '2023 — 2024',
+        problem:
+            'Un système de gestion de location à reconcevoir pour soutenir l\'offre de location de Decathlon, avec des exigences fortes de robustesse et d\'évolutivité.',
+        action:
+            'Reconception de l\'architecture : hexagonale, DDD et CQS, avec un TDD systématique, et accompagnement de l\'équipe sur la qualité et les bonnes pratiques.',
+        result:
+            'Un système robuste et évolutif en production sur rental.decathlon.com, et des standards de développement ancrés dans l\'équipe.',
+        stack: ['Java 21', 'DDD', 'Architecture hexagonale', 'CQS', 'TDD'],
+        link: 'https://rental.decathlon.com/fr/fr',
+        linkLabel: 'rental.decathlon.com'
     }
 ];
 
