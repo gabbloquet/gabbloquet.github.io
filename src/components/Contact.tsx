@@ -1,5 +1,5 @@
 import SectionHeader from './SectionHeader';
-import {CONTACT_MAILTO, EMAIL, LOCATION, PHONE_DISPLAY, PHONE_HREF} from '../constants';
+import {CALENDLY_URL, CONTACT_MAILTO, EMAIL, LOCATION, PHONE_DISPLAY, PHONE_HREF} from '../constants';
 
 const Contact = () => (
     <section id="contact" className="py-24 border-t border-hairline scroll-mt-16">
@@ -10,12 +10,22 @@ const Contact = () => (
                 lede="Un produit SaaS à construire, un système IA à amener en production, besoin d'un CTO ? Parlons-en."
             />
 
-            <a
-                href={CONTACT_MAILTO}
-                className="inline-flex items-center justify-center px-8 py-4 bg-accent text-paper font-medium rounded-md hover:bg-accent-dark transition-colors print:hidden"
-            >
-                Réserver un échange
-            </a>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 print:hidden">
+                <a
+                    href={CALENDLY_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-accent text-paper font-medium rounded-md hover:bg-accent-dark transition-colors"
+                >
+                    Réserver un échange
+                </a>
+                <span className="text-sm text-muted">
+                    ou{' '}
+                    <a href={CONTACT_MAILTO} className="text-accent hover:text-accent-dark transition-colors">
+                        écrivez-moi
+                    </a>
+                </span>
+            </div>
 
             <dl className="grid sm:grid-cols-3 gap-8 mt-14 border-t border-hairline pt-10">
                 <div>

@@ -18,6 +18,7 @@ import {LinkedinIcon, TwitterIcon} from './components/icons';
 import {ArticleService} from './articleService.js';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import {CALENDLY_URL} from './constants';
 
 const Article = () => {
     const {id} = useParams();
@@ -278,12 +279,14 @@ const Article = () => {
                                     >
                                         Voir mon profil
                                     </Link>
-                                    <Link
-                                        to="/#contact"
+                                    <a
+                                        href={CALENDLY_URL}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className="text-accent hover:text-accent-dark font-medium transition-colors"
                                     >
                                         Réserver un échange
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

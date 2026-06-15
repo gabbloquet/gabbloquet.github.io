@@ -1,6 +1,6 @@
 import {Mail} from 'lucide-react';
 import {GithubIcon, LinkedinIcon} from './icons';
-import {CONTACT_MAILTO, EMAIL, GITHUB_URL, LINKEDIN_URL} from '../constants';
+import {CALENDLY_URL, EMAIL, GITHUB_URL, LINKEDIN_URL} from '../constants';
 
 const Hero = () => {
     const scrollToCaseStudies = () => {
@@ -32,7 +32,9 @@ const Hero = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 mt-10 print:hidden">
                             <a
-                                href={CONTACT_MAILTO}
+                                href={CALENDLY_URL}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center justify-center px-6 py-3 bg-accent text-paper font-medium rounded-md hover:bg-accent-dark transition-colors"
                             >
                                 Réserver un échange

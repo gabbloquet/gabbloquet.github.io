@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import {Link, useLocation} from 'react-router';
 import {Menu, X} from 'lucide-react';
-import {CONTACT_MAILTO} from '../constants';
+import {CALENDLY_URL} from '../constants';
 
 const navItems = [
     {id: 'services', label: 'Services'},
@@ -90,7 +90,9 @@ const Navigation = () => {
                         </Link>
 
                         <a
-                            href={CONTACT_MAILTO}
+                            href={CALENDLY_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="px-4 py-2 bg-accent text-paper text-sm font-medium rounded-md hover:bg-accent-dark transition-colors"
                         >
                             Réserver un échange
@@ -143,7 +145,9 @@ const Navigation = () => {
                         </Link>
 
                         <a
-                            href={CONTACT_MAILTO}
+                            href={CALENDLY_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="block mx-3 my-2 px-4 py-2 bg-accent text-paper text-center text-base font-medium rounded-md hover:bg-accent-dark transition-colors"
                         >
                             Réserver un échange
