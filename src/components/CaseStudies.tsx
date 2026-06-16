@@ -26,7 +26,7 @@ const caseStudies: CaseStudy[] = [
         action:
             'Cofondé et construit le produit de bout en bout : architecture, UX, développement, et un système d\'assistance juridique en RAG multi-modèle souverain, déployé et exploité sur Kubernetes.',
         result:
-            'Une plateforme en production réelle : 40 clients CSE actifs, 1000 utilisateurs, 200 mises en production en 1 an, coûts d\'inférence maîtrisés via le routage multi-modèle.',
+            'Une plateforme en production réelle : 40 clients CSE actifs, 1000 utilisateurs, 150 mises en production en 1 an, coûts d\'inférence maîtrisés via le routage multi-modèle.',
         stack: ['SaaS', 'RAG multi-modèle souverain', 'Kubernetes', 'Full-stack', 'UX/UI'],
         link: 'https://app.justiana.fr/',
         linkLabel: 'app.justiana.fr'
