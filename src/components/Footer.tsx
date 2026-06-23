@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <h3 className="font-display text-xl font-semibold mb-4">Gabin Bloquet</h3>
             <p className="text-paper/70 mb-2 leading-relaxed">
-              CTO & Architecte — produits SaaS augmentés par l'IA.
+              CTO & Architecte : produits SaaS augmentés par l'IA.
             </p>
             <p className="font-mono text-xs text-paper/50 mb-4">
               // je build des systèmes qui tiennent en production, pas des démos.
@@ -99,7 +99,7 @@ const Footer = () => {
             © 2026 Gabin Bloquet. Tous droits réservés.
           </p>
           <p className="font-mono text-xs text-paper/50">
-            fait avec soin — et un peu de café ☕
+            fait avec soin, et un peu de café ☕
           </p>
         </div>
       </div>

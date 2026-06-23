@@ -1,4 +1,4 @@
-// Icônes de marques supprimées de lucide-react en v1 — recréées inline
+// Icônes de marques supprimées de lucide-react en v1, recréées inline
 // dans le même style (24x24, stroke currentColor, épaisseur 2).
 
 type IconProps = {

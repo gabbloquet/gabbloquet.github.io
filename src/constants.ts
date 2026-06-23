@@ -1,5 +1,5 @@
 export const EMAIL = 'gabin.bloquet.pro@gmail.com';
-// CTA primaire « Réserver un échange » — réservation directe d'un créneau.
+// CTA primaire « Réserver un échange » : réservation directe d'un créneau.
 export const CALENDLY_URL = 'https://calendly.com/gabin-bloquet-pro/30min';
 // Contact secondaire, pour qui préfère écrire.
 export const CONTACT_MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent('Réserver un échange')}`;

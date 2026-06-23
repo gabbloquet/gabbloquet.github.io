@@ -16,7 +16,7 @@ const About = () => {
                         <em>Software Craftsmanship</em> : professionnalisme, pragmatisme et fierté du travail bien fait.
                     </p>
                     <p className="text-gray-500">
-                        Mon ambition ? Produire du code de qualité — maintenable, extensible, compréhensible —
+                        Mon ambition ? Produire du code de qualité (maintenable, extensible, compréhensible)
                         quel que soit le domaine. Front, back, ops... toujours avec le sens métier en tête.
                     </p>
                 </>

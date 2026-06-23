@@ -21,7 +21,7 @@ const Services = () => (
             <SectionHeader eyebrow="// services" title="Ce que je fais pour vous"/>
 
             <p className="font-display text-2xl md:text-3xl font-medium tracking-tight text-ink max-w-3xl mb-14">
-                Je vous aide à décider quoi faire de l'IA, je le construis —{' '}
+                Je vous aide à décider quoi faire de l'IA, je le construis,{' '}
                 <span className="text-accent">et je certifie que ça marche.</span>
             </p>
 

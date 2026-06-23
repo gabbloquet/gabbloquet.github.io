@@ -16,7 +16,7 @@ const NotFound = () => {
                 </h2>
 
                 <p className="text-lg text-muted mb-10 leading-relaxed">
-                    La page que vous cherchez n'existe pas — ou n'existe plus.
+                    La page que vous cherchez n'existe pas, ou n'existe plus.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-12">

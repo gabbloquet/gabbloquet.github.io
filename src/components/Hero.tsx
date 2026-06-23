@@ -13,7 +13,7 @@ const Hero = () => {
                 <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                     <div className="lg:col-span-8">
                         <p className="font-mono text-sm text-accent mb-6">
-                            // disponible — remote · france entière
+                            // disponible · remote · france entière
                         </p>
 
                         <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-ink">
@@ -21,11 +21,11 @@ const Hero = () => {
                         </h1>
 
                         <h2 className="font-display text-xl md:text-2xl font-medium text-ink mt-5">
-                            CTO & Architecte — produits SaaS augmentés par l'IA
+                            CTO & Architecte : produits SaaS augmentés par l'IA
                         </h2>
 
                         <p className="text-lg font-medium text-accent leading-relaxed mt-4 max-w-2xl">
-                            L'IA produit. Moi, je décide quoi construire — et je garantis que ça tient en production.
+                            L'IA produit. Moi, je décide quoi construire, et je garantis que ça tient en production.
                         </p>
 
                         <p className="text-lg text-muted leading-relaxed mt-6 max-w-2xl">

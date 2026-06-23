@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* Design system "Systems craft" — tokens centralisés.
+/* Design system "Systems craft" : tokens centralisés.
    Toute couleur/typo du site dérive de ces variables. */
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -25,7 +25,7 @@ body {
   color: var(--color-ink);
 }
 
-/* Reveal au scroll — sobre, une seule animation sur le site */
+/* Reveal au scroll : sobre, une seule animation sur le site */
 @keyframes reveal {
   from {
     opacity: 0;
@@ -102,7 +102,7 @@ body {
   color: var(--color-paper);
 }
 
-/* Print styles — le bouton "Télécharger mon CV" imprime le parcours seul */
+/* Print styles : le bouton "Télécharger mon CV" imprime le parcours seul */
 @media print {
   .no-print,
   nav,

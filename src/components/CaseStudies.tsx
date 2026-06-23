@@ -20,7 +20,7 @@ const caseStudies: CaseStudy[] = [
         company: 'Justiana',
         tagline: 'SaaS legaltech pour les élus de CSE',
         role: 'Cofondateur & CTPO',
-        period: '2024 — aujourd\'hui',
+        period: '2024 → aujourd\'hui',
         problem:
             'Les élus de CSE doivent appliquer un droit du travail complexe et mouvant, sans juriste à leurs côtés ni outil pensé pour leur rôle.',
         action:
@@ -35,7 +35,7 @@ const caseStudies: CaseStudy[] = [
         company: 'Legipilot',
         tagline: 'Assistance juridique intelligente pour RH et dirigeants de TPE/PME',
         role: 'CTO fractionné',
-        period: '2025 — aujourd\'hui',
+        period: '2025 → aujourd\'hui',
         problem:
             'Les RH et dirigeants de TPE/PME n\'ont ni juriste interne ni temps à y consacrer : l\'accès au droit doit devenir simple, fiable et rapide.',
         action:
@@ -48,9 +48,9 @@ const caseStudies: CaseStudy[] = [
     },
     {
         company: 'Decathlon',
-        tagline: 'Rental Management System — la location chez Decathlon',
+        tagline: 'Rental Management System : la location chez Decathlon',
         role: 'Senior Software Engineer',
-        period: '2023 — 2024',
+        period: '2023 → 2024',
         problem:
             'Un système de gestion de location à reconcevoir pour soutenir l\'offre de location de Decathlon, avec des exigences fortes de robustesse et d\'évolutivité.',
         action:
@@ -66,7 +66,7 @@ const caseStudies: CaseStudy[] = [
 const otherProjects = [
     {
         title: 'Vitamin Design System',
-        description: 'Design System open source de Decathlon — web components, Storybook, guidelines.',
+        description: 'Design System open source de Decathlon : web components, Storybook, guidelines.',
         stack: 'Web Components · Storybook · Tailwind',
         github: 'https://github.com/Decathlon/vitamin-web',
         live: 'https://www.decathlon.design/'
@@ -86,7 +86,7 @@ const otherProjects = [
         live: null
     },
     {
-        title: 'BDD Training — Todolist',
+        title: 'BDD Training : Todolist',
         description: 'Application développée en BDD : Example Mapping, Gherkin et tests d\'acceptation automatisés.',
         stack: 'Java 17 · Spring · Cucumber',
         github: 'https://github.com/gabbloquet/bdd-training',
@@ -117,7 +117,7 @@ const CaseStudies = () => (
                             <h3 className="font-display text-2xl font-semibold text-ink">
                                 {study.company}
                                 <span className="font-sans font-normal text-muted text-lg">
-                                    {' '}— {study.tagline}
+                                    {' '}· {study.tagline}
                                 </span>
                             </h3>
                             <p className="font-mono text-sm text-muted shrink-0">

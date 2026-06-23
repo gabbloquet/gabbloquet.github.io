@@ -268,7 +268,7 @@ const Article = () => {
                             <div className="flex-1">
                                 <h3 className="font-display text-lg font-semibold text-ink mb-2">Gabin Bloquet</h3>
                                 <p className="text-muted mb-4 leading-relaxed">
-                                    CTO & Architecte — produits SaaS augmentés par l'IA.
+                                    CTO & Architecte : produits SaaS augmentés par l'IA.
                                     Je partage mes retours d'expérience sur l'architecture,
                                     le craft et l'IA en production.
                                 </p>

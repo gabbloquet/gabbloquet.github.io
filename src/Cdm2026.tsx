@@ -231,7 +231,7 @@ export default function Cdm2026() {
       notifier(n > 0 ? `${n} résultat${n > 1 ? "s" : ""} récupéré${n > 1 ? "s" : ""} ✓` : "Aucun nouveau score pour l'instant");
     } catch (e) {
       console.error(e);
-      notifier("Récup impossible — saisis le score au ✎");
+      notifier("Récup impossible, saisis le score au ✎");
     } finally { setSynchroEnCours(false); }
   };
 
@@ -331,7 +331,7 @@ export default function Cdm2026() {
           )}
           {groupes.filter((g) => (g.passe ? afficherPasses : g.lointain ? afficherTout : true)).map((g) => (
             <section key={g.cle} className="wc-daygroup">
-              <h2 className="wc-day">{g.cle === cleJour(maintenant) ? "Aujourd'hui — " : ""}{g.libelle}</h2>
+              <h2 className="wc-day">{g.cle === cleJour(maintenant) ? "Aujourd'hui · " : ""}{g.libelle}</h2>
               {g.matchs.map((m) => (
                 <CarteMatch key={m[0]} match={m} maintenant={maintenant}
                   pronos={pronos} resultats={resultats}
@@ -365,7 +365,7 @@ export default function Cdm2026() {
             ))}
           </section>
           <h2 className="wc-day">Derniers matchs marqués</h2>
-          {journalTermines.length === 0 && <p className="wc-empty">Aucun match terminé avec un prono pour l'instant — ça commence ce soir.</p>}
+          {journalTermines.length === 0 && <p className="wc-empty">Aucun match terminé avec un prono pour l'instant, ça commence ce soir.</p>}
           {journalTermines.map((m) => {
             const resultat = resultats[m[0]]!;
             return (
