@@ -24,10 +24,15 @@ const Hero = () => {
                             CTO & Architecte — produits SaaS augmentés par l'IA
                         </h2>
 
+                        <p className="text-lg font-medium text-accent leading-relaxed mt-4 max-w-2xl">
+                            L'IA produit. Moi, je décide quoi construire — et je garantis que ça tient en production.
+                        </p>
+
                         <p className="text-lg text-muted leading-relaxed mt-6 max-w-2xl">
                             J'amène vos produits SaaS et vos systèmes IA de l'expérimentation à une
-                            production fiable, scalable et maîtrisée en coûts. 10 ans d'architecture
-                            logicielle (Java/DDD) et d'orchestration IA. Remote, async-first.
+                            production fiable, scalable et maîtrisée en coûts, y compris quand vos
+                            données sont sensibles. 10 ans d'architecture logicielle (Java/DDD) et
+                            d'orchestration IA. Remote, async-first.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 mt-10 print:hidden">
