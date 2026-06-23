@@ -5,7 +5,7 @@ import SectionHeader from './SectionHeader';
 const forces = [
     {
         title: 'Architecture logicielle',
-        detail: 'DDD, architecture hexagonale, CQRS : 10 ans de systèmes Java/Spring conçus pour durer en production.',
+        detail: 'DDD, architecture hexagonale, CQRS : des systèmes Java/Spring conçus pour durer en production.',
         stack: ['Java 8 → 25', 'Spring', 'DDD', 'CQRS']
     },
     {
