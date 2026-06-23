@@ -30,10 +30,10 @@ const Hero = () => {
 
                         <p className="text-lg text-muted leading-relaxed mt-6 max-w-2xl">
                             J'amène vos produits SaaS et vos systèmes IA de l'expérimentation à une
-                            production fiable, scalable et maîtrisée en coûts, y compris quand vos
-                            données sont sensibles. Ingénieur depuis près de 8 ans, j'allie une
-                            exigence d'architecture logicielle (DDD, Clean Architecture) à
-                            l'orchestration de systèmes IA en production. Remote, async-first.
+                            production fiable, scalable et maîtrisée en coûts ; y compris quand vos
+                            données sont sensibles. J'allie une exigence forte d'architecture
+                            logicielle (DDD, qualité, systèmes qui durent) à l'orchestration de
+                            systèmes IA en production. Remote, async-first.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 mt-10 print:hidden">
