@@ -24,8 +24,9 @@ const Hero = () => {
                             CTO & Architecte : produits SaaS augmentés par l'IA
                         </h2>
 
-                        <p className="text-lg font-medium text-accent leading-relaxed mt-4 max-w-2xl">
-                            L'IA produit. Moi, je décide quoi construire, et je garantis que ça tient en production.
+                        <p className="text-lg font-medium text-ink leading-relaxed mt-4 max-w-2xl">
+                            Je conçois des systèmes IA <span className="text-accent">fiables</span>,
+                            et je garantis qu'ils <span className="text-accent">tiennent en production</span>.
                         </p>
 
                         <p className="text-lg text-muted leading-relaxed mt-6 max-w-2xl">

@@ -7,9 +7,10 @@ const News = () => (
 
             <div className="max-w-3xl space-y-6">
                 <p className="text-lg text-muted leading-relaxed">
-                    Une dizaine d'années d'<strong className="font-medium text-ink">architecture
-                    logicielle</strong> (Java, DDD) et d'<strong className="font-medium text-ink">orchestration
-                    IA</strong>, au service de produits qui tiennent en production.
+                    Des produits qui tiennent en production : c'est ce que j'apporte, en
+                    alliant une exigence forte d'<strong className="font-medium text-ink">architecture
+                    logicielle</strong> (Java, DDD) à l'<strong className="font-medium text-ink">orchestration
+                    IA</strong>.
                 </p>
 
                 <p className="text-muted leading-relaxed">
