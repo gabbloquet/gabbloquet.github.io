@@ -27,6 +27,7 @@ interface GroupeJour {
   matchs: Match[];
   passe: boolean;
   lointain: boolean;
+  phase: { key: string; label: string } | null; // badge de phase si le jour est homogène et hors poules
 }
 
 const MATCHS: Match[] = [[1,"2026-06-11T19:00Z","Mexique","Afrique du Sud","Gr. A","Mexico City"],[2,"2026-06-12T02:00Z","Corée du Sud","Tchéquie","Gr. A","Guadalajara"],[3,"2026-06-18T16:00Z","Tchéquie","Afrique du Sud","Gr. A","Atlanta"],[4,"2026-06-19T01:00Z","Mexique","Corée du Sud","Gr. A","Guadalajara"],[5,"2026-06-25T01:00Z","Tchéquie","Mexique","Gr. A","Mexico City"],[6,"2026-06-25T01:00Z","Afrique du Sud","Corée du Sud","Gr. A","Monterrey"],[7,"2026-06-12T19:00Z","Canada","Bosnie-Herz.","Gr. B","Toronto"],[8,"2026-06-13T19:00Z","Qatar","Suisse","Gr. B","San Francisco Bay Area"],[9,"2026-06-18T19:00Z","Suisse","Bosnie-Herz.","Gr. B","Los Angeles"],[10,"2026-06-18T22:00Z","Canada","Qatar","Gr. B","Vancouver"],[11,"2026-06-24T19:00Z","Suisse","Canada","Gr. B","Vancouver"],[12,"2026-06-24T19:00Z","Bosnie-Herz.","Qatar","Gr. B","Seattle"],[13,"2026-06-13T22:00Z","Brésil","Maroc","Gr. C","New York/New Jersey"],[14,"2026-06-14T01:00Z","Haïti","Écosse","Gr. C","Boston"],[15,"2026-06-19T22:00Z","Écosse","Maroc","Gr. C","Boston"],[16,"2026-06-20T00:30Z","Brésil","Haïti","Gr. C","Philadelphia"],[17,"2026-06-24T22:00Z","Écosse","Brésil","Gr. C","Miami"],[18,"2026-06-24T22:00Z","Maroc","Haïti","Gr. C","Atlanta"],[19,"2026-06-13T01:00Z","États-Unis","Paraguay","Gr. D","Los Angeles"],[20,"2026-06-14T04:00Z","Australie","Turquie","Gr. D","Vancouver"],[21,"2026-06-19T19:00Z","États-Unis","Australie","Gr. D","Seattle"],[22,"2026-06-20T03:00Z","Turquie","Paraguay","Gr. D","San Francisco Bay Area"],[23,"2026-06-26T02:00Z","Turquie","États-Unis","Gr. D","Los Angeles"],[24,"2026-06-26T02:00Z","Paraguay","Australie","Gr. D","San Francisco Bay Area"],[25,"2026-06-14T17:00Z","Allemagne","Curaçao","Gr. E","Houston"],[26,"2026-06-14T23:00Z","Côte d'Ivoire","Équateur","Gr. E","Philadelphia"],[27,"2026-06-20T20:00Z","Allemagne","Côte d'Ivoire","Gr. E","Toronto"],[28,"2026-06-21T00:00Z","Équateur","Curaçao","Gr. E","Kansas City"],[29,"2026-06-25T20:00Z","Curaçao","Côte d'Ivoire","Gr. E","Philadelphia"],[30,"2026-06-25T20:00Z","Équateur","Allemagne","Gr. E","New York/New Jersey"],[31,"2026-06-14T20:00Z","Pays-Bas","Japon","Gr. F","Dallas"],[32,"2026-06-15T02:00Z","Suède","Tunisie","Gr. F","Monterrey"],[33,"2026-06-20T17:00Z","Pays-Bas","Suède","Gr. F","Houston"],[34,"2026-06-21T04:00Z","Tunisie","Japon","Gr. F","Monterrey"],[35,"2026-06-25T23:00Z","Japon","Suède","Gr. F","Dallas"],[36,"2026-06-25T23:00Z","Tunisie","Pays-Bas","Gr. F","Kansas City"],[37,"2026-06-15T19:00Z","Belgique","Égypte","Gr. G","Seattle"],[38,"2026-06-16T01:00Z","Iran","Nlle-Zélande","Gr. G","Los Angeles"],[39,"2026-06-21T19:00Z","Belgique","Iran","Gr. G","Los Angeles"],[40,"2026-06-22T01:00Z","Nlle-Zélande","Égypte","Gr. G","Vancouver"],[41,"2026-06-27T03:00Z","Égypte","Iran","Gr. G","Seattle"],[42,"2026-06-27T03:00Z","Nlle-Zélande","Belgique","Gr. G","Vancouver"],[43,"2026-06-15T16:00Z","Espagne","Cap-Vert","Gr. H","Atlanta"],[44,"2026-06-15T22:00Z","Arabie saoudite","Uruguay","Gr. H","Miami"],[45,"2026-06-21T16:00Z","Espagne","Arabie saoudite","Gr. H","Atlanta"],[46,"2026-06-21T22:00Z","Uruguay","Cap-Vert","Gr. H","Miami"],[47,"2026-06-27T00:00Z","Cap-Vert","Arabie saoudite","Gr. H","Houston"],[48,"2026-06-27T00:00Z","Uruguay","Espagne","Gr. H","Guadalajara"],[49,"2026-06-16T19:00Z","France","Sénégal","Gr. I","New York/New Jersey"],[50,"2026-06-16T22:00Z","Irak","Norvège","Gr. I","Boston"],[51,"2026-06-22T21:00Z","France","Irak","Gr. I","Philadelphia"],[52,"2026-06-23T00:00Z","Norvège","Sénégal","Gr. I","New York/New Jersey"],[53,"2026-06-26T19:00Z","Norvège","France","Gr. I","Boston"],[54,"2026-06-26T19:00Z","Sénégal","Irak","Gr. I","Toronto"],[55,"2026-06-17T01:00Z","Argentine","Algérie","Gr. J","Kansas City"],[56,"2026-06-17T04:00Z","Autriche","Jordanie","Gr. J","San Francisco Bay Area"],[57,"2026-06-22T17:00Z","Argentine","Autriche","Gr. J","Dallas"],[58,"2026-06-23T03:00Z","Jordanie","Algérie","Gr. J","San Francisco Bay Area"],[59,"2026-06-28T02:00Z","Algérie","Autriche","Gr. J","Kansas City"],[60,"2026-06-28T02:00Z","Jordanie","Argentine","Gr. J","Dallas"],[61,"2026-06-17T17:00Z","Portugal","RD Congo","Gr. K","Houston"],[62,"2026-06-18T02:00Z","Ouzbékistan","Colombie","Gr. K","Mexico City"],[63,"2026-06-23T17:00Z","Portugal","Ouzbékistan","Gr. K","Houston"],[64,"2026-06-24T02:00Z","Colombie","RD Congo","Gr. K","Guadalajara"],[65,"2026-06-27T23:30Z","Colombie","Portugal","Gr. K","Miami"],[66,"2026-06-27T23:30Z","RD Congo","Ouzbékistan","Gr. K","Atlanta"],[67,"2026-06-17T20:00Z","Angleterre","Croatie","Gr. L","Dallas"],[68,"2026-06-17T23:00Z","Ghana","Panama","Gr. L","Toronto"],[69,"2026-06-23T20:00Z","Angleterre","Ghana","Gr. L","Boston"],[70,"2026-06-23T23:00Z","Panama","Croatie","Gr. L","Toronto"],[71,"2026-06-27T21:00Z","Panama","Angleterre","Gr. L","New York/New Jersey"],[72,"2026-06-27T21:00Z","Croatie","Ghana","Gr. L","Philadelphia"],[73,"2026-06-28T19:00Z","Afrique du Sud","Canada","16es","Los Angeles"],[74,"2026-06-29T20:30Z","Allemagne","Paraguay","16es","Boston"],[75,"2026-06-30T01:00Z","Pays-Bas","Maroc","16es","Monterrey"],[76,"2026-06-29T17:00Z","Brésil","Japon","16es","Houston"],[77,"2026-06-30T21:00Z","France","Suède","16es","New York/New Jersey"],[78,"2026-06-30T17:00Z","Côte d'Ivoire","Norvège","16es","Dallas"],[79,"2026-07-01T01:00Z","Mexique","Équateur","16es","Mexico City"],[80,"2026-07-01T16:00Z","Angleterre","RD Congo","16es","Atlanta"],[81,"2026-07-02T00:00Z","États-Unis","Bosnie-Herz.","16es","San Francisco Bay Area"],[82,"2026-07-01T20:00Z","Belgique","Sénégal","16es","Seattle"],[83,"2026-07-02T23:00Z","Portugal","Croatie","16es","Toronto"],[84,"2026-07-02T19:00Z","Espagne","Autriche","16es","Los Angeles"],[85,"2026-07-03T03:00Z","Suisse","Algérie","16es","Vancouver"],[86,"2026-07-03T22:00Z","Argentine","Cap-Vert","16es","Miami"],[87,"2026-07-04T01:30Z","Colombie","Ghana","16es","Kansas City"],[88,"2026-07-03T18:00Z","Australie","Égypte","16es","Dallas"],[89,"2026-07-04T21:00Z","Vainq. M74","Vainq. M77","8es","Philadelphia"],[90,"2026-07-04T17:00Z","Vainq. M73","Vainq. M75","8es","Houston"],[91,"2026-07-05T20:00Z","Vainq. M76","Vainq. M78","8es","New York/New Jersey"],[92,"2026-07-06T00:00Z","Vainq. M79","Vainq. M80","8es","Mexico City"],[93,"2026-07-06T19:00Z","Vainq. M83","Vainq. M84","8es","Dallas"],[94,"2026-07-07T00:00Z","Vainq. M81","Vainq. M82","8es","Seattle"],[95,"2026-07-07T16:00Z","Vainq. M86","Vainq. M88","8es","Atlanta"],[96,"2026-07-07T20:00Z","Vainq. M85","Vainq. M87","8es","Vancouver"],[97,"2026-07-09T20:00Z","Vainq. M89","Vainq. M90","Quart","Boston"],[98,"2026-07-10T19:00Z","Vainq. M93","Vainq. M94","Quart","Los Angeles"],[99,"2026-07-11T21:00Z","Vainq. M91","Vainq. M92","Quart","Miami"],[100,"2026-07-12T01:00Z","Vainq. M95","Vainq. M96","Quart","Kansas City"],[101,"2026-07-14T19:00Z","Vainq. M97","Vainq. M98","Demie","Dallas"],[102,"2026-07-15T19:00Z","Vainq. M99","Vainq. M100","Demie","Atlanta"],[103,"2026-07-18T21:00Z","Perd. M101","Perd. M102","3e place","Miami"],[104,"2026-07-19T19:00Z","Vainq. M101","Vainq. M102","Finale","New York/New Jersey"]];
@@ -142,6 +143,20 @@ function scoreValide(v: string | number): boolean {
 }
 
 const styleCouleur = (couleur: string): CSSProperties => ({ ["--pc"]: couleur } as CSSProperties);
+
+// Phase du tournoi à partir du libellé `stage` d'un match.
+function phaseInfo(stage: string): { key: string; label: string } {
+  if (stage.startsWith("Gr.")) return { key: "poule", label: "Phase de groupes" };
+  switch (stage) {
+    case "16es": return { key: "r16", label: "16es de finale" };
+    case "8es": return { key: "r8", label: "8es de finale" };
+    case "Quart": return { key: "quart", label: "Quarts de finale" };
+    case "Demie": return { key: "demie", label: "Demi-finales" };
+    case "3e place": return { key: "p3", label: "Petite finale" };
+    case "Finale": return { key: "finale", label: "Finale" };
+    default: return { key: "poule", label: stage };
+  }
+}
 
 // ---------- composant principal ----------
 export default function Cdm2026() {
@@ -261,10 +276,14 @@ export default function Cdm2026() {
     const map = new Map<string, GroupeJour>();
     for (const m of tries) {
       const k = cleJour(horodatageMatch(m));
-      if (!map.has(k)) map.set(k, { cle: k, libelle: formatJour(horodatageMatch(m)), matchs: [], passe: k < cleAujourdhui, lointain: horodatageMatch(m) > horizon && k > cleAujourdhui });
+      if (!map.has(k)) map.set(k, { cle: k, libelle: formatJour(horodatageMatch(m)), matchs: [], passe: k < cleAujourdhui, lointain: horodatageMatch(m) > horizon && k > cleAujourdhui, phase: null });
       map.get(k)!.matchs.push(m);
     }
-    return [...map.values()];
+    return [...map.values()].map((g) => {
+      const ph = phaseInfo(g.matchs[0][4]);
+      const homogene = g.matchs.every((m) => phaseInfo(m[4]).key === ph.key);
+      return { ...g, phase: homogene && ph.key !== "poule" ? ph : null };
+    });
   }, [maintenant]);
 
   const journalTermines = useMemo<Match[]>(
@@ -331,7 +350,10 @@ export default function Cdm2026() {
           )}
           {groupes.filter((g) => (g.passe ? afficherPasses : g.lointain ? afficherTout : true)).map((g) => (
             <section key={g.cle} className="wc-daygroup">
-              <h2 className="wc-day">{g.cle === cleJour(maintenant) ? "Aujourd'hui · " : ""}{g.libelle}</h2>
+              <h2 className="wc-day">
+                {g.cle === cleJour(maintenant) ? "Aujourd'hui · " : ""}{g.libelle}
+                {g.phase && <span className={"wc-dayphase ph-" + g.phase.key}>{g.phase.label}</span>}
+              </h2>
               {g.matchs.map((m) => (
                 <CarteMatch key={m[0]} match={m} maintenant={maintenant}
                   pronos={pronos} resultats={resultats}
@@ -432,7 +454,7 @@ function CarteMatch({ match, maintenant, pronos, resultats, brouillons, setBroui
     <article className={"wc-card" + (enDirect ? " live" : "")}>
       <div className="wc-meta">
         <span className="wc-time">{formatHeure(coupEnvoi)}</span>
-        <span className="wc-stage">{phase}</span>
+        <span className={"wc-stage ph-" + phaseInfo(phase).key}>{phase}</span>
         <span className="wc-city">{ville}</span>
         {enDirect && <span className="wc-live">● en cours</span>}
         {verrouille && !enDirect && !resultat && <span className="wc-lock">terminé ?</span>}
@@ -568,6 +590,20 @@ function Style() {
   .wc-meta{display:flex; gap:8px; align-items:center; font-size:11.5px; color:var(--muted); flex-wrap:wrap}
   .wc-time{font-weight:800; color:var(--chalk); font-variant-numeric:tabular-nums}
   .wc-stage{border:1px solid var(--line); border-radius:5px; padding:1px 6px; letter-spacing:.06em}
+  /* montée en intensité : poules sobres -> finale dorée */
+  .wc-stage.ph-r16{border-color:rgba(255,196,0,.30); color:var(--chalk)}
+  .wc-stage.ph-r8{border-color:rgba(255,196,0,.45); color:var(--amber)}
+  .wc-stage.ph-quart{background:rgba(255,196,0,.14); border-color:rgba(255,196,0,.5); color:var(--amber)}
+  .wc-stage.ph-demie{background:rgba(255,196,0,.28); border-color:transparent; color:var(--amber)}
+  .wc-stage.ph-p3{border-color:rgba(255,255,255,.28); color:var(--chalk)}
+  .wc-stage.ph-finale{background:var(--amber); border-color:transparent; color:#15301F; font-weight:800}
+  /* badge de phase dans l'entête du jour (tours à élimination) */
+  .wc-dayphase{display:inline-block; margin-left:10px; font-size:10px; font-weight:800; letter-spacing:.12em;
+    padding:2px 9px; border-radius:999px; border:1px solid rgba(255,196,0,.4); color:var(--amber); vertical-align:middle}
+  .wc-dayphase.ph-demie{background:rgba(255,196,0,.20)}
+  .wc-dayphase.ph-quart{background:rgba(255,196,0,.12)}
+  .wc-dayphase.ph-finale{background:var(--amber); color:#15301F; border-color:transparent}
+  .wc-dayphase.ph-p3{border-color:rgba(255,255,255,.3); color:var(--chalk)}
   .wc-city{overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:40%}
   .wc-live{color:var(--amber); font-weight:700; margin-left:auto}
   .wc-lock{margin-left:auto} .wc-lock.dim{opacity:.7}
